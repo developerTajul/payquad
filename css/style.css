@@ -45,6 +45,8 @@ a{
 }
 button {
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
 input:focus,
@@ -183,6 +185,10 @@ label {
 .button-primary {
   color: #fff;
   background: #008c96;
+}
+.button-sm{
+  padding: 14px 34px;
+  font-size: 18px;
 }
 /* 3. Header */
 .header-transparent {
@@ -373,6 +379,39 @@ brand start
  color:#004750;
 }
 
-
+.tabcontent-navlist li button{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #004750;
+  text-transform: capitalize;
+  border: 1px solid #D4EAEC;
+  padding: 13px 22px;
+  border-radius: 55px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.tabcontent-navlist li button.active{
+  border: none;
+  background: #BEE5E8;
+}
+.tabcontent-area{
+  padding: 47px 68px;
+}
+.tabcontent-area h2{
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: capitalize;
+}
+.tabcontent-area p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #646464;;
+}
+.mt-24{
+  margin-top: 24px;
+}
 
 /* End property management */
