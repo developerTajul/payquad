@@ -11,6 +11,7 @@
 3. Header
 4. Hero
 5. brand
+6. experience 
 */
 /* 1. Theme default css */
 body {
@@ -40,7 +41,7 @@ a:focus,
   text-decoration: none;
   outline: none;
 }
-a{
+a {
   text-decoration: none;
 }
 button {
@@ -186,7 +187,7 @@ label {
   color: #fff;
   background: #008c96;
 }
-.button-sm{
+.button-sm {
   padding: 14px 34px;
   font-size: 18px;
 }
@@ -326,10 +327,11 @@ brand start
   font-size: 56px;
   text-transform: capitalize;
 }
-.section-subtitle {
+.section-subtitle,
+.section-subtitle p {
   font-size: 24px;
   line-height: 32px;
-  color: #646464;
+  color: #646464a1;
   margin-top: 20px;
 }
 /* tabs */
@@ -342,8 +344,7 @@ brand start
   display: inline-block;
 }
 
-
-.nav-pills li:nth-child(2){
+.nav-pills li:nth-child(2) {
   margin: 0px 46px;
 }
 .nav-pills li span {
@@ -352,66 +353,103 @@ brand start
   line-height: 26px;
   padding: 17px 20px;
 }
-.nav-pills li:first-child .nav-link{
+.nav-pills li:first-child .nav-link {
   color: #fff !important;
   background-color: #008c96;
   border-radius: 40px;
 }
-.nav-pills li:first-child .text{
-  color: #fff ;
+.nav-pills li:first-child .text {
+  color: #fff;
 }
 .nav-pills li:nth-child(2) .nav-link {
- background: #ea4f1b28;
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
+  background: #ea4f1b28;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.nav-pills li:nth-child(2) .text{
- color:#EA501B;
+.nav-pills li:nth-child(2) .text {
+  color: #ea501b;
 }
 .nav-pills li:nth-child(3) .nav-link {
- background: #00475016;
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
+  background: #00475016;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.nav-pills li:nth-child(3) .text{
- color:#004750;
+.nav-pills li:nth-child(3) .text {
+  color: #004750;
 }
 
-.tabcontent-navlist li button{
+.tabcontent-navlist li button {
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
   color: #004750;
   text-transform: capitalize;
-  border: 1px solid #D4EAEC;
+  border: 1px solid #d4eaec;
   padding: 13px 22px;
   border-radius: 55px;
   width: 100%;
   text-align: left;
   margin-bottom: 16px;
 }
-.tabcontent-navlist li button.active{
+.tabcontent-navlist li button.active {
   border: none;
-  background: #BEE5E8;
+  background: #bee5e8;
 }
-.tabcontent-area{
+.tabcontent-area {
   padding: 47px 68px;
 }
-.tabcontent-area h2{
+.tabcontent-area h2 {
   font-size: 40px;
   line-height: 47px;
   text-transform: capitalize;
 }
-.tabcontent-area p{
+.tabcontent-area p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #646464;;
+  color: #646464;
 }
-.mt-24{
+.mt-24 {
   margin-top: 24px;
 }
 
 /* End property management */
+/* experience section start */
+.bg-cayan {
+  background: #ebf6f7;
+}
+.ex-card {
+  padding: 32px 42px;
+  border-radius: 12px;
+}
+.round-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+/* colors */
+.warning {
+  background: #ea501b;
+}
+.primary {
+  background: #008c96;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.-ml-40 {
+  margin-left: -40px;
+}
+.ex-card-title {
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 36px;
+  color: #004750;
+}
+.ex-card-desc {
+  font-size: 20px;
+  line-height: 28px;
+  color: #646464;
+}
