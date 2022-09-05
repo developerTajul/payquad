@@ -453,3 +453,25 @@ brand start
   line-height: 28px;
   color: #646464;
 }
+.ex-img .main-img img{
+  position: relative;
+  z-index: 20;
+}
+.ex-img .shape-1{
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+.ex-img .shape-2{
+  position: absolute;
+  bottom: 0px;
+  left:-30px;
+}
+.experience{
+  position: relative;
+}
+.experience .shape{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
