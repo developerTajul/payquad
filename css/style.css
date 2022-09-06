@@ -15,6 +15,7 @@
 7. testimonial slider
 8. blog
 9. contact
+10. footer
 */
 /* 1. Theme default css */
 body {
@@ -695,4 +696,31 @@ label{
   top: 200px;
   left: 150px;
 }
-
+/* footer */
+footer{
+  background: #004750;
+}
+footer a{
+  color: #fff;
+}
+footer p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.social-links li a{
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background:#fff;
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+footer h2{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
