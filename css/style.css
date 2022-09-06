@@ -12,6 +12,7 @@
 4. Hero
 5. brand
 6. experience 
+7. testimonial slider
 */
 /* 1. Theme default css */
 body {
@@ -474,4 +475,49 @@ brand start
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+/* testimonial slider */
+.slider-left{
+  position: relative;
+}
+.slider-left .author{
+  position: absolute;
+  right: -70px;
+  bottom:-120px;
+}
+.slider-left  .block{
+  position: absolute;
+  bottom: -100px;
+  left: -50px;
+}
+.slider-left  .quote{
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+.slider-left  .quote div{
+  height: 70px;
+  width: 70px;
+  background: #EA501B;
+  color: #fff;
+  font-size: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tst-slider-content{
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+.tst-slider-content h3{
+ font-weight: 500;
+ font-size: 31px;
+ color: #004750;
+}
+.tst-slider-content p{
+ font-size: 20px;
+ color: #646464;
+ line-height: 28px;
 }
