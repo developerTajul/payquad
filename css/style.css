@@ -14,6 +14,7 @@
 6. experience 
 7. testimonial slider
 8. blog
+9. contact
 */
 /* 1. Theme default css */
 body {
@@ -192,6 +193,12 @@ label {
 .button-sm {
   padding: 14px 34px;
   font-size: 18px;
+}
+.button-rect{
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 5px;
 }
 /* 3. Header */
 .header-transparent {
@@ -455,52 +462,52 @@ brand start
   line-height: 28px;
   color: #646464;
 }
-.ex-img .main-img img{
+.ex-img .main-img img {
   position: relative;
   z-index: 20;
 }
-.ex-img .shape-1{
+.ex-img .shape-1 {
   position: absolute;
   top: -20px;
   right: 0px;
 }
-.ex-img .shape-2{
+.ex-img .shape-2 {
   position: absolute;
   bottom: 0px;
-  left:-30px;
+  left: -30px;
 }
-.experience{
+.experience {
   position: relative;
 }
-.experience .shape{
+.experience .shape {
   position: absolute;
   top: 0px;
   left: 0px;
 }
 
 /* testimonial slider */
-.slider-left{
+.slider-left {
   position: relative;
 }
-.slider-left .author{
+.slider-left .author {
   position: absolute;
   right: -70px;
-  bottom:-120px;
+  bottom: -120px;
 }
-.slider-left  .block{
+.slider-left .block {
   position: absolute;
   bottom: -100px;
   left: -50px;
 }
-.slider-left  .quote{
+.slider-left .quote {
   position: absolute;
   top: -30px;
   left: 30px;
 }
-.slider-left  .quote div{
+.slider-left .quote div {
   height: 70px;
   width: 70px;
-  background: #EA501B;
+  background: #ea501b;
   color: #fff;
   font-size: 32px;
   border-radius: 5px;
@@ -508,53 +515,184 @@ brand start
   justify-content: center;
   align-items: center;
 }
-.tst-slider-content{
+.tst-slider-content {
   padding: 40px 50px;
   border-radius: 10px;
 }
-.tst-slider-content h3{
- font-weight: 500;
- font-size: 31px;
- color: #004750;
+.tst-slider-content h3 {
+  font-weight: 500;
+  font-size: 31px;
+  color: #004750;
 }
-.tst-slider-content p{
- font-size: 20px;
- color: #646464;
- line-height: 28px;
+.tst-slider-content p {
+  font-size: 20px;
+  color: #646464;
+  line-height: 28px;
 }
 /* blog */
-.blog{
-  background: url('./../assets/img/blog/blog-bg.png');
+.blog {
+  position: relative;
+}
+.blog::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  background: url("./../assets/img/blog/blog-bg.png");
   height: 585px;
+  z-index: -1;
 }
-.blog .section-subtitle p{
- color: #646464;
+.blog .section-subtitle p {
+  color: #646464;
 }
-.blog-wrapper .col:first-child .blog-card{
-  background: #BAEFF3
+.blog-wrapper .col:first-child .blog-card {
+  background: #baeff3;
 }
-.blog-wrapper .col:nth-child(2) .blog-card{
-  background: #D4EEF1
+.blog-wrapper .col:nth-child(2) .blog-card {
+  background: #d4eef1;
 }
-.blog-wrapper .col:nth-child(3) .blog-card{
-  background: #FFE5DC
+.blog-wrapper .col:nth-child(3) .blog-card {
+  background: #ffe5dc;
 }
-.blog-card{
+.blog-card {
   padding: 30px;
   border-radius: 6px;
   text-align: center;
   min-height: 390px;
 }
-.blog-title{
+.blog-title {
   font-size: 31px;
   line-height: 36px;
   text-transform: capitalize;
 }
-.blog-body{
+.blog-body {
   margin-top: 20px;
 }
-.blog-body p{
+.blog-body p {
   font-size: 20px;
   line-height: 28px;
   color: #004750;
 }
+
+/* contact */
+
+.contact-bg {
+  background: #ea4f1b11;
+  padding: 60px 48px;
+  border-radius: 24px;
+}
+.contact h2 {
+  font-size: 56px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.contact p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #646464;
+}
+/* contact form */
+.contact-form-wrapper {
+  filter: drop-shadow(0px, 8px rgba(0, 0, 0, 0.08));
+  padding: 30px;
+  max-width: 400px;
+  background:rgba(255, 255, 255, 0.683);
+  border-radius: 13px;
+}
+.contact-form-wrapper img{
+ width: 150px;
+}
+.contact .contact-form-text {
+  font-size: 14px;
+  color:rgba(0, 0, 0, 0.742);
+  font-weight: 500;
+}
+.contact-form{
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contact-form .count{
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background:#004750;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid #BEE5E8;
+}
+.contact-form-top{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.211);
+  padding-bottom: 7px;
+  position: relative;
+}
+.contact-form-top::before{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 80px;
+  height: 2px;
+  content: "";
+  background:rgba(255, 99, 71, 0.841);
+}
+/* form */
+.form-full{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.191);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background:rgba(0, 0, 0, 0.029);
+}
+label{
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+.checkbox{
+  accent-color:#004750;
+}
+.checkbox-text{
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.checkbox-text a{
+  color: #004750;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.contact-form .fa-eye{
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  color: #6464644f;
+}
+.contact-payment-form .contact-form-top::before{
+  width: 180px;
+}
+.contact-payment-form .payment-card{
+  margin-top: 40px;
+  width: 80px;
+  height: 80px;
+}
+.contact-payment-form h2{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1;
+}
+.contact-payment-form p{
+  font-size: 16px;
+}
+.contact-payment-form{
+  position: absolute;
+  width: 380px;
+  top: 200px;
+  left: 150px;
+}
+
