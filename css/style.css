@@ -13,6 +13,7 @@
 5. brand
 6. experience 
 7. testimonial slider
+8. blog
 */
 /* 1. Theme default css */
 body {
@@ -520,4 +521,40 @@ brand start
  font-size: 20px;
  color: #646464;
  line-height: 28px;
+}
+/* blog */
+.blog{
+  background: url('./../assets/img/blog/blog-bg.png');
+  height: 585px;
+}
+.blog .section-subtitle p{
+ color: #646464;
+}
+.blog-wrapper .col:first-child .blog-card{
+  background: #BAEFF3
+}
+.blog-wrapper .col:nth-child(2) .blog-card{
+  background: #D4EEF1
+}
+.blog-wrapper .col:nth-child(3) .blog-card{
+  background: #FFE5DC
+}
+.blog-card{
+  padding: 30px;
+  border-radius: 6px;
+  text-align: center;
+  min-height: 390px;
+}
+.blog-title{
+  font-size: 31px;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+.blog-body{
+  margin-top: 20px;
+}
+.blog-body p{
+  font-size: 20px;
+  line-height: 28px;
+  color: #004750;
 }
