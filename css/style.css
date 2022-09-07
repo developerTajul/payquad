@@ -700,8 +700,10 @@ label{
 footer{
   background: #004750;
 }
-footer a{
+.footer-nav li a{
   color: #fff;
+  display: block;
+  margin-bottom: 10px;
 }
 footer p{
   font-size: 16px;
@@ -719,8 +721,52 @@ footer p{
   justify-content: center;
   margin-right: 10px;
 }
-footer h2{
+.footer-title{
   font-size: 20px;
   color: #ffffff;
+  text-transform: capitalize;
+}
+.widget-form input{
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding:0px 17px;
+  border-radius: 55px;
+  border: none;
+  background: #baeff30b;
+  height: 52px;
+}
+.widget-form input::placeholder{
+  color: rgba(255, 255, 255, 0.572);
+  font-size: 16px;
+}
+.subscribe-btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 52px;
+  background:#EA501B;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  padding: 0px 32px;
+}
+.footer-border{
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.089);
+}
+.footer-bottom{
+  padding: 20px 0px;
+}
+.copyright{
+  color: #BFBFBF;
+}
+.footer-bottom a{
+  color: #BFBFBF;
   text-transform: capitalize;
 }
