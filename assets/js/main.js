@@ -1,18 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // menu icon
-    const menuIcon = document.querySelector('.menuIcon');
-    const mobileMenu = document.querySelector('.mobileMenu');
-    const closeMenu = document.querySelector('.closeMenu');
-    const body = document.querySelector('body');
-    menuIcon.addEventListener('click', function () {
-        mobileMenu.classList.toggle('showMenu');
-        body.classList.toggle('gray');
-        
-    })
-    closeMenu.addEventListener('click', function () {
-        mobileMenu.classList.toggle('showMenu');
-        body.classList.toggle('gray');
-    })
+
+
     // dropdown menu
     const hasChildren = document.querySelectorAll('.has-children');
     let hasChildrenLength = hasChildren.length;

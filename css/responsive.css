@@ -1,29 +1,40 @@
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-	
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-	
-
+     .mobile-menu {
+        width: 470px;
+        padding-top: 100px;
+        padding-left: 150px;
+    }
 }
-
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
-	
-
+    .mobile-menu {
+        width: 370px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
-
+    /* header */
+    .logo img {
+        width: 126px;
+    }
 }
 /* SM Small Device :550px. */
-@media only screen and (min-width: 340px) and (max-width: 360px) {
-	
-
+@media only screen and (min-width: 340px) and (max-width: 575px) {
+    /* header */
+    .logo img {
+        width: 96px;
+    }
+    .logo {
+        margin-top: 8px;
+        display: block;
+    }
 }

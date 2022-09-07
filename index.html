@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
     <!-- header  -->
     <header class="header-transparent py-1">
         <div class="container">
@@ -30,14 +29,14 @@
                 <div class="col-12 col-lg-3">
                     <!-- logo area -->
                     <div>
-                        <a href="#" class="logo">
+                        <a href="#" class="logo" class="d-block">
                             <img src="assets/img/header/logo.png" alt="logo">
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 d-none d-xl-block">
                     <!-- menu -->
-                    <nav class="main-menu">
+                    <nav class="main-menu ">
                         <ul class="d-flex align-items-center">
                             <li><a href="#">residents/Tenants</a></li>
                             <li class="has-children"><a href="#">Property Manager</a>
@@ -63,16 +62,49 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-12 col-lg-3 ">
+                <div class="col-9 col-lg-3 d-none d-xl-block ">
                     <!-- button -->
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex justify-content-end ">
                         <button type="button" class="button button-secondary me-4">sign in</button>
                         <button type="button" class="button button-primary ">book a demo</button>
                     </div>
+                 
                 </div>
             </div>
         </div>
+        <!-- mobile menu button -->
+        <div class="mobile-menu-btn d-xl-none" >
+            <button type="button"><i class="fa-solid fa-bars"></i></button>
+        </div>
     </header>
+    <!-- mobile menu start -->
+    <!-- menu -->
+    <nav class="mobile-menu ">
+        <ul>
+            <li><a href="#">residents/Tenants</a></li>
+            <li class="has-children"><a href="#">Property Manager</a>
+                <ul class="submenu">
+                    <li><a href="#">residents/Tenants</a></li>
+                    <li><a href="#">Property Manager</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">support</a></li>
+                </ul>
+            </li>
+            <li class="has-children"><a href="#">about</a>
+                <ul class="submenu">
+                    <li><a href="#">residents/Tenants</a></li>
+                    <li><a href="#">Property Manager</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">support</a></li>
+                </ul>
+            </li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">support</a></li>
+        </ul>
+    </nav>
+    <!-- mobile menu end -->
     <!-- hero section -->
     <section class="hero">
         <div class="container">
@@ -655,114 +687,114 @@
         </div>
     </section>
     <!-- contact section end -->
-<!-- footer start -->
-<footer class="mt-100 pt-80 ">
-    <div class="container pb-40">
-        <div class="row">
-            <div class="col-lg-2">
-                <div>
+    <!-- footer start -->
+    <footer class="mt-100 pt-80 ">
+        <div class="container pb-40">
+            <div class="row">
+                <div class="col-lg-2">
                     <div>
-                        <a href="#">
-                            <img src="assets/img/footer/white-logo.png"  alt="logo">
-                        </a>
-                    </div>
-                    <div class="mt-20">
-                        <p>Lorem ipsum dolor sit amet consectetur
-                            adipiscing.</p>
-                    </div>
-                    <div class="mt-20">
-                        <!-- social links -->
-                        <ul class="d-flex align-items-center social-links">
-                            <li> <a href="#"> <i class="fa-brands fa-github"></i> </a> </li>
-                            <li> <a href="#">  <i class="fa-brands fa-facebook-f"></i></a> </li>
-                            <li> <a href="#"> <i class="fa-brands fa-instagram"></i> </a> </li>
-                            <li> <a href="#">  <i class="fa-brands fa-linkedin-in"></i> </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="pl-50">
-                    <div>
-                        <h2 class="footer-title">who we are</h2>
-                    </div>
-                    <nav class="footer-nav">
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">customer stories</a></li>
-                            <li><a href="#">Why Choose Us?</a></li>
-                            <li><a href="#">Our Partners</a></li>
-                            <li><a href="#">Security</a></li>
-                            <li><a href="#">Careers</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div>
-                    <div>
-                        <h2 class="footer-title">Solutions</h2>
-                    </div>
-                    <nav class="footer-nav">
-                        <ul>
-                            <li><a href="#">I’m a Resident</a></li>
-                            <li><a href="#">I’m a Manager</a></li>
-                            <li><a href="#">Lead to Lease CRM</a></li>
-                            <li><a href="#">Resident and Tenant Portals</a></li>
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Communication</a></li>
-                            <li><a href="#">Maintenance</a></li>
-                            <li><a href="#">Payments</a></li>
-                            <li><a href="#">Resident Insurance</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div>
-                    <div>
-                        <h2 class="footer-title">get in touch</h2>
-                    </div>
-                    <nav class="footer-nav">
-                        <ul>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Manager Sign Up</a></li>
-                            <li><a href="#">Resident Sign Up</a></li>
-                            <li><a href="#">Refer your Manage</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div>
-                    <div>
-                        <h2 class="footer-title">Join Our Newsletter
-                        </h2>
-                    </div>
-                    <form action="#" class="widget-form" >
-                        <div class="position-relative">
-                            <input type="text" placeholder="Your email address">
-
-                            <button type="button" class="subscribe-btn">
-                                <span >subscribe</span>
-                            </button>
-
+                        <div>
+                            <a href="#">
+                                <img src="assets/img/footer/white-logo.png" alt="logo">
+                            </a>
                         </div>
-                    </form>
-                    <div class="mt-20">
-                        <p>* Will send you weekly updates for your
-                            better
-                            finance management.</p>
+                        <div class="mt-20">
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipiscing.</p>
+                        </div>
+                        <div class="mt-20">
+                            <!-- social links -->
+                            <ul class="d-flex align-items-center social-links">
+                                <li> <a href="#"> <i class="fa-brands fa-github"></i> </a> </li>
+                                <li> <a href="#"> <i class="fa-brands fa-facebook-f"></i></a> </li>
+                                <li> <a href="#"> <i class="fa-brands fa-instagram"></i> </a> </li>
+                                <li> <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="pl-50">
+                        <div>
+                            <h2 class="footer-title">who we are</h2>
+                        </div>
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">customer stories</a></li>
+                                <li><a href="#">Why Choose Us?</a></li>
+                                <li><a href="#">Our Partners</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Careers</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div>
+                        <div>
+                            <h2 class="footer-title">Solutions</h2>
+                        </div>
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#">I’m a Resident</a></li>
+                                <li><a href="#">I’m a Manager</a></li>
+                                <li><a href="#">Lead to Lease CRM</a></li>
+                                <li><a href="#">Resident and Tenant Portals</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Communication</a></li>
+                                <li><a href="#">Maintenance</a></li>
+                                <li><a href="#">Payments</a></li>
+                                <li><a href="#">Resident Insurance</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div>
+                        <div>
+                            <h2 class="footer-title">get in touch</h2>
+                        </div>
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Manager Sign Up</a></li>
+                                <li><a href="#">Resident Sign Up</a></li>
+                                <li><a href="#">Refer your Manage</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div>
+                        <div>
+                            <h2 class="footer-title">Join Our Newsletter
+                            </h2>
+                        </div>
+                        <form action="#" class="widget-form">
+                            <div class="position-relative">
+                                <input type="text" placeholder="Your email address">
+
+                                <button type="button" class="subscribe-btn">
+                                    <span>subscribe</span>
+                                </button>
+
+                            </div>
+                        </form>
+                        <div class="mt-20">
+                            <p>* Will send you weekly updates for your
+                                better
+                                finance management.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- footer bottom -->
+        <!-- footer bottom -->
 
         <div class="container ">
             <div class="footer-border"></div>
@@ -779,9 +811,9 @@
                 </div>
             </div>
         </div>
-   
-</footer>
-<!-- footer end -->
+
+    </footer>
+    <!-- footer end -->
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
