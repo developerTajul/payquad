@@ -212,7 +212,6 @@ label {
 }
 .logo img {
   width: 235px;
-
 }
 
 /* main menu */
@@ -275,7 +274,7 @@ label {
   transform: translateX(0px);
   transition: all ease-in-out 0.4s;
 }
-.bg-gray{
+.bg-gray {
   background: gray;
 }
 .mobile-menu li a {
@@ -303,8 +302,8 @@ label {
   min-height: 1135px;
   background: #008c9621;
 }
-.main-hero{
-  padding:160px 0px 60px 0px;
+.main-hero {
+  padding: 160px 0px 60px 0px;
 }
 .hero-desc {
   font-size: 24px;
@@ -318,25 +317,25 @@ label {
   padding-left: 30px;
   height: 491px;
 }
-.man-img{
+.man-img {
   margin-right: -50px;
   height: 491px;
 }
-.hero-btn{
+.hero-btn {
   margin-top: 40px;
 }
 .hero-right .graph img {
-	width: 350px;
+  width: 350px;
   height: 240px;
 }
-.hero-left{
+.hero-left {
   padding-right: 50px;
 }
 .blockOne {
-	right: -250px;
-	top: 500px;
+  right: -250px;
+  top: 500px;
 }
-.blockOne img{
+.blockOne img {
   width: 200px;
 }
 /* hero counter */
@@ -349,9 +348,8 @@ label {
   padding: 30px 45px;
   border-radius: 12px;
   width: 100%;
-
 }
-.counter-wrapper{
+.counter-wrapper {
   margin-top: -30px;
 }
 .counter-item:not(:last-child) {
@@ -383,12 +381,11 @@ label {
   top: 110px;
   left: -170px;
 }
-.hero-right .graph img{
- width: 350px;
+.hero-right .graph img {
+  width: 350px;
 }
 .hero {
   position: relative;
-  
 }
 .blockOne,
 .blockTwo {
@@ -402,7 +399,7 @@ label {
   right: 20px;
   top: 120px;
 }
-.counter-wrapper{
+.counter-wrapper {
   padding-top: 60px;
 }
 
@@ -413,7 +410,24 @@ brand start
 .brands-list li {
   margin: 0px 49px;
 }
-
+/* brands */
+.brand {
+  padding: 50px 0px;
+}
+.brand h2 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+}
+.brands-list li img {
+  max-width: 120px;
+}
+.brands-list {
+  margin-top: -30px;
+}
+.brands-list li {
+  margin: 20px;
+}
 /* brand end */
 /* start property management */
 

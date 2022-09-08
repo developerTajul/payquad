@@ -1,8 +1,10 @@
 /* xl device */
-@media (min-width: 1200px) and (max-width: 1400px){
-.blockOne,.blockTwo{
-    display: none;
-}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .blockOne,
+    .blockTwo {
+        display: none;
+    }
+  
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
@@ -16,7 +18,7 @@
     .logo img {
         width: 156px;
     }
-     /* hero */
+    /* hero */
     .hero {
         min-height: fit-content;
     }
@@ -24,7 +26,7 @@
         padding-top: 70px;
         padding-bottom: 0px;
     }
-   
+
     .hero-desc {
         margin-top: 15px;
     }
@@ -82,7 +84,27 @@
         font-size: 15px;
         line-height: 28px;
     }
+       /* brands */
+    .brand {
+        padding: 50px 0px;
+    }
+    .brand h2 {
+        font-size: 36px;
+        line-height: 42px;
+
+    }
+    .brands-list li img {
+        max-width: 120px;
+    }
+     .brands-list {
+        margin-top: -30px;
+     }
+    .brands-list li {
+        margin: 20px ;
+    }
 }
+
+
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -91,23 +113,12 @@
         padding-top: 100px;
         padding-left: 100px;
     }
- 
- 
-}
 
-/* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-    .mobile-menu {
-        width: 370px;
-        padding-top: 100px;
-        padding-left: 100px;
-    }
-   
-   /* header */
+    /* header */
     .logo img {
         width: 156px;
     }
-     /* hero */
+    /* hero */
     .hero {
         min-height: fit-content;
     }
@@ -115,7 +126,7 @@
         padding-top: 70px;
         padding-bottom: 0px;
     }
-   
+
     .hero-desc {
         margin-top: 15px;
     }
@@ -172,6 +183,24 @@
     .counter-text span {
         font-size: 15px;
         line-height: 28px;
+    }
+     /* brands */
+    .brand {
+        padding: 45px 0px;
+    }
+    .brand h2 {
+        font-size: 36px;
+        line-height: 42px;
+
+    }
+    .brands-list li img {
+        max-width: 100px;
+    }
+     .brands-list {
+        margin-top: -30px;
+     }
+    .brands-list li {
+        margin: 20px ;
     }
 }
 
@@ -261,6 +290,24 @@
         font-size: 15px;
         line-height: 28px;
     }
+    /* brands */
+    .brand {
+        padding: 35px 0px;
+    }
+    .brand h2 {
+        font-size: 28px;
+        line-height: 36px;
+
+    }
+    .brands-list li img {
+        max-width: 90px;
+    }
+     .brands-list {
+        margin-top: -30px;
+     }
+    .brands-list li {
+        margin: 20px 20px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
@@ -349,6 +396,24 @@
     .counter-text span {
         font-size: 15px;
         line-height: 28px;
+    }
+    /* brands */
+    .brand {
+        padding: 32px 0px;
+    }
+    .brand h2 {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+    .brands-list li img {
+        max-width: 90px;
+    }
+     .brands-list {
+        margin-top: -30px;
+     }
+    .brands-list li {
+        margin: 20px 20px;
     }
 }
 
