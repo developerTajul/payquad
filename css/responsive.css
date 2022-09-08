@@ -4,7 +4,6 @@
     .blockTwo {
         display: none;
     }
-  
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
@@ -84,27 +83,62 @@
         font-size: 15px;
         line-height: 28px;
     }
-       /* brands */
+    /* brands */
     .brand {
         padding: 50px 0px;
     }
     .brand h2 {
         font-size: 36px;
         line-height: 42px;
-
     }
     .brands-list li img {
         max-width: 120px;
     }
-     .brands-list {
+    .brands-list {
         margin-top: -30px;
-     }
+    }
     .brands-list li {
-        margin: 20px ;
+        margin: 20px;
+    }
+    /* property management */
+    .property-management-wrapper {
+        padding: 60px 0px;
+    }
+    .section-title {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0px 50px;
+    }
+    .propertyManagement {
+        padding: 40px 0px;
+    }
+    .property-management-wrapper {
+        padding-bottom: 20px;
+    }
+    .nav-pills li span {
+        font-size: 22px;
+    }
+    .nav-pills li:nth-child(2) {
+        margin: 0px 20px;
+    }
+    .tabcontent-navlist li button {
+        font-size: 18px;
+    }
+    .propertyManagement .mt-50 {
+        margin-top: 0px;
+    }
+    .tabcontent-area {
+        padding: 40px;
+        margin-top: 20px;
+    }
+    .tabcontent-area img {
+        width: 100%;
     }
 }
-
-
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -184,23 +218,85 @@
         font-size: 15px;
         line-height: 28px;
     }
-     /* brands */
+    /* brands */
     .brand {
         padding: 45px 0px;
     }
     .brand h2 {
         font-size: 36px;
         line-height: 42px;
-
     }
     .brands-list li img {
         max-width: 100px;
     }
-     .brands-list {
+    .brands-list {
         margin-top: -30px;
-     }
+    }
     .brands-list li {
-        margin: 20px ;
+        margin: 20px;
+    }
+    /* property management */
+    .property-management-wrapper {
+        padding: 60px 0px;
+    }
+    .section-title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0px 50px;
+    }
+    .propertyManagement {
+        padding: 40px 0px;
+    }
+    .property-management-wrapper {
+        padding-bottom: 20px;
+    }
+    .nav-pills li:first-child .nav-link {
+        width: 100%;
+    }
+    .nav-pills li span {
+        padding: 17px 15px;
+    }
+    .nav-pills li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-pills li .text {
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 10px;
+        display: inline-block;
+        padding-right: 50px;
+        font-weight: 600;
+    }
+    .nav-pills li:nth-child(2) {
+        margin: 0px 0px;
+    }
+    .nav-pills li:nth-child(2) .nav-link {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-pills li:nth-child(3) .nav-link {
+        width: 100%;
+    }
+    .nav-pills li {
+        margin-bottom: 20px;
+    }
+    .propertyManagement .pt-50 {
+        padding-top: 0px;
+    }
+    .propertyManagement .mt-50 {
+        margin-top: 0px;
+    }
+    .tabcontent-area {
+        padding: 40px;
+        margin-top: 20px;
+    }
+    .tabcontent-area img {
+        width: 100%;
     }
 }
 
@@ -297,16 +393,74 @@
     .brand h2 {
         font-size: 28px;
         line-height: 36px;
-
     }
     .brands-list li img {
         max-width: 90px;
     }
-     .brands-list {
+    .brands-list {
         margin-top: -30px;
-     }
+    }
     .brands-list li {
         margin: 20px 20px;
+    }
+    /* property management */
+    .property-management-wrapper {
+        padding: 50px 0px;
+    }
+    .section-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .section-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 0px 50px;
+    }
+    .propertyManagement {
+        padding: 35px 0px;
+    }
+    .property-management-wrapper {
+        padding-bottom: 10px;
+    }
+    .nav-pills li:first-child .nav-link {
+        width: 100%;
+    }
+    .nav-pills li span {
+        padding: 17px 15px;
+    }
+    .nav-pills li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-pills li .text {
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 10px;
+        display: inline-block;
+        padding-right: 50px;
+        font-weight: 600;
+    }
+    .nav-pills li:nth-child(2) {
+        margin: 0px 0px;
+    }
+    .nav-pills li:nth-child(2) .nav-link {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-pills li:nth-child(3) .nav-link {
+        width: 100%;
+    }
+    .nav-pills li {
+        margin-bottom: 20px;
+    }
+    .propertyManagement .pt-50 {
+        padding-top: 0px;
+    }
+    .propertyManagement .mt-50 {
+        margin-top: 0px;
+    }
+    .tabcontent-area {
+        padding: 10px 30px;
     }
 }
 /* SM Small Device :550px. */
@@ -409,12 +563,63 @@
     .brands-list li img {
         max-width: 90px;
     }
-     .brands-list {
+    .brands-list {
         margin-top: -30px;
-     }
+    }
     .brands-list li {
         margin: 20px 20px;
     }
+    /* property management */
+    .property-management-wrapper {
+        padding: 32px 0px;
+    }
+    .section-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .section-subtitle {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0px 50px;
+    }
+    .propertyManagement {
+        padding: 35px 0px;
+    }
+    .nav-pills li span {
+        padding: 17px 15px;
+    }
+    .nav-pills li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-pills li .text {
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 10px;
+        display: inline-block;
+        padding-right: 50px;
+        font-weight: 600;
+    }
+    .nav-pills li:nth-child(2) {
+        margin: 0px 0px;
+    }
+    .nav-pills li:nth-child(2) .nav-link {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-pills li:nth-child(3) .nav-link {
+        width: 100%;
+    }
+    .nav-pills li {
+        margin-bottom: 20px;
+    }
+    .propertyManagement .pt-50 {
+        padding-top: 0px;
+    }
+    .propertyManagement .mt-50 {
+        margin-top: 0px;
+    }
+    .tabcontent-area {
+        padding: 10px 30px;
+    }
 }
-
-/* responsvie min width */
