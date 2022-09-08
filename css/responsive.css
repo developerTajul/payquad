@@ -1,4 +1,9 @@
-
+/* xl device */
+@media (min-width: 1200px) and (max-width: 1400px){
+.blockOne,.blockTwo{
+    display: none;
+}
+}
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
     .mobile-menu {
@@ -7,55 +12,75 @@
         padding-left: 50px;
     }
     /* hero */
+    /* header */
+    .logo img {
+        width: 156px;
+    }
+     /* hero */
     .hero {
-        padding-top: 80px;
+        min-height: fit-content;
     }
-    .hero-title h1 {
-        font-size: 48px;
-        line-height: 52px;
-        margin-top: 20px;
+    .main-hero {
+        padding-top: 70px;
+        padding-bottom: 0px;
     }
+   
     .hero-desc {
-        margin-top: 20px;
-    }
-    .hero-desc p {
-        font-size: 18px;
+        margin-top: 15px;
     }
     .hero-btn {
-        margin-top: 20px;
+        margin-top: 12px;
     }
     .hero-right {
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .mobile-img {
-        margin-left: -50px;
-        margin-top: -40px;
+        margin-left: 0px;
+        margin-top: -50px;
     }
     .hero-right .graph {
-        top: 80px;
-        left: -50px;
+        top: 100px;
+        left: -20px;
     }
     .hero-right .graph img {
-        height: 250px;
-        width: 400px;
+        height: 200px;
+        width: 320px;
     }
     .blockOne {
-        right: -10px;
-        margin-top: 160px;
-    }
-    .blockOne img {
-        height: 100px;
-        width: 150px;
-    }
-    .blockTwo img {
-        width: 90px;
+        display: none;
     }
     .blockTwo {
-        top: 380px;
-        right: 50px;
+        display: none;
     }
     .hero .mt-60 {
         margin-top: 0px;
+    }
+    /* counter */
+    .counter-wrapper {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin-top: 60px;
+    }
+    .counter-item {
+        padding: 30px 0px;
+    }
+
+    .counter-img img {
+        height: 50px;
+        width: 50px;
+    }
+    .counter-img {
+        margin-bottom: 0px;
+    }
+    .counter-number {
+        margin-top: -10px;
+    }
+    .counter-number span {
+        font-size: 48px;
+    }
+    .counter-text span {
+        font-size: 15px;
+        line-height: 28px;
     }
 }
 
@@ -66,57 +91,87 @@
         padding-top: 100px;
         padding-left: 100px;
     }
-    /* hero */
+ 
+ 
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mobile-menu {
+        width: 370px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+   
+   /* header */
+    .logo img {
+        width: 156px;
+    }
+     /* hero */
     .hero {
         min-height: fit-content;
-        padding-top: 80px;
     }
-    .hero-title h1 {
-        font-size: 48px;
-        line-height: 52px;
-        margin-top: 20px;
+    .main-hero {
+        padding-top: 70px;
+        padding-bottom: 0px;
     }
+   
     .hero-desc {
-        margin-top: 20px;
-    }
-    .hero-desc p {
-        font-size: 18px;
+        margin-top: 15px;
     }
     .hero-btn {
-        margin-top: 20px;
+        margin-top: 12px;
     }
     .hero-right {
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .mobile-img {
-        margin-left: -50px;
-        margin-top: -40px;
+        margin-left: 0px;
+        margin-top: -38px;
     }
     .hero-right .graph {
-        top: 80px;
-        left: -50px;
+        top: 100px;
+        left: -20px;
     }
     .hero-right .graph img {
         height: 200px;
-        width: 300px;
+        width: 320px;
     }
     .blockOne {
-        right: -10px;
-        margin-top: 160px;
-    }
-    .blockOne img {
-        height: 100px;
-        width: 150px;
-    }
-    .blockTwo img {
-        width: 90px;
+        display: none;
     }
     .blockTwo {
-        top: 380px;
-        right: 50px;
+        display: none;
     }
     .hero .mt-60 {
         margin-top: 0px;
+    }
+    /* counter */
+    .counter-wrapper {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin-top: -60px;
+    }
+    .counter-item {
+        padding: 30px 0px;
+    }
+
+    .counter-img img {
+        height: 50px;
+        width: 50px;
+    }
+    .counter-img {
+        margin-bottom: 0px;
+    }
+    .counter-number {
+        margin-top: -10px;
+    }
+    .counter-number span {
+        font-size: 42px;
+    }
+    .counter-text span {
+        font-size: 15px;
+        line-height: 28px;
     }
 }
 
@@ -130,6 +185,10 @@
     /* hero */
     .hero {
         min-height: fit-content;
+    }
+    .main-hero {
+        padding-top: 60px;
+        padding-bottom: 0px;
     }
     .hero-title h1 {
         font-size: 40px;
@@ -145,20 +204,20 @@
         margin-top: 30px;
     }
     .mobile-img {
-        margin-left: -50px;
-        margin-top: -18px;
+        margin-left: 0px;
+        margin-top: -28px;
     }
     .hero-right .graph {
-        top: 50px;
+        top: 100px;
         left: -20px;
     }
     .hero-right .graph img {
-        height: 100px;
-        width: 160px;
+        height: 140px;
+        width: 220px;
     }
     .blockOne {
-        right: -30px;
-        margin-top: 80px;
+        right: -20px;
+        margin-top: 10px;
     }
     .blockOne img {
         height: 60px;
@@ -169,10 +228,38 @@
     }
     .blockTwo {
         top: 320px;
-        right: 10px;
+        right: 20px;
     }
     .hero .mt-60 {
         margin-top: 0px;
+    }
+    /* counter */
+    .counter-wrapper {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin-top: -160px;
+    }
+    .counter-item {
+        padding: 30px 0px;
+    }
+
+    .counter-img img {
+        height: 40px;
+        width: 40px;
+    }
+    .counter-img {
+        margin-bottom: 0px;
+    }
+    .counter-number {
+        margin-top: -20px;
+    }
+    .counter-number span {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .counter-text span {
+        font-size: 15px;
+        line-height: 28px;
     }
 }
 /* SM Small Device :550px. */
@@ -189,6 +276,10 @@
     .hero {
         min-height: fit-content;
     }
+    .main-hero {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
     .hero-title h1 {
         font-size: 40px;
         line-height: 48px;
@@ -203,7 +294,7 @@
         margin-top: 30px;
     }
     .mobile-img {
-        margin-left: -50px;
+        margin-left: 0px;
         margin-top: -18px;
     }
     .hero-right .graph {
@@ -216,7 +307,7 @@
     }
     .blockOne {
         right: -30px;
-        margin-top: 80px;
+        margin-top: 20px;
     }
     .blockOne img {
         height: 60px;
@@ -232,4 +323,33 @@
     .hero .mt-60 {
         margin-top: 0px;
     }
+    /* counter */
+    .counter-wrapper {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin-top: -250px;
+    }
+    .counter-item {
+        padding: 16px 0px;
+    }
+    .counter-img img {
+        height: 32px;
+        width: 32px;
+    }
+    .counter-img {
+        margin-bottom: 0px;
+    }
+    .counter-number {
+        margin-top: -20px;
+    }
+    .counter-number span {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .counter-text span {
+        font-size: 15px;
+        line-height: 28px;
+    }
 }
+
+/* responsvie min width */
