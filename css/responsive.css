@@ -226,6 +226,21 @@
         top: 200px;
         left: 15px;
     }
+     /* footer */
+    footer.mt-100{
+        margin-top: 42px;
+        padding: 50px 10px;
+    }
+   
+    .footer-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .widget-form{
+        margin-top: 10px;
+    }
 }
 
 /* MD Device :768px. */
@@ -489,6 +504,28 @@
         width: 350px;
         top: 200px;
         left: 65px;
+    }
+      /* footer */
+    footer.mt-100{
+        margin-top: 32px;
+        padding: 32px 10px;
+    }
+   
+    footer p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    footer .pl-50{
+        padding-left: 0px;
+    }
+    .footer-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .widget-form{
+        margin-top: 10px;
     }
 }
 
@@ -758,6 +795,28 @@
         top: 200px;
         left: 65px;
     }
+    /* footer */
+    footer.mt-100{
+        margin-top: 32px;
+        padding: 32px 10px;
+    }
+   
+    footer p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    footer .pl-50{
+        padding-left: 0px;
+    }
+    .footer-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .widget-form{
+        margin-top: 10px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
@@ -1026,4 +1085,26 @@
         top: 200px;
         left: 15px;
     }
+    /* footer */
+    footer.mt-100{
+        margin-top: 32px;
+        padding: 32px 10px;
+    }
+   
+    footer p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    footer .pl-50{
+        padding-left: 0px;
+    }
+    .footer-title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .widget-form{
+        margin-top: 10px;
+    }
+
 }
