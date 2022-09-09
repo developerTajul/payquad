@@ -531,6 +531,32 @@ brand start
 .bg-cayan {
   background: #ebf6f7;
 }
+.card-box {
+  position: absolute;
+  right: 0px;
+  bottom: 120px;
+  z-index: 988;
+  padding: 17px 28px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+}
+.card-box .stars i:not(:last-child) {
+  color: #ff8447;
+  font-size: 18px;
+}
+.card-box .stars {
+  margin-bottom: 10px;
+}
+
+.card-box-title p {
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+}
+.card-box-footer p {
+  color: rgba(0, 0, 0, 0.398);
+}
 .ex-card {
   padding: 32px 42px;
   border-radius: 12px;
@@ -586,14 +612,20 @@ brand start
   top: 0px;
   left: 0px;
 }
-
-/* testimonial slider */
+/* slider */
+.testimonial-slider-container{
+  height: 500px;
+}
+.swiper{
+  height: 100%;
+  width: 100%;
+}
 .slider-left {
   position: relative;
 }
 .slider-left .author {
   position: absolute;
-  right: -70px;
+  right: -52px;
   bottom: -120px;
 }
 .slider-left .block {
@@ -630,6 +662,17 @@ brand start
   font-size: 20px;
   color: #646464;
   line-height: 28px;
+}
+.testimonial-main-content {
+  position: relative;
+}
+.testimonial-main-content .tst-shape {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.testimonial-main-content .tst-shape img {
+  height: 93px;
 }
 /* blog */
 .blog {

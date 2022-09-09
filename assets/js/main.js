@@ -72,7 +72,8 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: ".testimonial .swiper-button-prev",
         },
      
-        loop: true
+   
     });
+
    
 })

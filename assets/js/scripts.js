@@ -6,5 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenuBtn.addEventListener('click', function () {
         mobileMenu.classList.toggle('show-mobile-menu')
         body.classList.toggle('bg-gray')
-   })
+    })
+  
 })
