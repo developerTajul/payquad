@@ -187,10 +187,22 @@ label {
   color: #008c96;
   background: #008c961e;
   padding: 12px 26px;
+  border: 1px solid #008c961e;
+}
+.button-secondary:hover {
+  color: #fff;
+  background: #008c96;
+  padding: 12px 26px;
 }
 .button-primary {
   color: #fff;
   background: #008c96;
+  border: 1px solid #008c96;
+}
+.button-primary:hover {
+  color: #008c96;
+  background: transparent;
+  border: 1px solid #008c96;
 }
 
 .button-sm {
@@ -233,7 +245,7 @@ label {
 }
 .submenu {
   position: absolute;
-  top: 100%;
+  top: 110%;
   left: 0%;
   width: 200px;
   background: #fff;
@@ -246,9 +258,12 @@ label {
 .has-children:hover > .submenu {
   transform: scale(1);
 }
+.submenu li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
 .submenu li a {
-  padding: 5px 0px;
   display: block;
+  padding: 12px 5px;
 }
 .dropdownIcon {
   position: absolute;
@@ -275,6 +290,9 @@ label {
   position: fixed;
   transform: translateX(-100%);
   transition: all ease-in-out 0.4s;
+}
+.mobile-menu-login-btn {
+  margin-left: -20px;
 }
 /* handle js */
 .show-mobile-menu {
@@ -462,43 +480,43 @@ brand start
   display: inline-block;
 }
 
-.nav-pills li:nth-child(2) {
+.main-tab-nav.nav-pills li:nth-child(2) {
   margin: 0px 46px;
 }
-.nav-pills li span {
+.main-tab-nav.nav-pills li span {
   display: inline-block;
   font-size: 31px;
   line-height: 26px;
   padding: 17px 20px;
 }
-.nav-pills li:first-child .nav-link {
+.main-tab-nav.nav-pills li:first-child .nav-link {
   color: #fff !important;
   background-color: #008c96;
   border-radius: 40px;
 }
-.nav-pills li:first-child .text {
+.main-tab-nav.nav-pills li:first-child .text {
   color: #fff;
 }
-.nav-pills li:nth-child(2) .nav-link {
+.main-tab-nav.nav-pills li:nth-child(2) .nav-link {
   background: #ea4f1b28;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.nav-pills li:nth-child(2) .text {
+.main-tab-nav.nav-pills li:nth-child(2) .text {
   color: #ea501b;
 }
-.nav-pills li:nth-child(3) .nav-link {
+.main-tab-nav.nav-pills li:nth-child(3) .nav-link {
   background: #00475016;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.nav-pills li:nth-child(3) .text {
+.main-tab-nav.nav-pills li:nth-child(3) .text {
   color: #004750;
 }
 
-.tabcontent-navlist li button {
+.tabcontent-navlist li button.nav-link {
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
@@ -511,9 +529,10 @@ brand start
   text-align: left;
   margin-bottom: 16px;
 }
-.tabcontent-navlist li button.active {
+.tabcontent-navlist li button.nav-link.active {
   border: none;
   background: #bee5e8;
+  color: #004750;
 }
 .tabcontent-area {
   padding: 47px 68px;
@@ -643,6 +662,12 @@ brand start
 .swiper-button-next {
   background: #008c96;
 }
+.swiper-button-next:hover {
+  background: transparent;
+}
+.swiper-button-next:hover::after {
+  color: #000;
+}
 .swiper-button-next::after,
 .swiper-button-prev::after {
   color: #fff;
@@ -651,6 +676,12 @@ brand start
 .swiper-button-prev::after {
   color: rgba(0, 0, 0, 0.744);
   font-size: 20px;
+}
+.swiper-button-prev:hover {
+  background: #008c96;
+}
+.swiper-button-prev:hover::after {
+  color: #fff;
 }
 .control-btn-wrapper {
   position: relative;
@@ -894,6 +925,10 @@ footer {
   color: #fff;
   display: block;
   margin-bottom: 10px;
+
+}
+.footer-nav li a:hover {
+  opacity: 0.7;
 }
 footer p {
   font-size: 16px;
@@ -910,6 +945,10 @@ footer p {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+}
+.social-links li a:hover {
+  background: #008c96;
+  color: #fff;
 }
 .footer-title {
   font-size: 20px;
@@ -1055,6 +1094,15 @@ footer p {
   margin-top: 5px;
 }
 .content-inner-text-box .content {
-
   box-shadow: 20px 34px 24px 20px rgba(198, 225, 229, 0.187);
+}
+/* verticle tab */
+.tabcontent-area .tab-pane {
+  display: none;
+}
+.tabcontent-area .tab-pane.show {
+  display: block;
+}
+.tabcontent-navlist li {
+  width: 100%;
 }
