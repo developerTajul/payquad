@@ -16,6 +16,7 @@
 8. blog
 9. contact
 10. footer
+11. what we do
 */
 /* 1. Theme default css */
 body {
@@ -249,7 +250,7 @@ label {
   padding: 5px 0px;
   display: block;
 }
-.dropdownIcon{
+.dropdownIcon {
   position: absolute;
   top: 7px;
   right: 0;
@@ -619,45 +620,46 @@ brand start
   left: 0px;
 }
 /* slider */
-.tst-swiper-container{
+.tst-swiper-container {
   height: fit-content;
   position: relative;
 }
-.swiper{
+.swiper {
   height: 100%;
   width: 100%;
 }
-.tst-control-btn{
+.tst-control-btn {
   position: absolute;
   top: 40px;
   right: 100px;
 }
-.swiper-button-next,.swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
   height: 58px;
   width: 58px;
   border-radius: 100%;
   box-shadow: 2px 3px 2px 2px rgba(128, 128, 128, 0.149);
 }
-.swiper-button-next{
- background:#008C96;
+.swiper-button-next {
+  background: #008c96;
 }
 .swiper-button-next::after,
-.swiper-button-prev::after{
+.swiper-button-prev::after {
   color: #fff;
   font-size: 20px;
 }
-.swiper-button-prev::after{
+.swiper-button-prev::after {
   color: rgba(0, 0, 0, 0.744);
   font-size: 20px;
 }
-.control-btn-wrapper{
+.control-btn-wrapper {
   position: relative;
 }
-.control-btn-wrapper .next{
+.control-btn-wrapper .next {
   position: absolute;
   right: -60px;
 }
-.control-btn-wrapper .prev{
+.control-btn-wrapper .prev {
   position: absolute;
   right: 80px;
 }
@@ -763,8 +765,8 @@ brand start
 }
 
 /* contact */
-.contact-form-wrapper{
-  padding:10px 0px;
+.contact-form-wrapper {
+  padding: 10px 0px;
 }
 .contact-bg {
   background: #ea4f1b11;
@@ -957,4 +959,102 @@ footer p {
 .footer-bottom a {
   color: #bfbfbf;
   text-transform: capitalize;
+}
+/* what we do */
+.content {
+  display: none;
+}
+.show {
+  display: block;
+}
+.what-we-do .top-area {
+  text-align: center;
+}
+.what-we-do .top-area .title {
+  text-transform: capitalize;
+}
+.what-we-do .top-area .subtitle {
+  color: #646464;
+}
+.content-wrapper {
+  border: 1px solid #e3eef0;
+  border-radius: 355px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-inner-box {
+  border: 1px solid #e3eef0;
+  border-radius: 355px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-dashed-border {
+  border: 1px dashed #008c96a5;
+  border-radius: 355px;
+  position: relative;
+}
+.content-dashed-border .content-box {
+  position: relative;
+}
+.icon-box .icon {
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  z-index: 9999;
+}
+.icon-text {
+  color: #004750;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.crm-icon,
+.reports-icon,
+.maintainance-icon,
+.payment-icon,
+.communication-icon,
+.community-icon,
+.portals-icon {
+  position: absolute;
+  text-align: center;
+}
+
+.content-inner-border {
+  position: absolute;
+  border: 1px solid #e3eef0;
+  border-radius: 355px;
+}
+.content-inner-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-inner-text-box .content-text {
+  background: #fff;
+  border-radius: 5px;
+}
+.content-inner-text-box .content .content-text p {
+  color: #646464;
+  text-align: center;
+}
+.content-box-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.content-inner-text-box .content {
+
+  box-shadow: 20px 34px 24px 20px rgba(198, 225, 229, 0.187);
 }

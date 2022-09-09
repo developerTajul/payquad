@@ -241,6 +241,113 @@
     .widget-form {
         margin-top: 10px;
     }
+    /* what we do */
+    .what-we-do {
+        padding: 70px 0px;
+    }
+    .what-we-do .top-area .title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .what-we-do .top-area .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content-wrapper {
+        margin-top: 40px;
+        width: 992px;
+        height: 640px;
+    }
+    .content-inner-box {
+        width: 850px;
+        height: 560px;
+        box-shadow: 0px 4px 4px 30px rgba(198, 225, 229, 0.25);
+    }
+    .content-dashed-border {
+        height: 440px;
+        width: 650px;
+        box-shadow: 0px 4px 4px 40px rgba(198, 225, 229, 0.243);
+    }
+
+    .icon-box .icon {
+        padding: 10px;
+        width: 80px;
+        height: 65px;
+    }
+    .icon-box {
+        max-width: 125px;
+    }
+    .icon-box .icon img {
+        transform: scale(1.2);
+    }
+    .icon-text {
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .crm-icon {
+        top: -50px;
+        left: 270px;
+    }
+    .reports-icon {
+        top: 50px;
+        left: 5px;
+    }
+    .maintainance-icon {
+        top: 230px;
+        left: -60px;
+    }
+    .payment-icon {
+        top: 375px;
+        left: 60px;
+    }
+    .communication-icon {
+        top: 405px;
+        left: 260px;
+    }
+    .community-icon {
+        top: 320px;
+        right: -5px;
+    }
+    .portals-icon {
+        top: 90px;
+        right: -40px;
+    }
+    .content-inner-border {
+        top: 90px;
+        left: 80px;
+        width: 480px;
+        height: 300px;
+        box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.187);
+    }
+    .content-inner-text-box {
+        height: 240px;
+        width: 370px;
+        filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .content-inner-text-box .content {
+        width: 346px;
+        height: 168px;
+        box-shadow: 20px 34px 24px 80px rgba(198, 225, 229, 0.187);
+    }
+    .content-inner-text-box .content-text {
+        width: 300px;
+        height: 160px;
+        padding: 20px;
+        transform: translateX(50px);
+        border-radius: 5px;
+    }
+    .content-inner-text-box .content .content-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .content-box-logo img {
+        width: 160px;
+        height: auto;
+        margin-left: 40px;
+    }
 }
 
 /* MD Device :768px. */
@@ -527,11 +634,11 @@
     .widget-form {
         margin-top: 10px;
     }
-     /* testimonial slider */
+    /* testimonial slider */
     .testimonial-wrapper {
         padding: 50px 20px;
     }
-   
+
     .slider-left .author {
         right: -40px;
         bottom: -40px;
@@ -543,11 +650,11 @@
     .slider-left .block {
         display: none;
     }
-  
+
     .testimonial-main-content .tst-shape {
         display: none;
     }
- 
+
     .testimonial-main-content .mt-55 {
         margin-top: 30px;
     }
@@ -575,8 +682,111 @@
     .swiper-button-prev::after {
         font-size: 14px;
     }
-    .control-btn-wrapper .prev{
+    .control-btn-wrapper .prev {
         right: 40px;
+    }
+    /* what we do */
+    .what-we-do {
+        padding: 50px 0px;
+    }
+    .what-we-do .top-area .title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .what-we-do .top-area .subtitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .content-wrapper {
+        margin-top: 40px;
+        width: 768px;
+        height: 640px;
+    }
+    .content-inner-box {
+        width: 650px;
+        height: 560px;
+        box-shadow: 0px 4px 4px 30px rgba(198, 225, 229, 0.25);
+    }
+    .content-dashed-border {
+        height: 440px;
+        width: 550px;
+        box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.243);
+    }
+
+    .icon-box .icon {
+        padding: 10px;
+        width: 60px;
+        height: 50px;
+    }
+    .icon-box {
+        max-width: 125px;
+    }
+    .icon-text {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .crm-icon {
+        top: -40px;
+        left: 230px;
+    }
+    .reports-icon {
+        top: 50px;
+        left: 20px;
+    }
+    .maintainance-icon {
+        top: 210px;
+        left: -53px;
+    }
+    .payment-icon {
+        top: 370px;
+        left: 45px;
+    }
+    .communication-icon {
+        top: 405px;
+        left: 230px;
+    }
+    .community-icon {
+        top: 320px;
+        right: 0px;
+    }
+    .portals-icon {
+        top: 90px;
+        right: -40px;
+    }
+
+    .content-inner-border {
+        top: 90px;
+        left: 80px;
+        width: 370px;
+        height: 300px;
+        box-shadow: 0px 4px 4px 45px rgba(198, 225, 229, 0.132);
+    }
+    .content-inner-text-box {
+        height: 240px;
+        width: 270px;
+        filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .content-inner-text-box .content {
+        width: 246px;
+        height: 168px;
+    }
+    .content-inner-text-box .content-text {
+        width: 250px;
+        height: 164px;
+        padding: 20px;
+        margin-left: 35px;
+    }
+    .content-inner-text-box .content .content-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .content-box-logo img {
+        width: 130px;
+        height: auto;
+        margin-left: 40px;
     }
 }
 
@@ -868,7 +1078,7 @@
     .widget-form {
         margin-top: 10px;
     }
-     /* testimonial slider */
+    /* testimonial slider */
     .testimonial-wrapper {
         padding: 40px 15px;
     }
@@ -887,11 +1097,11 @@
     .slider-left .block {
         display: none;
     }
-  
+
     .testimonial-main-content .tst-shape {
         display: none;
     }
- 
+
     .testimonial-main-content .mt-55 {
         margin-top: 30px;
     }
@@ -919,8 +1129,110 @@
     .swiper-button-prev::after {
         font-size: 14px;
     }
-    .control-btn-wrapper .prev{
+    .control-btn-wrapper .prev {
         right: 40px;
+    }
+    /* what we do */
+    .what-we-do {
+        padding: 40px 0px;
+    }
+    .what-we-do .top-area .title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .what-we-do .top-area .subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .content-wrapper {
+        margin-top: 40px;
+        width: 576px;
+        height: 640px;
+    }
+    .content-inner-box {
+        width: 500px;
+        height: 590px;
+        box-shadow: 0px 4px 4px 20px rgba(198, 225, 229, 0.148);
+    }
+    .content-dashed-border {
+        height: 460px;
+        width: 380px;
+        box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.183);
+    }
+
+    .icon-box .icon {
+        padding: 10px;
+        width: 60px;
+        height: 50px;
+    }
+    .icon-box {
+        max-width: 125px;
+    }
+    .icon-text {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .crm-icon {
+        top: -40px;
+        left: 150px;
+    }
+    .reports-icon {
+        top: 50px;
+        left: 0px;
+    }
+    .maintainance-icon {
+        top: 190px;
+        left: -53px;
+    }
+    .payment-icon {
+        top: 370px;
+        left: 15px;
+    }
+    .communication-icon {
+        top: 415px;
+        left: 130px;
+    }
+    .community-icon {
+        top: 320px;
+        right: -25px;
+    }
+    .portals-icon {
+        top: 80px;
+        right: -40px;
+    }
+
+    .content-inner-border {
+        top: 90px;
+        left: 80px;
+        width: 210px;
+        height: 300px;
+        box-shadow: 0px 4px 4px 70px rgba(198, 225, 229, 0.152);
+    }
+    .content-inner-text-box {
+        height: 240px;
+        width: 170px;
+        filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .content-inner-text-box .content {
+        width: 146px;
+        height: 168px;
+    }
+    .content-inner-text-box .content-text {
+        width: 144px;
+        height: 164px;
+        padding: 5px 3px;
+        margin-left: 5px;
+    }
+    .content-inner-text-box .content .content-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .content-box-logo img {
+        width: 100px;
+        height: 34px;
     }
 }
 /* SM Small Device :550px. */
@@ -1230,7 +1542,7 @@
     .slider-left .block {
         display: none;
     }
-  
+
     .testimonial-main-content .tst-shape {
         display: none;
     }
@@ -1264,7 +1576,232 @@
     .swiper-button-prev::after {
         font-size: 12px;
     }
-    .control-btn-wrapper .prev{
+    .control-btn-wrapper .prev {
         right: 30px;
+    }
+
+    /* what we do */
+    .what-we-do {
+        padding: 32px 0px;
+    }
+    .what-we-do .top-area .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .what-we-do .top-area .subtitle {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0px 36px;
+    }
+    .content-wrapper {
+        margin-top: 32px;
+        width: 367px;
+        height: 609px;
+    }
+    .content-inner-box {
+        width: 325px;
+        height: 540px;
+        box-shadow: 0px 4px 4px 20px rgba(198, 225, 229, 0.176);
+    }
+    .content-dashed-border {
+        height: 418px;
+        width: 258px;
+        box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.168);
+    }
+
+    .icon-box .icon {
+        padding: 10px;
+        width: 56px;
+        height: 46px;
+    }
+    .icon-box {
+        max-width: 125px;
+    }
+    .icon-text {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .crm-icon {
+        top: -40px;
+        left: 82px;
+    }
+    .reports-icon {
+        top: 50px;
+        left: -30px;
+    }
+    .maintainance-icon {
+        top: 190px;
+        left: -53px;
+    }
+    .payment-icon {
+        top: 330px;
+        left: -10px;
+    }
+    .communication-icon {
+        top: 380px;
+        left: 70px;
+    }
+    .community-icon {
+        top: 320px;
+        right: -20px;
+    }
+    .portals-icon {
+        top: 80px;
+        right: -60px;
+    }
+
+    .content-inner-border {
+        top: 80px;
+        left: 30px;
+        width: 185px;
+        height: 269px;
+        box-shadow: 0px 4px 4px 70px rgba(198, 225, 229, 0.156);
+    }
+    .content-inner-text-box {
+        height: 240px;
+        width: 170px;
+        filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.184));
+    }
+    .content-inner-text-box .content {
+        width: 144px;
+        height: 164px;
+    }
+    .content-inner-text-box .content-text {
+        width: 144px;
+        height: 164px;
+        padding: 5px 3px;
+        margin-left: 5px;
+    }
+    .content-inner-text-box .content .content-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .content-box-logo img {
+        width: 94px;
+        height: 28px;
+    }
+}
+
+/* all xl */
+@media (min-width: 1200px) {
+    /* what we do */
+    .what-we-do {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .what-we-do .top-area .title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .what-we-do .top-area .subtitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .content-wrapper {
+        margin-top: 80px;
+        width: 1200px;
+        height: 800px;
+    }
+    .content-inner-box {
+        width: 1050px;
+        height: 710px;
+        box-shadow: 0px 4px 4px 60px rgba(198, 225, 229, 0.069);
+    }
+    .content-dashed-border {
+        height: 488px;
+        width: 810px;
+        box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.092);
+    }
+
+    .icon-box .icon {
+        padding: 0px;
+        width: 100px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    .icon-box {
+        max-width: 165px;
+    }
+    .icon-box .icon img {
+        transform: scale(1.5);
+    }
+    .icon-text {
+        margin-top: 5px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .crm-icon {
+        top: -50px;
+        left: 320px;
+    }
+    .reports-icon {
+        top: 50px;
+        left: 5px;
+    }
+    .maintainance-icon {
+        top: 250px;
+        left: -60px;
+    }
+    .payment-icon {
+        top: 410px;
+        left: 90px;
+    }
+    .communication-icon {
+        top: 440px;
+        left: 360px;
+    }
+    .community-icon {
+        top: 350px;
+        right: -5px;
+    }
+    .portals-icon {
+        top: 90px;
+        right: -55px;
+    }
+    .content-inner-border {
+        top: 90px;
+        left: 80px;
+        width: 584px;
+        height: 314px;
+        box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.16);
+        position: relative;
+    }
+    .content-inner-text-box {
+        height: 240px;
+        width: 370px;
+        filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
+    }
+    .content-inner-text-box .content {
+        width: 346px;
+        height: 168px;
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+    .content-inner-text-box .content-text {
+        width: 315px;
+        height: 162px;
+        padding: 25px 20px;
+        border-radius: 5px;
+      
+    }
+    .content-inner-text-box .content .content-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .content-box-logo img {
+        width: 180px;
+        height: auto;
+  
+    }
+}
+@media all and (min-width:1400px){
+     .content-wrapper {
+        width: 1302px;
+
+    }
+    .content-inner-box {
+        height: 710px;
+        width: 1156px;
     }
 }
