@@ -226,19 +226,19 @@
         top: 200px;
         left: 15px;
     }
-     /* footer */
-    footer.mt-100{
+    /* footer */
+    footer.mt-100 {
         margin-top: 42px;
         padding: 50px 10px;
     }
-   
-    .footer-title{
+
+    .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form{
+    .widget-form {
         margin-top: 10px;
     }
 }
@@ -505,27 +505,78 @@
         top: 200px;
         left: 65px;
     }
-      /* footer */
-    footer.mt-100{
+    /* footer */
+    footer.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
-   
-    footer p{
+
+    footer p {
         font-size: 16px;
         line-height: 23px;
     }
-    footer .pl-50{
+    footer .pl-50 {
         padding-left: 0px;
     }
-    .footer-title{
+    .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form{
+    .widget-form {
         margin-top: 10px;
+    }
+     /* testimonial slider */
+    .testimonial-wrapper {
+        padding: 50px 20px;
+    }
+   
+    .slider-left .author {
+        right: -40px;
+        bottom: -40px;
+    }
+    .slider-left .author img {
+        width: 240px;
+        height: 270px;
+    }
+    .slider-left .block {
+        display: none;
+    }
+  
+    .testimonial-main-content .tst-shape {
+        display: none;
+    }
+ 
+    .testimonial-main-content .mt-55 {
+        margin-top: 30px;
+    }
+    .tst-slider-content {
+        padding: 25px 30px;
+    }
+    .tst-slider-content h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .tst-slider-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .tst-control-btn {
+        top: 820px;
+        right: 100px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        height: 36px;
+        width: 36px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 14px;
+    }
+    .control-btn-wrapper .prev{
+        right: 40px;
     }
 }
 
@@ -796,26 +847,80 @@
         left: 65px;
     }
     /* footer */
-    footer.mt-100{
+    footer.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
-   
-    footer p{
+
+    footer p {
         font-size: 16px;
         line-height: 23px;
     }
-    footer .pl-50{
+    footer .pl-50 {
         padding-left: 0px;
     }
-    .footer-title{
+    .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form{
+    .widget-form {
         margin-top: 10px;
+    }
+     /* testimonial slider */
+    .testimonial-wrapper {
+        padding: 40px 15px;
+    }
+    .slider-left .quote div {
+        height: 60px;
+        width: 60px;
+    }
+    .slider-left .author {
+        right: -40px;
+        bottom: -40px;
+    }
+    .slider-left .author img {
+        width: 240px;
+        height: 270px;
+    }
+    .slider-left .block {
+        display: none;
+    }
+  
+    .testimonial-main-content .tst-shape {
+        display: none;
+    }
+ 
+    .testimonial-main-content .mt-55 {
+        margin-top: 30px;
+    }
+    .tst-slider-content {
+        padding: 25px 20px;
+    }
+    .tst-slider-content h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .tst-slider-content p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .tst-control-btn {
+        top: 630px;
+        right: 100px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        height: 36px;
+        width: 36px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 14px;
+    }
+    .control-btn-wrapper .prev{
+        right: 40px;
     }
 }
 /* SM Small Device :550px. */
@@ -1086,25 +1191,80 @@
         left: 15px;
     }
     /* footer */
-    footer.mt-100{
+    footer.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
-   
-    footer p{
+
+    footer p {
         font-size: 15px;
         line-height: 23px;
     }
-    footer .pl-50{
+    footer .pl-50 {
         padding-left: 0px;
     }
-    .footer-title{
+    .footer-title {
         font-size: 20px;
         line-height: 24px;
         margin-top: 20px;
     }
-    .widget-form{
+    .widget-form {
         margin-top: 10px;
     }
-
+    /* testimonial slider */
+    .testimonial-wrapper {
+        padding: 32px 10px;
+    }
+    .slider-left .quote div {
+        height: 50px;
+        width: 50px;
+    }
+    .slider-left .author {
+        right: -52px;
+        bottom: -40px;
+    }
+    .slider-left .author img {
+        width: 178px;
+        height: 201px;
+    }
+    .slider-left .block {
+        display: none;
+    }
+  
+    .testimonial-main-content .tst-shape {
+        display: none;
+    }
+    .testimonial-main-content {
+        width: 100%;
+    }
+    .testimonial-main-content .mt-55 {
+        margin-top: 30px;
+    }
+    .tst-slider-content {
+        padding: 20px 15px;
+    }
+    .tst-slider-content h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tst-slider-content p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .tst-control-btn {
+        top: 500px;
+        right: 80px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        height: 28px;
+        width: 28px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 12px;
+    }
+    .control-btn-wrapper .prev{
+        right: 30px;
+    }
 }

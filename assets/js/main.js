@@ -1,14 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    // dropdown menu
-    const hasChildren = document.querySelectorAll('.has-children');
-    let hasChildrenLength = hasChildren.length;
-    for (let i = 0; i < hasChildrenLength; i++){
-        let el = document.createElement('span');
-       el.classList.add('fa-solid', 'fa-chevron-down','dropdownIcon');
-        hasChildren[i].appendChild(el);
-    }
+   
     // what we do
     const contents = document.querySelectorAll('.content');
     const items = document.querySelectorAll('.item');
@@ -45,35 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         el.classList.add('show');
     }
-    //   property slider
-    var propertySlider = new Swiper(".propertySlider", {
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        },
-        loop: true
-    });
-    //   property slider Three
-    var propertySlider = new Swiper(".propertySliderThree", {
-        pagination: {
-            el: ".propertySliderThreePagination",
-            clickable: true
-        },
-        loop: true
-    });
-    //   testimonial two
-    var testimonialSlider = new Swiper(".testimonialSlider", {
-        navigation: {
-            nextEl: ".testimonial .swiper-button-next",
-            prevEl: ".testimonial .swiper-button-prev",
-        },
-     
-   
-    });
+    
+  
+  
 
    
 })

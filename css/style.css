@@ -249,6 +249,12 @@ label {
   padding: 5px 0px;
   display: block;
 }
+.dropdownIcon{
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 12px;
+}
 /* mobile menu */
 .mobile-menu-btn {
   position: absolute;
@@ -613,13 +619,49 @@ brand start
   left: 0px;
 }
 /* slider */
-.testimonial-slider-container{
-  height: 500px;
+.tst-swiper-container{
+  height: fit-content;
+  position: relative;
 }
 .swiper{
   height: 100%;
   width: 100%;
 }
+.tst-control-btn{
+  position: absolute;
+  top: 40px;
+  right: 100px;
+}
+.swiper-button-next,.swiper-button-prev{
+  height: 58px;
+  width: 58px;
+  border-radius: 100%;
+  box-shadow: 2px 3px 2px 2px rgba(128, 128, 128, 0.149);
+}
+.swiper-button-next{
+ background:#008C96;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  color: #fff;
+  font-size: 20px;
+}
+.swiper-button-prev::after{
+  color: rgba(0, 0, 0, 0.744);
+  font-size: 20px;
+}
+.control-btn-wrapper{
+  position: relative;
+}
+.control-btn-wrapper .next{
+  position: absolute;
+  right: -60px;
+}
+.control-btn-wrapper .prev{
+  position: absolute;
+  right: 80px;
+}
+
 .slider-left {
   position: relative;
 }
