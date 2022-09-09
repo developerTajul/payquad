@@ -721,7 +721,9 @@ brand start
 }
 
 /* contact */
-
+.contact-form-wrapper{
+  padding:10px 0px;
+}
 .contact-bg {
   background: #ea4f1b11;
   padding: 60px 48px;

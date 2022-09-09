@@ -195,17 +195,36 @@
     .blog {
         padding: 60px 0px;
     }
-.blog-wrapper{
-    margin-top: 30px;
-}
+    .blog-wrapper {
+        margin-top: 30px;
+    }
     .blog-card {
         min-height: 500px;
     }
-    .blog-card .pb-20{
+    .blog-card .pb-20 {
         padding-bottom: 0px;
     }
     .blog-title {
         font-size: 28px;
+    }
+    /* contact */
+    .contact {
+        margin-left: 0px;
+    }
+    .contact-bg {
+        padding: 50px 20px;
+        padding-bottom: 90px;
+    }
+
+    .contact h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .contact-payment-form {
+        position: absolute;
+        width: 340px;
+        top: 200px;
+        left: 15px;
     }
 }
 
@@ -444,6 +463,32 @@
     }
     .blog-card .pb-20 {
         padding-bottom: 0px;
+    }
+    /* contact */
+
+    .contact .mt-100 {
+        margin-top: 0px;
+    }
+    .contact h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .contact-bg {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .contact p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .contact-form-wrapper {
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .contact-payment-form {
+        width: 350px;
+        top: 200px;
+        left: 65px;
     }
 }
 
@@ -685,6 +730,34 @@
     .blog-card .pb-20 {
         padding-bottom: 0px;
     }
+    /* contact */
+
+    .contact .mt-100 {
+        margin-top: 0px;
+    }
+    .contact h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .contact-bg {
+        padding: 40px 30px;
+    }
+    .contact .mt-30 {
+        margin-top: 20px;
+    }
+    .contact p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .contact-form-wrapper {
+        margin-top: 20px;
+        padding: 25px;
+    }
+    .contact-payment-form {
+        width: 350px;
+        top: 200px;
+        left: 65px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
@@ -920,5 +993,37 @@
     }
     .blog-card .pb-20 {
         padding-bottom: 0px;
+    }
+    /* contact */
+    .contact {
+        margin-left: 0px;
+        padding: 32px 0px;
+        margin-top: -10px;
+    }
+    .contact .mt-100 {
+        margin-top: 0px;
+    }
+    .contact h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .contact-bg {
+        padding: 20px 30px;
+    }
+    .contact .mt-30 {
+        margin-top: 12px;
+    }
+    .contact p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .contact-form-wrapper {
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .contact-payment-form {
+        width: 300px;
+        top: 200px;
+        left: 15px;
     }
 }
