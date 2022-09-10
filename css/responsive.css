@@ -11,6 +11,39 @@
         bottom: 100px;
         right: 10px;
     }
+    /* nav tab */
+    .main-tab-nav .nav-item:nth-child(2) {
+        margin: 0px 15px;
+    }
+
+    .main-tab-nav .nav-item .nav-link .text {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .main-tab-nav .nav-item .nav-link.active {
+        padding: 0px 16px;
+    }
+    .main-tab-nav .nav-item .nav-link {
+        padding-left: 50px;
+        padding-right: 52px;
+    }
+    .main-tab-nav .nav-item .nav-link .text {
+        padding-right: 50px;
+    }
+
+    .main-tab-nav .nav-item .nav-link.active .text {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon img {
+        height: 24px;
+        width: 24px;
+    }
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
@@ -347,6 +380,37 @@
         width: 160px;
         height: auto;
         margin-left: 40px;
+    }
+    /* nav tab */
+    .main-tab-nav .nav-item:nth-child(2) {
+        margin: 0px 10px;
+    }
+
+    .main-tab-nav .nav-item .nav-link .text {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .main-tab-nav .nav-item .nav-link.active {
+        padding: 0px 16px;
+    }
+    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+        padding-right: 0px;
+    }
+    .nav-pills li .text {
+        padding-right: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .text {
+        font-size: 26px;
+        line-height: 32px;
+        padding: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon {
+        height: 40px;
+        width: 40px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon img {
+        height: 22px;
+        width: 22px;
     }
 }
 
@@ -787,6 +851,39 @@
         width: 130px;
         height: auto;
         margin-left: 40px;
+    }
+    /* nav tab */
+    .main-tab-nav .nav-item:nth-child(2) {
+        margin: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link {
+        width: 100%;
+    }
+    .main-tab-nav .nav-item .nav-link .text {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .main-tab-nav .nav-item .nav-link.active {
+        padding: 0px 16px;
+    }
+    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+        padding-right: 0px;
+    }
+    .nav-pills li .text {
+        padding-right: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .text {
+        font-size: 26px;
+        line-height: 32px;
+        padding: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon img {
+        height: 28px;
+        width: 28px;
     }
 }
 
@@ -1234,6 +1331,70 @@
         width: 100px;
         height: 34px;
     }
+
+    /* nav tab */
+    .nav-pills li span {
+        padding: 17px 15px;
+    }
+    .nav-pills li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-pills li .text {
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 10px;
+        display: inline-block;
+        padding-right: 50px;
+        font-weight: 600;
+    }
+    .nav-pills li:nth-child(2) {
+        margin: 0px 0px;
+    }
+    .nav-pills li:nth-child(2) .nav-link {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-pills li:nth-child(3) .nav-link {
+        width: 100%;
+    }
+    .nav-pills li {
+        margin-bottom: 20px;
+    }
+
+    /* nav tab */
+    .main-tab-nav .nav-item:nth-child(2) {
+        margin: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link {
+        width: 100%;
+    }
+    .main-tab-nav .nav-item .nav-link .text {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .main-tab-nav .nav-item .nav-link.active {
+        padding: 0px 16px;
+    }
+    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+        padding-right: 0px;
+    }
+    .nav-pills li .text {
+        padding-right: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .text {
+        font-size: 26px;
+        line-height: 32px;
+        padding: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon img {
+        height: 28px;
+        width: 28px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
@@ -1357,6 +1518,7 @@
     .propertyManagement {
         padding: 35px 0px;
     }
+    /* nav tab */
     .nav-pills li span {
         padding: 17px 15px;
     }
@@ -1385,6 +1547,7 @@
     .nav-pills li {
         margin-bottom: 20px;
     }
+    /* nav tab */
     .propertyManagement .pt-50 {
         padding-top: 0px;
     }
@@ -1393,6 +1556,38 @@
     }
     .tabcontent-area {
         padding: 10px 30px;
+    }
+    .main-tab-nav .nav-item:nth-child(2) {
+        margin: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link {
+        width: 100%;
+    }
+    .main-tab-nav .nav-item .nav-link .text {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .main-tab-nav .nav-item .nav-link.active {
+        padding: 0px 8px;
+    }
+    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+        padding-right: 64px;
+    }
+    .nav-pills li .text {
+        padding-right: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .text {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 0px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon {
+        height: 50px;
+        width: 50px;
+    }
+    .main-tab-nav .nav-item .nav-link.active .icon img {
+        height: 24px;
+        width: 24px;
     }
     /* experience */
     .experience {
@@ -1783,7 +1978,6 @@
         height: 162px;
         padding: 25px 20px;
         border-radius: 5px;
-      
     }
     .content-inner-text-box .content .content-text p {
         font-size: 18px;
@@ -1792,13 +1986,11 @@
     .content-box-logo img {
         width: 180px;
         height: auto;
-  
     }
 }
-@media all and (min-width:1400px){
-     .content-wrapper {
+@media all and (min-width: 1400px) {
+    .content-wrapper {
         width: 1302px;
-
     }
     .content-inner-box {
         height: 710px;
