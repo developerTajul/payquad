@@ -416,7 +416,7 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .spellon-mobile-menu.mobile-menu {
+    .spellon-mobile-menu{
         width: 370px;
         padding-top: 100px;
         padding-left: 100px;
