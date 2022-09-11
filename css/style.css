@@ -700,9 +700,15 @@ services area start
 .spellon-homepage .spellon-experience-area .card-box-footer p {
   color: rgba(0, 0, 0, 0.398);
 }
+.spellon-homepage .spellon-experience-area .ex-card{
+  transition: all ease-in-out 0.3s;
+}
 .spellon-homepage .spellon-experience-area .ex-card {
   padding: 32px 42px;
   border-radius: 12px;
+}
+.spellon-homepage .spellon-experience-area .ex-card:hover {
+  background:#fff;
 }
 .spellon-homepage .spellon-experience-area .round-icon {
   width: 70px;
@@ -776,17 +782,17 @@ services area start
   border-radius: 100%;
   box-shadow: 2px 3px 2px 2px rgba(128, 128, 128, 0.149);
 }
-.spellon-homepage .spellon-testimonial-wrapper.swiper-button-next {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next {
   background: #008c96;
 }
-.spellon-homepage .spellon-testimonial-wrapper.swiper-button-next:hover {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover {
   background: transparent;
 }
-.spellon-homepage .spellon-testimonial-wrapper.swiper-button-next:hover::after {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover::after {
   color: #000;
 }
 .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next::after,
-.spellon-homepage .spellon-testimonial-wrapper.swiper-button-prev::after {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after {
   color: #fff;
   font-size: 20px;
 }
@@ -886,13 +892,13 @@ blog start
 .spellon-homepage .spellon-blog-area .section-subtitle p {
   color: #646464;
 }
-.spellon-homepage .spellon-blog-area .blog-wrapper .col:first-child .blog-card {
+.spellon-homepage .spellon-blog-area .blog-wrapper .blog-item:first-child .blog-card {
   background: #baeff3;
 }
-.spellon-homepage .spellon-blog-area .blog-wrapper .col:nth-child(2) .blog-card {
+.spellon-homepage .spellon-blog-area .blog-wrapper .blog-item:nth-child(2) .blog-card {
   background: #d4eef1;
 }
-.spellon-homepage .spellon-blog-area .blog-wrapper .col:nth-child(3) .blog-card {
+.spellon-homepage .spellon-blog-area .blog-wrapper .blog-item:nth-child(3) .blog-card {
   background: #ffe5dc;
 }
 .spellon-homepage .spellon-blog-area .blog-card {
