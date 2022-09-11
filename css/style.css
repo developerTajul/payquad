@@ -228,6 +228,8 @@
   border: none;
   background: transparent;
   text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
 }
 .spellon-homepage .spellon-button-secondary {
   color: #008c96;
