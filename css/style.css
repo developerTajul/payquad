@@ -108,7 +108,7 @@
   color: #2b343f;
   margin-bottom: 0;
 }
-.spellon-homepage input:focus{
+.spellon-homepage input:focus {
   outline: none;
 }
 */
@@ -150,8 +150,7 @@
   color: #008c96;
 }
 .spellon-homepage .has-children,
-.spellon-mobile-menu .has-children
-{
+.spellon-mobile-menu .has-children {
   position: relative;
 }
 .spellon-homepage .submenu {
@@ -167,8 +166,7 @@
   transition: all ease-in-out 0.3s;
 }
 .spellon-homepage .spellon-header-area .has-children:hover > .submenu,
-.spellon-homepage .spellon-mobile-menu .has-children:hover > .submenu
-{
+.spellon-homepage .spellon-mobile-menu .has-children:hover > .submenu {
   transform: scale(1);
 }
 .spellon-homepage .spellon-header-area .submenu li:not(:last-child) {
@@ -214,7 +212,6 @@
 }
 .spellon-homepage .spellon-mobile-menu li a {
   text-decoration: none;
- 
 }
 .spellon-homepage .mobile-menu-login-btn {
   margin-left: -20px;
@@ -265,7 +262,7 @@
   border-radius: 5px;
 }
 /* handle js */
- .spellon-homepage .show-mobile-menu {
+.spellon-homepage .show-mobile-menu {
   transform: translateX(0%);
   transition: all ease-in-out 0.4s;
 }
@@ -290,7 +287,6 @@
 }
 
 .spellon-homepage .mobile-menu .has-children .submenu {
-
   z-index: 1;
   padding: 10px 20px;
   box-shadow: 2px 1px 2px 3px rgba(255, 255, 255, 0.151);
@@ -451,8 +447,8 @@ start property management
 }
 .spellon-homepage .spellon-property-management .section-subtitle,
 .spellon-homepage .spellon-property-management .section-subtitle p,
-.spellon-homepage .section-subtitle ,
-.spellon-homepage .section-subtitle p{
+.spellon-homepage .section-subtitle,
+.spellon-homepage .section-subtitle p {
   font-size: 24px;
   line-height: 32px;
   color: #646464a1;
@@ -707,7 +703,7 @@ services area start
 .spellon-homepage .spellon-experience-area .card-box-footer p {
   color: rgba(0, 0, 0, 0.398);
 }
-.spellon-homepage .spellon-experience-area .ex-card{
+.spellon-homepage .spellon-experience-area .ex-card {
   transition: all ease-in-out 0.3s;
 }
 .spellon-homepage .spellon-experience-area .ex-card {
@@ -715,7 +711,7 @@ services area start
   border-radius: 12px;
 }
 .spellon-homepage .spellon-experience-area .ex-card:hover {
-  background:#fff;
+  background: #fff;
 }
 .spellon-homepage .spellon-experience-area .round-icon {
   width: 70px;
@@ -886,15 +882,20 @@ blog start
 .spellon-homepage .spellon-blog-area {
   position: relative;
 }
-.spellon-homepage .spellon-blog-area::before {
+.spellon-homepage .spellon-blog-area {
+  position: relative;
+}
+.spellon-homepage .spellon-layer {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  content: "";
-  background: url("./../assets/img/blog/blog-bg.png");
-  height: 585px;
+  height: 100%;
   z-index: -1;
+}
+.spellon-homepage .spellon-layer img {
+  width: 100%;
+  height: 585px;
 }
 .spellon-homepage .spellon-blog-area .section-subtitle p {
   color: #646464;

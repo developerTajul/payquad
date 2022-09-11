@@ -58,76 +58,76 @@
         width: 156px;
     }
     /* hero */
-    .spellon-hero-area {
+    .spellon-homepage .spellon-hero-area {
         min-height: fit-content;
     }
-    .spellon-hero-area .main-hero {
+    .spellon-homepage .spellon-hero-area .main-hero {
         padding-top: 70px;
         padding-bottom: 0px;
     }
 
-    .spellon-hero-area .hero-desc {
+   .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 15px;
     }
-    .spellon-hero-area .hero-btn {
+   .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
-    .spellon-hero-area .hero-right {
+   .spellon-homepage .spellon-hero-area .hero-right {
         margin-top: 30px;
     }
-    .spellon-hero-area .mobile-img {
+    .spellon-homepage .spellon-hero-area .mobile-img {
         margin-left: 0px;
         margin-top: -50px;
     }
-    .spellon-hero-area .hero-right.graph {
+     .spellon-homepage  .spellon-hero-area .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .spellon-hero-area .hero-right.graph img {
+      .spellon-homepage .spellon-hero-area .hero-right.graph img {
         height: 200px;
         width: 320px;
     }
-    .blockOne {
+    .spellon-homepage   .blockOne {
         display: none;
     }
-    .blockTwo {
+    .spellon-homepage   .blockTwo {
         display: none;
     }
-    .spellon-hero-area .mt-60 {
+   .spellon-homepage    .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .spellon-counter-area.counter-wrapper {
+   .spellon-homepage    .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: 60px;
     }
-    .spellon-counter-area .counter-item {
+   .spellon-homepage    .spellon-counter-area .counter-item {
         padding: 30px 0px;
     }
 
-    .spellon-counter-area .counter-img img {
+     .spellon-homepage  .spellon-counter-area .counter-img img {
         height: 50px;
         width: 50px;
     }
-    .spellon-counter-area .counter-img {
+    .spellon-homepage   .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .spellon-counter-area .counter-number {
+   .spellon-homepage    .spellon-counter-area .counter-number {
         margin-top: -10px;
     }
-    .spellon-counter-area .counter-number span {
+     .spellon-homepage  .spellon-counter-area .counter-number span {
         font-size: 48px;
     }
-    .counter-text span {
+    .spellon-homepage   .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
     /* brands */
-    .spellon-brand-area {
+     .spellon-homepage  .spellon-brand-area {
         padding: 50px 0px;
     }
-    .spellon-brand-area h2 {
+     .spellon-homepage  .spellon-brand-area h2 {
         font-size: 36px;
         line-height: 42px;
     }
@@ -416,7 +416,7 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .spellon-mobile-menu{
+    .spellon-mobile-menu {
         width: 370px;
         padding-top: 100px;
         padding-left: 100px;
@@ -427,68 +427,68 @@
         width: 156px;
     }
     /* hero */
-    .spellon-hero-area {
+   .spellon-homepage .spellon-hero-area {
         min-height: fit-content;
     }
-    .spellon-hero-area .main-hero {
+    .spellon-homepage .spellon-hero-area .main-hero {
         padding-top: 70px;
         padding-bottom: 0px;
     }
 
-    .spellon-hero-area .spellon-hero-area .hero-desc {
+  .spellon-homepage   .spellon-hero-area .spellon-hero-area .hero-desc {
         margin-top: 15px;
     }
-    .spellon-hero-area .spellon-hero-area .hero-btn {
+   .spellon-homepage  .spellon-hero-area .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
-    .spellon-hero-area .spellon-hero-area .hero-right {
+    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-right {
         margin-top: 30px;
     }
-    .spellon-hero-area .spellon-hero-area .mobile-img {
+    .spellon-homepage .spellon-hero-area .spellon-hero-area .mobile-img {
         margin-left: 0px;
         margin-top: -38px;
     }
-    .spellon-hero-area .spellon-hero-area .hero-right.graph {
+   .spellon-homepage  .spellon-hero-area .spellon-hero-area .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .spellon-hero-area .spellon-hero-area .hero-right.graph img {
+    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-right.graph img {
         height: 200px;
         width: 320px;
     }
-    .spellon-hero-area .blockOne {
+    .spellon-homepage .spellon-hero-area .blockOne {
         display: none;
     }
-    .spellon-hero-area .blockTwo {
+    .spellon-homepage .spellon-hero-area .blockTwo {
         display: none;
     }
-    .spellon-hero-area .mt-60 {
+    .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .spellon-counter-area.counter-wrapper {
+    .spellon-homepage .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -60px;
     }
-    .spellon-counter-area .counter-item {
+    .spellon-homepage .spellon-counter-area .counter-item {
         padding: 30px 0px;
     }
 
-    .spellon-counter-area .counter-img img {
+    .spellon-homepage .spellon-counter-area .counter-img img {
         height: 50px;
         width: 50px;
     }
-    .spellon-counter-area .counter-img {
+    .spellon-homepage .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .spellon-counter-area .counter-number {
+    .spellon-homepage .spellon-counter-area .counter-number {
         margin-top: -10px;
     }
-    .spellon-counter-area .counter-number span {
+    .spellon-homepage .spellon-counter-area .counter-number span {
         font-size: 42px;
     }
-    .spellon-counter-area .counter-text span {
+    .spellon-homepage .spellon-counter-area .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
@@ -895,35 +895,35 @@
     }
     /* hero */
     /* hero */
-    .spellon-hero-area {
+    .spellon-homepage .spellon-hero-area {
         min-height: fit-content;
     }
-    .spellon-hero-area .main-hero {
+ .spellon-homepage   .spellon-hero-area .main-hero {
         padding-top: 60px;
         padding-bottom: 0px;
     }
-    .spellon-hero-area .hero-title h1 {
+   .spellon-homepage .spellon-hero-area .hero-title h1 {
         font-size: 40px;
         line-height: 48px;
     }
-    .spellon-hero-area .hero-desc {
+  .spellon-homepage  .spellon-hero-area .hero-desc {
         margin-top: 12px;
     }
-    .spellon-hero-area .hero-btn {
+   .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
-    .spellon-hero-area .hero-right {
+   .spellon-homepage .spellon-hero-area .hero-right {
         margin-top: 30px;
     }
-    .spellon-hero-area .mobile-img {
+   .spellon-homepage .spellon-hero-area .mobile-img {
         margin-left: 0px;
         margin-top: -28px;
     }
-    .spellon-hero-area .hero-right.graph {
+   .spellon-homepage .spellon-hero-area .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .spellon-hero-area .hero-right.graph img {
+  .spellon-homepage  .spellon-hero-area .hero-right.graph img {
         height: 140px;
         width: 220px;
     }
@@ -942,34 +942,34 @@
         top: 320px;
         right: 20px;
     }
-    .spellon-hero-area .mt-60 {
+  .spellon-homepage  .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .spellon-counter-area.counter-wrapper {
+ .spellon-homepage   .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -160px;
     }
-    .spellon-counter-area .counter-item {
+.spellon-homepage    .spellon-counter-area .counter-item {
         padding: 30px 0px;
     }
 
-    .spellon-counter-area .counter-img img {
+  .spellon-homepage  .spellon-counter-area .counter-img img {
         height: 40px;
         width: 40px;
     }
-    .spellon-counter-area .counter-img {
+ .spellon-homepage   .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .spellon-counter-area .counter-number {
+  .spellon-homepage  .spellon-counter-area .counter-number {
         margin-top: -20px;
     }
-    .spellon-counter-area .counter-number span {
+  .spellon-homepage  .spellon-counter-area .counter-number span {
         font-size: 32px;
         line-height: 36px;
     }
-    .spellon-counter-area .counter-text span {
+ .spellon-homepage   .spellon-counter-area .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
@@ -1402,7 +1402,7 @@
     .spellon-homepage .spellon-header-area .logo img {
         width: 96px;
     }
-     .spellon-homepage .spellon-header-area .logo {
+    .spellon-homepage .spellon-header-area .logo {
         margin-top: 8px;
         display: block;
     }
@@ -1439,38 +1439,38 @@
         height: 100px;
         width: 160px;
     }
-  .spellon-homepage   .blockOne {
+    .spellon-homepage .blockOne {
         right: -30px;
         margin-top: 20px;
     }
-  .spellon-homepage   .blockOne img {
+    .spellon-homepage .blockOne img {
         height: 60px;
         width: 100px;
     }
-  .spellon-homepage   .blockTwo img {
+    .spellon-homepage .blockTwo img {
         width: 60px;
     }
-   .spellon-homepage  .blockTwo {
+    .spellon-homepage .blockTwo {
         top: 320px;
         right: 10px;
     }
-  .spellon-homepage   .spellon-hero-area .mt-60 {
+    .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-   .spellon-homepage  .spellon-counter-area.counter-wrapper {
+    .spellon-homepage .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -250px;
     }
-   .spellon-homepage  .spellon-counter-area .counter-item {
+    .spellon-homepage .spellon-counter-area .counter-item {
         padding: 16px 0px;
     }
-   .spellon-homepage  .spellon-counter-area .counter-img img {
+    .spellon-homepage .spellon-counter-area .counter-img img {
         height: 32px;
         width: 32px;
     }
-   .spellon-homepage  .spellon-counter-area .counter-img {
+    .spellon-homepage .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
     .spellon-homepage .spellon-counter-area .counter-number {
