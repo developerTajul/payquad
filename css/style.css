@@ -444,11 +444,15 @@ start property management
   background: #fff8f5;
 }
 
-.spellon-homepage .spellon-property-management .section-title, 
-.spellon-homepage .section-title {
-	font-size: 56px;
-	text-transform: capitalize;
-	padding: 0px 250px;
+.spellon-homepage .spellon-property-management .section-title {
+  font-size: 56px;
+  text-transform: capitalize;
+  padding: 0px 250px;
+}
+.spellon-homepage  .section-title {
+  font-size: 56px;
+  text-transform: capitalize;
+
 }
 .spellon-homepage .spellon-property-management .section-subtitle,
 .spellon-homepage .spellon-property-management .section-subtitle p,
@@ -571,7 +575,7 @@ start property management
   color: #646464;
 }
 
-.spellon-homepage .spellon-property-management .spellon-tab-image  {
+.spellon-homepage .spellon-property-management .spellon-tab-image {
   width: 379px;
   height: 395px;
   display: flex;
@@ -579,10 +583,10 @@ start property management
   padding-right: 40px;
 }
 .spellon-homepage .spellon-property-management .spellon-tab-image img {
- height: 100%;
- width: 100%;
-margin-top: -40px;
-margin-left: -30px;
+  height: 100%;
+  width: 100%;
+  margin-top: -40px;
+  margin-left: -30px;
 }
 .spellon-homepage .spellon-property-management .mt-24 {
   margin-top: 24px;
@@ -848,9 +852,7 @@ services area start
   bottom: -120px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
-  position: absolute;
-  bottom: -100px;
-  left: -50px;
+display: none;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote {
   position: absolute;
@@ -1078,10 +1080,12 @@ contact  Start
 
 /* verticle tab */
 .tabcontent-area .tab-pane {
-  display: none;
+ display: none;
+ opacity: 0;
 }
 .tabcontent-area .tab-pane.show {
-  display: block;
+display: block;
+opacity: 1;
 }
 .tabcontent-navlist li {
   width: 100%;
