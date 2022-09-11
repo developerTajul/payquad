@@ -1431,11 +1431,11 @@
         margin-left: 0px;
         margin-top: -18px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph {
+    .spellon-homepage .spellon-hero-area .hero-right .graph {
         top: 50px;
         left: -20px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph img {
+    .spellon-homepage .spellon-hero-area .hero-right .graph img {
         height: 100px;
         width: 160px;
     }
@@ -1443,15 +1443,15 @@
         right: -30px;
         margin-top: 20px;
     }
-    .spellon-homepage .blockOne img {
+    .spellon-homepage .spellon-hero-area .blockOne img {
         height: 60px;
         width: 100px;
     }
-    .spellon-homepage .blockTwo img {
+    .spellon-homepage .spellon-hero-area .blockTwo img {
         width: 60px;
     }
-    .spellon-homepage .blockTwo {
-        top: 320px;
+    .spellon-homepage .spellon-hero-area .blockTwo {
+        top: 420px;
         right: 10px;
     }
     .spellon-homepage .spellon-hero-area .mt-60 {
@@ -1476,13 +1476,15 @@
     .spellon-homepage .spellon-counter-area .counter-number {
         margin-top: -20px;
     }
-    .spellon-counter-area .counter-number span {
+     .spellon-homepage .spellon-counter-area .counter-number span {
         font-size: 24px;
         line-height: 28px;
     }
     .spellon-homepage .spellon-counter-area .counter-text span {
         font-size: 15px;
         line-height: 28px;
+        display: inline-block;
+        text-align: center;
     }
     /* brands */
     .spellon-homepage .spellon-brand-area {
