@@ -169,11 +169,9 @@
     .spellon-homepage .spellon-property-management .nav-pills li span {
         font-size: 22px;
     }
-  .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link {
-
-	font-size: 16px;
-	
-}
+    .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link {
+        font-size: 16px;
+    }
     .spellon-homepage .spellon-property-management .tabcontent-navlist li button {
         font-size: 18px;
     }
@@ -1905,6 +1903,13 @@
     .spellon-homepage .spellon-services-area .content-box-logo img {
         width: 94px;
         height: 28px;
+    }
+    .spellon-homepage .spellon-property-management .section-title,
+    .spellon-homepage .section-title {
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        padding: 0px;
     }
 }
 
