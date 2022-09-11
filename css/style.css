@@ -555,7 +555,7 @@ start property management
   color: #004750;
 }
 .spellon-homepage .spellon-property-management .tabcontent-area {
-  padding: 47px 68px;
+  padding: 47px 0px 47px 68px;
 }
 .spellon-homepage .spellon-property-management .tabcontent-area h2 {
   font-size: 40px;
@@ -567,6 +567,20 @@ start property management
   font-size: 20px;
   line-height: 28px;
   color: #646464;
+}
+
+.spellon-homepage .spellon-property-management .spellon-tab-image  {
+  width: 379px;
+  height: 395px;
+  display: flex;
+  justify-items: flex-start;
+  padding-right: 40px;
+}
+.spellon-homepage .spellon-property-management .spellon-tab-image img {
+ height: 100%;
+ width: 100%;
+margin-top: -40px;
+margin-left: -30px;
 }
 .spellon-homepage .spellon-property-management .mt-24 {
   margin-top: 24px;
@@ -954,7 +968,7 @@ contact  Start
   line-height: 32px;
   color: #646464;
 }
-.spellon-homepage .spellon-contact-form-img{
+.spellon-homepage .spellon-contact-form-img {
   position: absolute;
   top: 160px;
   left: 136px;
@@ -963,7 +977,7 @@ contact  Start
   height: 362px;
   height: 304px;
 }
-.contact-form-wrapper{
+.contact-form-wrapper {
   margin-top: 40px;
 }
 
