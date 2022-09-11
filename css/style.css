@@ -26,9 +26,6 @@
   overflow-x: hidden;
 }
 
-
-
-
 .spellon-homepage a,
 .spellon-homepage .button,
 .spellon-homepage button {
@@ -44,10 +41,10 @@
   text-decoration: none;
   outline: none;
 }
-.spellon-homepage  {
+.spellon-homepage {
   text-decoration: none;
 }
- .spellon-homepage button {
+.spellon-homepage button {
   cursor: pointer;
   background: transparent;
   border: none;
@@ -67,16 +64,7 @@
   color: #004750;
 }
 
-.spellon-homepage h1 a,
-.spellon-homepage h2 a,
-.spellon-homepage h3 a,
-.spellon-homepage h4 a,
-.spellon-homepage h5 a,
-.spellon-homepage h6 a {
-  color: inherit;
-}
-
-.spellon-homepage .spellon-homepageh1 {
+.spellon-homepage h1 {
   font-size: 60px;
   font-weight: 600;
   line-height-step: 74px;
@@ -123,13 +111,19 @@
 
 */
 /* 1. Header area */
-
 .spellon-homepage .spellon-header-area {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 299;
+  right: 0;
+  z-index: 999;
+}
+.spellon-transparent-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 .spellon-homepage .spellon-header-area .logo img {
   width: 235px;
@@ -221,7 +215,7 @@
 
 /* button */
 
-.spellon-button {
+.spellon-homepage .spellon-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -231,33 +225,33 @@
   background: transparent;
   text-transform: capitalize;
 }
-.spellon-button-secondary {
+.spellon-homepage .spellon-button-secondary {
   color: #008c96;
   background: #008c961e;
   padding: 12px 26px;
   border: 1px solid #008c961e;
 }
-.spellon-button-secondary:hover {
+.spellon-homepage .spellon-button-secondary:hover {
   color: #fff;
   background: #008c96;
   padding: 12px 26px;
 }
-.spellon-button-primary {
+.spellon-homepage .spellon-button-primary {
   color: #fff;
   background: #008c96;
   border: 1px solid #008c96;
 }
-.spellon-button-primary:hover {
+.spellon-homepage .spellon-button-primary:hover {
   color: #008c96;
   background: transparent;
   border: 1px solid #008c96;
 }
 
-.spellon-button-sm {
+.spellon-homepage .spellon-button-sm {
   padding: 14px 34px;
   font-size: 18px;
 }
-.spellon-button-rect {
+.spellon-homepage .spellon-button-rect {
   padding: 10px 20px;
   font-size: 18px;
   text-transform: capitalize;
@@ -307,6 +301,7 @@
 .spellon-homepage .spellon-hero-area .main-hero {
   padding: 160px 0px 60px 0px;
 }
+
 .spellon-homepage .spellon-hero-area .hero-desc {
   font-size: 24px;
   line-height: 32px;
@@ -440,12 +435,14 @@ start property management
 .bg-light-red {
   background: #fff8f5;
 }
-.spellon-homepage .spellon-property-management .section-title {
+.spellon-homepage .spellon-property-management .section-title,
+.spellon-homepage .section-title {
   font-size: 56px;
   text-transform: capitalize;
 }
 .spellon-homepage .spellon-property-management .section-subtitle,
-.spellon-homepage .spellon-property-management .section-subtitle p {
+.spellon-homepage .spellon-property-management .section-subtitle p,
+.spellon-homepage .section-subtitle {
   font-size: 24px;
   line-height: 32px;
   color: #646464a1;
