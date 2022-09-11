@@ -62,12 +62,15 @@
         min-height: fit-content;
     }
     .spellon-homepage .spellon-hero-area .main-hero {
-        padding-top: 70px;
+        padding-top: 80px;
         padding-bottom: 0px;
     }
 
     .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 15px;
+    }
+    .spellon-homepage .spellon-hero-area .hero-desc p{
+        font-size: 18px;
     }
     .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
@@ -79,13 +82,13 @@
         margin-left: 0px;
         margin-top: -50px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph {
-        top: 100px;
+    .spellon-homepage .spellon-hero-area .hero-right .graph {
+        top: 150px;
         left: -20px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph img {
-        height: 200px;
-        width: 320px;
+    .spellon-homepage .spellon-hero-area .hero-right .graph img {
+        height: 250px;
+        width: 360px;
     }
     .spellon-homepage .blockOne {
         display: none;
@@ -423,7 +426,7 @@
     }
 
     /* header */
-    .spellon-header-area .logo img {
+    .spellon-homepage .spellon-header-area .logo img {
         width: 156px;
     }
     /* hero */
@@ -435,24 +438,27 @@
         padding-bottom: 0px;
     }
 
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-desc {
+    .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 15px;
     }
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-btn {
+    .spellon-homepage .spellon-hero-area .hero-desc p {
+       font-size: 18px;
+    }
+    .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-right {
+    .spellon-homepage .spellon-hero-area  .hero-right {
         margin-top: 30px;
     }
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .mobile-img {
+    .spellon-homepage .spellon-hero-area  .mobile-img {
         margin-left: 0px;
         margin-top: -38px;
     }
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-right.graph {
+    .spellon-homepage .spellon-hero-area  .hero-right .graph {
         top: 100px;
-        left: -20px;
+        left: -50px;
     }
-    .spellon-homepage .spellon-hero-area .spellon-hero-area .hero-right.graph img {
+    .spellon-homepage .spellon-hero-area  .hero-right .graph img {
         height: 200px;
         width: 320px;
     }
@@ -938,8 +944,12 @@
         width: 160px;
     }
     .spellon-homepage .spellon-hero-area .blockTwo {
-        right: 5px;
-        top: 220px;
+        right: 20px;
+        top: 260px;
+    }
+ 
+    .spellon-homepage .spellon-hero-area .blockTwo img{
+      width: 80px;
     }
  
     .spellon-homepage .spellon-hero-area .mt-60 {
@@ -2012,6 +2022,9 @@
 }
 @media all and (min-width: 1400px) {
     .blockTwo {
+        display: none;
+    }
+    .blockOne{
         display: none;
     }
 }
