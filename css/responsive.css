@@ -69,7 +69,7 @@
     .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 15px;
     }
-    .spellon-homepage .spellon-hero-area .hero-desc p{
+    .spellon-homepage .spellon-hero-area .hero-desc p {
         font-size: 18px;
     }
     .spellon-homepage .spellon-hero-area .hero-btn {
@@ -147,6 +147,10 @@
     .spellon-homepage .spellon-property-management .property-management-wrapper {
         padding: 60px 0px;
     }
+
+    .spellon-homepage .spellon-property-management .nav-pills .nav-item .nav-link .text {
+        font-size: 12px;
+    }
     .spellon-homepage .spellon-property-management .section-title {
         font-size: 42px;
         line-height: 48px;
@@ -165,9 +169,11 @@
     .spellon-homepage .spellon-property-management .nav-pills li span {
         font-size: 22px;
     }
-    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
-        margin: 0px 20px;
-    }
+  .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link {
+
+	font-size: 16px;
+	
+}
     .spellon-homepage .spellon-property-management .tabcontent-navlist li button {
         font-size: 18px;
     }
@@ -442,23 +448,23 @@
         margin-top: 15px;
     }
     .spellon-homepage .spellon-hero-area .hero-desc p {
-       font-size: 18px;
+        font-size: 18px;
     }
     .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
-    .spellon-homepage .spellon-hero-area  .hero-right {
+    .spellon-homepage .spellon-hero-area .hero-right {
         margin-top: 30px;
     }
-    .spellon-homepage .spellon-hero-area  .mobile-img {
+    .spellon-homepage .spellon-hero-area .mobile-img {
         margin-left: 0px;
         margin-top: -38px;
     }
-    .spellon-homepage .spellon-hero-area  .hero-right .graph {
+    .spellon-homepage .spellon-hero-area .hero-right .graph {
         top: 100px;
         left: -50px;
     }
-    .spellon-homepage .spellon-hero-area  .hero-right .graph img {
+    .spellon-homepage .spellon-hero-area .hero-right .graph img {
         height: 200px;
         width: 320px;
     }
@@ -947,11 +953,11 @@
         right: 20px;
         top: 260px;
     }
- 
-    .spellon-homepage .spellon-hero-area .blockTwo img{
-      width: 80px;
+
+    .spellon-homepage .spellon-hero-area .blockTwo img {
+        width: 80px;
     }
- 
+
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
@@ -2024,7 +2030,7 @@
     .blockTwo {
         display: none;
     }
-    .blockOne{
+    .blockOne {
         display: none;
     }
 }
