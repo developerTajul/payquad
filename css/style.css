@@ -788,12 +788,7 @@ services area start
   border-radius: 100%;
   box-shadow: 2px 3px 2px 2px rgba(128, 128, 128, 0.149);
 }
-.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next {
-  background: #008c96;
-}
-.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover {
-  background: transparent;
-}
+
 .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover::after {
   color: #000;
 }
@@ -802,16 +797,20 @@ services area start
   color: #fff;
   font-size: 20px;
 }
-.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after,
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next::after {
   color: rgba(0, 0, 0, 0.744);
   font-size: 20px;
 }
-.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev:hover {
-  background: #008c96;
-}
-.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev:hover::after {
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev:hover::after,
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover::after {
   color: #fff;
 }
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev:hover,
+.spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover {
+  background: #008c96;
+}
+
 .spellon-homepage .spellon-testimonial-wrapper .control-btn-wrapper {
   position: relative;
 }
