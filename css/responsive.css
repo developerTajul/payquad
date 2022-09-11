@@ -4,86 +4,86 @@
     .blockTwo {
         display: none;
     }
-    .ex-card:not(:first-child) {
+    .spellon-homepage .spellon-experience-area .ex-card:not(:first-child) {
         margin-left: -30px;
     }
-    .card-box {
+     .spellon-homepage .spellon-experience-area .card-box {
         bottom: 100px;
         right: 10px;
     }
     /* nav tab */
-    .main-tab-nav .nav-item:nth-child(2) {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px 15px;
     }
 
-    .main-tab-nav .nav-item .nav-link .text {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link .text {
         font-size: 28px;
         line-height: 32px;
     }
-    .main-tab-nav .nav-item .nav-link.active {
+   .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active {
         padding: 0px 16px;
     }
-    .main-tab-nav .nav-item .nav-link {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link {
         padding-left: 50px;
         padding-right: 52px;
     }
-    .main-tab-nav .nav-item .nav-link .text {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link .text {
         padding-right: 50px;
     }
 
-    .main-tab-nav .nav-item .nav-link.active .text {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .text {
         font-size: 28px;
         line-height: 32px;
         padding: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon {
         height: 60px;
         width: 60px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon img {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 24px;
         width: 24px;
     }
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
-    .mobile-menu {
+    .spellon-mobile-menu.mobile-menu {
         width: 350px;
         padding-top: 100px;
         padding-left: 50px;
     }
     /* hero */
     /* header */
-    .logo img {
+    .spellon-header-area .logo img {
         width: 156px;
     }
     /* hero */
-    .hero {
+    .spellon-hero-area {
         min-height: fit-content;
     }
-    .main-hero {
+    .spellon-hero-area .main-hero {
         padding-top: 70px;
         padding-bottom: 0px;
     }
 
-    .hero-desc {
+    .spellon-hero-area  .hero-desc {
         margin-top: 15px;
     }
-    .hero-btn {
+     .spellon-hero-area  .hero-btn {
         margin-top: 12px;
     }
-    .hero-right {
+     .spellon-hero-area  .hero-right{
         margin-top: 30px;
     }
-    .mobile-img {
+     .spellon-hero-area  .mobile-img {
         margin-left: 0px;
         margin-top: -50px;
     }
-    .hero-right .graph {
+     .spellon-hero-area  .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .hero-right .graph img {
+     .spellon-hero-area  .hero-right.graph img {
         height: 200px;
         width: 320px;
     }
@@ -93,30 +93,30 @@
     .blockTwo {
         display: none;
     }
-    .hero .mt-60 {
+    .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .counter-wrapper {
+     .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: 60px;
     }
-    .counter-item {
+    .spellon-counter-area .counter-item{
         padding: 30px 0px;
     }
 
-    .counter-img img {
+     .spellon-counter-area .counter-img img {
         height: 50px;
         width: 50px;
     }
-    .counter-img {
+     .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .counter-number {
+     .spellon-counter-area .counter-number {
         margin-top: -10px;
     }
-    .counter-number span {
+     .spellon-counter-area .counter-number span {
         font-size: 48px;
     }
     .counter-text span {
@@ -124,291 +124,291 @@
         line-height: 28px;
     }
     /* brands */
-    .brand {
+    .spellon-brand-area {
         padding: 50px 0px;
     }
-    .brand h2 {
+    .spellon-brand-area h2 {
         font-size: 36px;
         line-height: 42px;
     }
-    .brands-list li img {
+    .spellon-homepage .spellon-brand-area .brands-list li img {
         max-width: 120px;
     }
-    .brands-list {
+     .spellon-homepage .spellon-brand-area .brands-list {
         margin-top: -30px;
     }
-    .brands-list li {
+     .spellon-homepage .spellon-brand-area .brands-list li {
         margin: 20px;
     }
     /* property management */
-    .property-management-wrapper {
+       .spellon-homepage .spellon-property-management .property-management-wrapper {
         padding: 60px 0px;
     }
-    .section-title {
+    .spellon-homepage .spellon-property-management .section-title {
         font-size: 42px;
         line-height: 48px;
     }
-    .section-subtitle {
+    .spellon-homepage .spellon-property-management .section-subtitle {
         font-size: 18px;
         line-height: 26px;
         padding: 0px 50px;
     }
-    .propertyManagement {
+    .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 40px 0px;
     }
-    .property-management-wrapper {
+    .spellon-homepage .spellon-property-management  {
         padding-bottom: 20px;
     }
-    .nav-pills li span {
+    .spellon-homepage .spellon-property-management .nav-pills li span {
         font-size: 22px;
     }
-    .nav-pills li:nth-child(2) {
+   .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
         margin: 0px 20px;
     }
-    .tabcontent-navlist li button {
+    .spellon-homepage .spellon-property-management .tabcontent-navlist li button {
         font-size: 18px;
     }
-    .propertyManagement .mt-50 {
+    .spellon-homepage .spellon-property-management .propertyManagement .mt-50 {
         margin-top: 0px;
     }
-    .tabcontent-area {
+    .spellon-homepage .spellon-property-management .tabcontent-area {
         padding: 40px;
         margin-top: 20px;
     }
-    .tabcontent-area img {
+    .spellon-homepage .spellon-property-management .tabcontent-area img {
         width: 100%;
     }
     /* experience */
-    .experience {
+   .spellon-homepage .spellon-experience-area  {
         padding: 60px 10px;
     }
-    .experience .section-title {
+    .spellon-homepage .spellon-experience-area  .section-title {
         font-size: 36px;
         line-height: 42px;
     }
-    .experience .section-subtitle {
+   .spellon-homepage .spellon-experience-area .section-subtitle {
         font-size: 16px;
         line-height: 24px;
         padding: 0px;
     }
-    .experience .shape {
+    .spellon-homepage .spellon-experience-area .shape {
         left: -40px;
     }
-    .experience-main {
+    .spellon-homepage .spellon-experience-area  .experience-main {
         margin-top: 0px;
     }
-    .ex-img .shape-1 {
+    .spellon-homepage .spellon-experience-area .ex-img .shape-1 {
         display: none;
     }
-    .ex-img .shape-2 {
+    .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
         display: none;
     }
-    .ex-card {
+    .spellon-homepage .spellon-experience-area .ex-card {
         padding: 16px;
     }
-    .ex-card-title {
+   .spellon-homepage .spellon-experience-area  .ex-card-title {
         font-size: 24px;
     }
-    .round-icon {
+    .spellon-homepage .spellon-experience-area .round-icon {
         width: 52px;
         height: 52px;
     }
-    .round-icon img {
+    .spellon-homepage .spellon-experience-area .round-icon img {
         height: 26px;
         width: 26px;
     }
-    .ex-card-desc {
+    .spellon-homepage .spellon-experience-area .ex-card-desc {
         margin-top: -22px;
     }
-    .card-box {
+    .spellon-homepage .spellon-experience-area .card-box {
         bottom: 250px;
         right: 10px;
     }
     /* blog */
-    .blog {
+     .spellon-homepage .spellon-blog-area .blog {
         padding: 60px 0px;
     }
-    .blog-wrapper {
+     .spellon-homepage .spellon-blog-area .blog-wrapper {
         margin-top: 30px;
     }
-    .blog-card {
+     .spellon-homepage .spellon-blog-area .blog-card {
         min-height: 500px;
     }
-    .blog-card .pb-20 {
+     .spellon-homepage .spellon-blog-area .blog-card .pb-20 {
         padding-bottom: 0px;
     }
-    .blog-title {
+     .spellon-homepage .spellon-blog-area .blog-title {
         font-size: 28px;
     }
     /* contact */
-    .contact {
+     .spellon-homepage .spellon-contact-area {
         margin-left: 0px;
     }
-    .contact-bg {
+    .spellon-homepage .spellon-contact-area .contact-bg {
         padding: 50px 20px;
         padding-bottom: 90px;
     }
 
-    .contact h2 {
+    .spellon-homepage .spellon-contact-area.contact h2 {
         font-size: 36px;
         line-height: 48px;
     }
-    .contact-payment-form {
+    .spellon-homepage .spellon-contact-area .contact-payment-form {
         position: absolute;
         width: 340px;
         top: 200px;
         left: 15px;
     }
     /* footer */
-    footer.mt-100 {
+     .spellon-homepage .spellon-footer-area.mt-100 {
         margin-top: 42px;
         padding: 50px 10px;
     }
 
-    .footer-title {
+   .spellon-homepage .spellon-footer-area .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form {
+    .spellon-homepage .spellon-footer-area .widget-form {
         margin-top: 10px;
     }
     /* what we do */
-    .what-we-do {
+    .spellon-homepage .spellon-services-area {
         padding: 70px 0px;
     }
-    .what-we-do .top-area .title {
+     .spellon-homepage .spellon-services-area .top-area .title {
         font-size: 40px;
         line-height: 48px;
     }
-    .what-we-do .top-area .subtitle {
+     .spellon-homepage .spellon-services-area .top-area .subtitle {
         font-size: 20px;
         line-height: 30px;
     }
-    .content-wrapper {
+    .spellon-homepage .spellon-services-area .content-wrapper {
         margin-top: 40px;
         width: 992px;
         height: 640px;
     }
-    .content-inner-box {
+     .spellon-homepage .spellon-services-area .content-inner-box {
         width: 850px;
         height: 560px;
         box-shadow: 0px 4px 4px 30px rgba(198, 225, 229, 0.25);
     }
-    .content-dashed-border {
+    .spellon-homepage .spellon-services-area .content-dashed-border {
         height: 440px;
         width: 650px;
         box-shadow: 0px 4px 4px 40px rgba(198, 225, 229, 0.243);
     }
 
-    .icon-box .icon {
+     .spellon-homepage .spellon-services-area .icon-box .icon {
         padding: 10px;
         width: 80px;
         height: 65px;
     }
-    .icon-box {
+    .spellon-homepage .spellon-services-area .icon-box {
         max-width: 125px;
     }
-    .icon-box .icon img {
+     .spellon-homepage .spellon-services-area .icon-box .icon img {
         transform: scale(1.2);
     }
-    .icon-text {
+     .spellon-homepage .spellon-services-area .icon-text {
         margin-top: 15px;
         font-size: 20px;
         line-height: 20px;
     }
-    .crm-icon {
+     .spellon-homepage .spellon-services-area .crm-icon {
         top: -50px;
         left: 270px;
     }
-    .reports-icon {
+     .spellon-homepage .spellon-services-area .reports-icon {
         top: 50px;
         left: 5px;
     }
-    .maintainance-icon {
+    .spellon-homepage .spellon-services-area  .maintainance-icon {
         top: 230px;
         left: -60px;
     }
-    .payment-icon {
+    .spellon-homepage .spellon-services-area .payment-icon {
         top: 375px;
         left: 60px;
     }
-    .communication-icon {
+     .spellon-homepage .spellon-services-area .communication-icon {
         top: 405px;
         left: 260px;
     }
-    .community-icon {
+    .spellon-homepage .spellon-services-area .community-icon {
         top: 320px;
         right: -5px;
     }
-    .portals-icon {
+     .spellon-homepage .spellon-services-area .portals-icon {
         top: 90px;
         right: -40px;
     }
-    .content-inner-border {
+     .spellon-homepage .spellon-services-area .content-inner-border {
         top: 90px;
         left: 80px;
         width: 480px;
         height: 300px;
         box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.187);
     }
-    .content-inner-text-box {
+     .spellon-homepage .spellon-services-area .content-inner-text-box {
         height: 240px;
         width: 370px;
         filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
         margin-left: 10px;
         margin-top: 15px;
     }
-    .content-inner-text-box .content {
+     .spellon-homepage .spellon-services-area .content-inner-text-box .content {
         width: 346px;
         height: 168px;
         box-shadow: 20px 34px 24px 80px rgba(198, 225, 229, 0.187);
     }
-    .content-inner-text-box .content-text {
+     .spellon-homepage .spellon-services-area .content-inner-text-box .content-text {
         width: 300px;
         height: 160px;
         padding: 20px;
         transform: translateX(50px);
         border-radius: 5px;
     }
-    .content-inner-text-box .content .content-text p {
+     .spellon-homepage .spellon-services-area .content-inner-text-box .content .content-text p {
         font-size: 18px;
         line-height: 22px;
     }
-    .content-box-logo img {
+     .spellon-homepage .spellon-services-area .content-box-logo img {
         width: 160px;
         height: auto;
         margin-left: 40px;
     }
     /* nav tab */
-    .main-tab-nav .nav-item:nth-child(2) {
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px 10px;
     }
 
-    .main-tab-nav .nav-item .nav-link .text {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link .text {
         font-size: 26px;
         line-height: 32px;
     }
-    .main-tab-nav .nav-item .nav-link.active {
+     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active {
         padding: 0px 16px;
     }
-    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
         padding-right: 0px;
     }
-    .nav-pills li .text {
+     .spellon-homepage .spellon-property-management .nav-pills li .text {
         padding-right: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .text {
+     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .text {
         font-size: 26px;
         line-height: 32px;
         padding: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon {
+     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon {
         height: 40px;
         width: 40px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon img {
+     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 22px;
         width: 22px;
     }
@@ -416,129 +416,129 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .mobile-menu {
+    .spellon-mobile-menu.mobile-menu {
         width: 370px;
         padding-top: 100px;
         padding-left: 100px;
     }
 
     /* header */
-    .logo img {
+    .spellon-header-area .logo img {
         width: 156px;
     }
     /* hero */
-    .hero {
+    .spellon-hero-area {
         min-height: fit-content;
     }
-    .main-hero {
+    .spellon-hero-area .main-hero {
         padding-top: 70px;
         padding-bottom: 0px;
     }
 
-    .hero-desc {
+    .spellon-hero-area .spellon-hero-area  .hero-desc {
         margin-top: 15px;
     }
-    .hero-btn {
+    .spellon-hero-area  .spellon-hero-area  .hero-btn {
         margin-top: 12px;
     }
-    .hero-right {
+    .spellon-hero-area  .spellon-hero-area  .hero-right{
         margin-top: 30px;
     }
-    .mobile-img {
+    .spellon-hero-area  .spellon-hero-area  .mobile-img {
         margin-left: 0px;
         margin-top: -38px;
     }
-    .hero-right .graph {
+    .spellon-hero-area  .spellon-hero-area  .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .hero-right .graph img {
+    .spellon-hero-area  .spellon-hero-area  .hero-right.graph img {
         height: 200px;
         width: 320px;
     }
-    .blockOne {
+    .spellon-hero-area .blockOne {
         display: none;
     }
-    .blockTwo {
+    .spellon-hero-area .blockTwo {
         display: none;
     }
-    .hero .mt-60 {
+    .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .counter-wrapper {
+     .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -60px;
     }
-    .counter-item {
+    .spellon-counter-area .counter-item{
         padding: 30px 0px;
     }
 
-    .counter-img img {
+     .spellon-counter-area .counter-img img {
         height: 50px;
         width: 50px;
     }
-    .counter-img {
+     .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .counter-number {
+     .spellon-counter-area .counter-number {
         margin-top: -10px;
     }
-    .counter-number span {
+     .spellon-counter-area .counter-number span {
         font-size: 42px;
     }
-    .counter-text span {
+    .spellon-counter-area  .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
     /* brands */
-    .brand {
+    .spellon-homepage .spellon-brand-area {
         padding: 45px 0px;
     }
-    .brand h2 {
+   .spellon-homepage .spellon-brand-area h2 {
         font-size: 36px;
         line-height: 42px;
     }
-    .brands-list li img {
+      .spellon-homepage .spellon-brand-area .brands-list li img {
         max-width: 100px;
     }
-    .brands-list {
+      .spellon-homepage .spellon-brand-area .brands-list {
         margin-top: -30px;
     }
-    .brands-list li {
+      .spellon-homepage .spellon-brand-area .brands-list li {
         margin: 20px;
     }
     /* property management */
-    .property-management-wrapper {
+   .spellon-homepage .spellon-property-management {
         padding: 60px 0px;
     }
-    .section-title {
+    .spellon-homepage .spellon-property-management .section-title {
         font-size: 36px;
         line-height: 40px;
     }
-    .section-subtitle {
+     .spellon-homepage .spellon-property-management .section-subtitle {
         font-size: 18px;
         line-height: 26px;
         padding: 0px 50px;
     }
-    .propertyManagement {
+    .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 40px 0px;
     }
-    .property-management-wrapper {
+    .spellon-homepage .spellon-property-management{
         padding-bottom: 20px;
     }
-    .nav-pills li:first-child .nav-link {
+     .spellon-homepage .spellon-property-management .nav-pills li:first-child .nav-link {
         width: 100%;
     }
-    .nav-pills li span {
+     .spellon-homepage .spellon-property-management .nav-pills li span {
         padding: 17px 15px;
     }
-    .nav-pills li {
+     .spellon-homepage .spellon-property-management .nav-pills li {
         width: 100%;
         margin-bottom: 10px;
     }
-    .nav-pills li .text {
+    .spellon-homepage .spellon-property-management .nav-pills li .text {
         font-size: 22px;
         line-height: 26px;
         margin-left: 10px;
@@ -546,342 +546,342 @@
         padding-right: 50px;
         font-weight: 600;
     }
-    .nav-pills li:nth-child(2) {
+    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
         margin: 0px 0px;
     }
-    .nav-pills li:nth-child(2) .nav-link {
+    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) .nav-link {
         width: 100%;
         margin-bottom: 20px;
     }
-    .nav-pills li:nth-child(3) .nav-link {
+    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(3) .nav-link {
         width: 100%;
     }
-    .nav-pills li {
+     .spellon-homepage .spellon-property-management.nav-pills li {
         margin-bottom: 20px;
     }
-    .propertyManagement .pt-50 {
+    .spellon-homepage .spellon-property-management .propertyManagement .pt-50 {
         padding-top: 0px;
     }
-    .propertyManagement .mt-50 {
+    .spellon-homepage .spellon-property-management .propertyManagement .mt-50 {
         margin-top: 0px;
     }
-    .tabcontent-area {
+     .spellon-homepage .spellon-property-management .tabcontent-area {
         padding: 40px;
         margin-top: 20px;
     }
-    .tabcontent-area img {
+     .spellon-homepage .spellon-property-management .tabcontent-area img {
         width: 100%;
     }
     /* experience */
-    .experience {
+     .spellon-homepage .spellon-experience-area {
         padding: 60px 10px;
     }
-    .experience .section-title {
+      .spellon-homepage .spellon-experience-area .section-title {
         font-size: 36px;
         line-height: 42px;
     }
-    .experience .section-subtitle {
+      .spellon-homepage .spellon-experience-area .section-subtitle {
         font-size: 16px;
         line-height: 24px;
         padding: 0px;
     }
-    .experience .shape {
+      .spellon-homepage .spellon-experience-area .shape {
         left: -40px;
     }
-    .experience-main {
+     .spellon-homepage .spellon-experience-area .experience-main {
         margin-top: 0px;
     }
-    .ex-img .shape-1 {
+     .spellon-homepage .spellon-experience-area .ex-img .shape-1 {
         display: none;
     }
-    .ex-img .shape-2 {
+     .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
         display: none;
     }
-    .ex-card {
+     .spellon-homepage .spellon-experience-area .ex-card {
         padding: 16px;
     }
-    .ex-card-title {
+     .spellon-homepage .spellon-experience-area .ex-card-title {
         font-size: 24px;
     }
-    .round-icon {
+     .spellon-homepage .spellon-experience-area .round-icon {
         width: 52px;
         height: 52px;
     }
-    .round-icon img {
+     .spellon-homepage .spellon-experience-area .round-icon img {
         height: 26px;
         width: 26px;
     }
-    .ex-card-desc {
+     .spellon-homepage .spellon-experience-area .ex-card-desc {
         margin-top: -22px;
     }
-    .card-box {
+     .spellon-homepage .spellon-experience-area .card-box {
         bottom: -20px;
         right: 10px;
     }
     /* blog */
-    .blog {
+    .spellon-homepage .spellon-blog-area {
         padding: 50px 0px;
     }
-    .blog .section-title {
+    .spellon-homepage .spellon-blog-area .section-title {
         font-size: 36px;
         line-height: 40px;
     }
-    .blog .section-subtitle p {
+   .spellon-homepage .spellon-blog-area .section-subtitle p {
         font-size: 18px;
         line-height: 28px;
     }
-    .blog-wrapper {
+    .spellon-homepage .spellon-blog-area .blog-wrapper {
         margin-top: 10px;
     }
-    .blog-title {
+    .spellon-homepage .spellon-blog-area .blog-title {
         font-size: 24px;
         line-height: 28px;
     }
-    .blog-body {
+    .spellon-homepage .spellon-blog-area .blog-body {
         margin-top: 0px;
     }
-    .blog-body p {
+    .spellon-homepage .spellon-blog-area .blog-body p {
         font-size: 18px;
         line-height: 32px;
     }
-    .blog-card {
+    .spellon-homepage .spellon-blog-area .blog-card {
         min-height: fit-content;
     }
-    .blog-card .pb-20 {
+    .spellon-homepage .spellon-blog-area .blog-card .pb-20 {
         padding-bottom: 0px;
     }
     /* contact */
 
-    .contact .mt-100 {
+    .spellon-homepage .spellon-contact-area .mt-100 {
         margin-top: 0px;
     }
-    .contact h2 {
+   .spellon-homepage .spellon-contact-area h2 {
         font-size: 36px;
         line-height: 42px;
     }
-    .contact-bg {
+   .spellon-homepage .spellon-contact-area .contact-bg {
         padding-top: 40px;
         padding-bottom: 90px;
     }
-    .contact p {
+   .spellon-homepage .spellon-contact-area p {
         font-size: 18px;
         line-height: 23px;
     }
-    .contact-form-wrapper {
+    .spellon-homepage .spellon-contact-area .contact-form-wrapper {
         margin-top: 20px;
         padding: 30px;
     }
-    .contact-payment-form {
+    .spellon-homepage .spellon-contact-area .contact-payment-form {
         width: 350px;
         top: 200px;
         left: 65px;
     }
     /* footer */
-    footer.mt-100 {
+    .spellon-homepage .spellon-footer-area.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
 
-    footer p {
+     .spellon-homepage .spellon-footer-area p {
         font-size: 16px;
         line-height: 23px;
     }
-    footer .pl-50 {
+     .spellon-homepage .spellon-footer-area .pl-50 {
         padding-left: 0px;
     }
-    .footer-title {
+    .spellon-homepage .spellon-footer-area .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form {
+     .spellon-homepage .spellon-footer-area .widget-form {
         margin-top: 10px;
     }
     /* testimonial slider */
-    .testimonial-wrapper {
+    .spellon-homepage .spellon-testimonial-wrapper  {
         padding: 50px 20px;
     }
 
-    .slider-left .author {
+     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
         right: -40px;
         bottom: -40px;
     }
-    .slider-left .author img {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
     }
-    .slider-left .block {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
         display: none;
     }
 
-    .testimonial-main-content .tst-shape {
+     .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .tst-shape {
         display: none;
     }
 
-    .testimonial-main-content .mt-55 {
+    .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .mt-55 {
         margin-top: 30px;
     }
-    .tst-slider-content {
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
         padding: 25px 30px;
     }
-    .tst-slider-content h3 {
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content h3 {
         font-size: 32px;
         line-height: 42px;
     }
-    .tst-slider-content p {
+     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content p {
         font-size: 18px;
         line-height: 24px;
     }
-    .tst-control-btn {
+     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
         top: 820px;
         right: 100px;
     }
-    .swiper-button-next,
-    .swiper-button-prev {
+    .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-next,
+    .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-prev {
         height: 36px;
         width: 36px;
     }
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next::after,
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after {
         font-size: 14px;
     }
-    .control-btn-wrapper .prev {
+    .spellon-homepage .spellon-testimonial-wrapper .control-btn-wrapper .prev {
         right: 40px;
     }
     /* what we do */
-    .what-we-do {
+   .spellon-homepage .spellon-services-area {
         padding: 50px 0px;
     }
-    .what-we-do .top-area .title {
+    .spellon-homepage .spellon-services-area .top-area .title {
         font-size: 34px;
         line-height: 40px;
     }
-    .what-we-do .top-area .subtitle {
+    .spellon-homepage .spellon-services-area .top-area .subtitle {
         font-size: 18px;
         line-height: 26px;
     }
-    .content-wrapper {
+   .spellon-homepage .spellon-services-area .content-wrapper {
         margin-top: 40px;
         width: 768px;
         height: 640px;
     }
-    .content-inner-box {
+   .spellon-homepage .spellon-services-area .content-inner-box {
         width: 650px;
         height: 560px;
         box-shadow: 0px 4px 4px 30px rgba(198, 225, 229, 0.25);
     }
-    .content-dashed-border {
+    .spellon-homepage .spellon-services-area .content-dashed-border {
         height: 440px;
         width: 550px;
         box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.243);
     }
 
-    .icon-box .icon {
+    .spellon-homepage .spellon-services-area .icon-box .icon {
         padding: 10px;
         width: 60px;
         height: 50px;
     }
-    .icon-box {
+   .spellon-homepage .spellon-services-area .icon-box {
         max-width: 125px;
     }
-    .icon-text {
+  .spellon-homepage .spellon-services-area  .icon-text {
         margin-top: 15px;
         font-size: 16px;
         line-height: 20px;
     }
-    .crm-icon {
+   .spellon-homepage .spellon-services-area .crm-icon {
         top: -40px;
         left: 230px;
     }
-    .reports-icon {
+   .spellon-homepage .spellon-services-area .reports-icon {
         top: 50px;
         left: 20px;
     }
-    .maintainance-icon {
+   .spellon-homepage .spellon-services-area .maintainance-icon {
         top: 210px;
         left: -53px;
     }
-    .payment-icon {
+   .spellon-homepage .spellon-services-area .payment-icon {
         top: 370px;
         left: 45px;
     }
-    .communication-icon {
+   .spellon-homepage .spellon-services-area .communication-icon {
         top: 405px;
         left: 230px;
     }
-    .community-icon {
+    .spellon-homepage .spellon-services-area .community-icon {
         top: 320px;
         right: 0px;
     }
-    .portals-icon {
+   .spellon-homepage .spellon-services-area .portals-icon {
         top: 90px;
         right: -40px;
     }
 
-    .content-inner-border {
+    .spellon-homepage .spellon-services-area .content-inner-border {
         top: 90px;
         left: 80px;
         width: 370px;
         height: 300px;
         box-shadow: 0px 4px 4px 45px rgba(198, 225, 229, 0.132);
     }
-    .content-inner-text-box {
+    .spellon-homepage .spellon-services-area .content-inner-text-box {
         height: 240px;
         width: 270px;
         filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
         margin-left: 10px;
         margin-top: 15px;
     }
-    .content-inner-text-box .content {
+   .spellon-homepage .spellon-services-area .content-inner-text-box .content {
         width: 246px;
         height: 168px;
     }
-    .content-inner-text-box .content-text {
+   .spellon-homepage .spellon-services-area .content-inner-text-box .content-text {
         width: 250px;
         height: 164px;
         padding: 20px;
         margin-left: 35px;
     }
-    .content-inner-text-box .content .content-text p {
+  .spellon-homepage .spellon-services-area  .content-inner-text-box .content .content-text p {
         font-size: 16px;
         line-height: 20px;
     }
-    .content-box-logo img {
+  .spellon-homepage .spellon-services-area  .content-box-logo img {
         width: 130px;
         height: auto;
         margin-left: 40px;
     }
     /* nav tab */
-    .main-tab-nav .nav-item:nth-child(2) {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;
     }
-    .main-tab-nav .nav-item .nav-link {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item .nav-link {
         width: 100%;
     }
-    .main-tab-nav .nav-item .nav-link .text {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item .nav-link .text {
         font-size: 28px;
         line-height: 34px;
     }
-    .main-tab-nav .nav-item .nav-link.active {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item .nav-link.active {
         padding: 0px 16px;
     }
-    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+   .spellon-homepage .spellon-services-area .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
         padding-right: 0px;
     }
-    .nav-pills li .text {
+  .spellon-homepage .spellon-services-area  .nav-pills li .text {
         padding-right: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .text {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item .nav-link.active .text {
         font-size: 26px;
         line-height: 32px;
         padding: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon {
+  .spellon-homepage .spellon-services-area  .main-tab-nav .nav-item .nav-link.active .icon {
         height: 60px;
         width: 60px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon img {
+   .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 28px;
         width: 28px;
     }
@@ -890,40 +890,40 @@
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* header */
-    .logo img {
+    .spellon-header-area .logo img {
         width: 126px;
     }
     /* hero */
     /* hero */
-    .hero {
+    .spellon-hero-area {
         min-height: fit-content;
     }
-    .main-hero {
+    .spellon-hero-area .main-hero {
         padding-top: 60px;
         padding-bottom: 0px;
     }
-    .hero-title h1 {
+    .spellon-hero-area .hero-title h1 {
         font-size: 40px;
         line-height: 48px;
     }
-    .hero-desc {
+    .spellon-hero-area  .hero-desc {
         margin-top: 12px;
     }
-    .hero-btn {
+     .spellon-hero-area  .hero-btn {
         margin-top: 12px;
     }
-    .hero-right {
+     .spellon-hero-area  .hero-right{
         margin-top: 30px;
     }
-    .mobile-img {
+     .spellon-hero-area  .mobile-img {
         margin-left: 0px;
         margin-top: -28px;
     }
-    .hero-right .graph {
+     .spellon-hero-area  .hero-right.graph {
         top: 100px;
         left: -20px;
     }
-    .hero-right .graph img {
+     .spellon-hero-area  .hero-right.graph img {
         height: 140px;
         width: 220px;
     }
@@ -942,84 +942,84 @@
         top: 320px;
         right: 20px;
     }
-    .hero .mt-60 {
+    .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .counter-wrapper {
+     .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -160px;
     }
-    .counter-item {
+    .spellon-counter-area .counter-item{
         padding: 30px 0px;
     }
 
-    .counter-img img {
+     .spellon-counter-area .counter-img img {
         height: 40px;
         width: 40px;
     }
-    .counter-img {
+     .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .counter-number {
+     .spellon-counter-area .counter-number {
         margin-top: -20px;
     }
-    .counter-number span {
+     .spellon-counter-area .counter-number span {
         font-size: 32px;
         line-height: 36px;
     }
-    .counter-text span {
+  .spellon-counter-area  .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
     /* brands */
-    .brand {
+    .spellon-homepage .spellon-brand-area {
         padding: 35px 0px;
     }
-    .brand h2 {
+     .spellon-homepage .spellon-brand-area .brand h2 {
         font-size: 28px;
         line-height: 36px;
     }
-    .brands-list li img {
+    .spellon-homepage .spellon-brand-area .brands-list li img {
         max-width: 90px;
     }
-    .brands-list {
+    .spellon-homepage .spellon-brand-area .brands-list {
         margin-top: -30px;
     }
-    .brands-list li {
+     .spellon-homepage .spellon-brand-area .brands-list li {
         margin: 20px 20px;
     }
     /* property management */
-    .property-management-wrapper {
+     .spellon-homepage .spellon-property-management  {
         padding: 50px 0px;
     }
-    .section-title {
+     .spellon-homepage .spellon-property-management .section-title {
         font-size: 32px;
         line-height: 36px;
     }
-    .section-subtitle {
+    .spellon-homepage .spellon-property-management .section-subtitle {
         font-size: 16px;
         line-height: 23px;
         padding: 0px 50px;
     }
-    .propertyManagement {
+    .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 35px 0px;
     }
-    .property-management-wrapper {
+    .spellon-homepage .spellon-property-management .property-management-wrapper {
         padding-bottom: 10px;
     }
-    .nav-pills li:first-child .nav-link {
+   .spellon-homepage .spellon-property-management  .nav-pills li:first-child .nav-link {
         width: 100%;
     }
-    .nav-pills li span {
+    .spellon-homepage .spellon-property-management .nav-pills li span {
         padding: 17px 15px;
     }
-    .nav-pills li {
+    .spellon-homepage .spellon-property-management .nav-pills li {
         width: 100%;
         margin-bottom: 10px;
     }
-    .nav-pills li .text {
+    .spellon-homepage .spellon-property-management .nav-pills li .text {
         font-size: 22px;
         line-height: 26px;
         margin-left: 10px;
@@ -1027,320 +1027,320 @@
         padding-right: 50px;
         font-weight: 600;
     }
-    .nav-pills li:nth-child(2) {
+    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
         margin: 0px 0px;
     }
-    .nav-pills li:nth-child(2) .nav-link {
+     .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) .nav-link {
         width: 100%;
         margin-bottom: 20px;
     }
-    .nav-pills li:nth-child(3) .nav-link {
+     .spellon-homepage .spellon-property-management .nav-pills li:nth-child(3) .nav-link {
         width: 100%;
     }
-    .nav-pills li {
+     .spellon-homepage .spellon-property-management .nav-pills li {
         margin-bottom: 20px;
     }
-    .propertyManagement .pt-50 {
+     .spellon-homepage .spellon-property-management .propertyManagement .pt-50 {
         padding-top: 0px;
     }
-    .propertyManagement .mt-50 {
+    .spellon-homepage .spellon-property-management  .propertyManagement .mt-50 {
         margin-top: 0px;
     }
-    .tabcontent-area {
+    .spellon-homepage .spellon-property-management .tabcontent-area {
         padding: 10px 30px;
     }
     /* experience */
-    .experience {
+      .spellon-homepage .spellon-experience-area  {
         padding: 50px 10px;
     }
-    .experience .section-title {
+    .spellon-homepage .spellon-experience-area  .section-title {
         font-size: 32px;
         line-height: 36px;
     }
-    .experience .section-subtitle {
+     .spellon-homepage .spellon-experience-area  .section-subtitle {
         font-size: 16px;
         line-height: 24px;
         padding: 0px;
     }
-    .experience .shape {
+    .spellon-homepage .spellon-experience-area .shape {
         left: -40px;
     }
-    .experience-main {
+   .spellon-homepage .spellon-experience-area   .experience-main {
         margin-top: 0px;
     }
-    .ex-img .shape-1 {
+     .spellon-homepage .spellon-experience-area .ex-img .shape-1 {
         display: none;
     }
-    .ex-card {
+    .spellon-homepage .spellon-experience-area  .ex-card {
         padding: 16px;
     }
-    .ex-card-title {
+   .spellon-homepage .spellon-experience-area   .ex-card-title {
         font-size: 24px;
     }
-    .round-icon {
+   .spellon-homepage .spellon-experience-area   .round-icon {
         width: 42px;
         height: 42px;
     }
-    .round-icon img {
+   .spellon-homepage .spellon-experience-area   .round-icon img {
         height: 22px;
         width: 22px;
     }
-    .ex-card-desc {
+    .spellon-homepage .spellon-experience-area  .ex-card-desc {
         margin-top: -22px;
     }
-    .card-box {
+     .spellon-homepage .spellon-experience-area .card-box {
         bottom: -20px;
         right: 10px;
     }
     /* blog */
-    .blog {
+   .spellon-homepage .spellon-blog-area {
         padding: 40px 0px;
     }
-    .blog .section-title {
+   .spellon-homepage .spellon-blog-area .section-title {
         font-size: 32px;
         line-height: 36px;
         padding: 0px 25px;
     }
-    .blog .section-subtitle p {
+    .spellon-homepage .spellon-blog-area.section-subtitle p {
         font-size: 16px;
         line-height: 24px;
     }
-    .blog-wrapper {
+     .spellon-homepage .spellon-blog-area .blog-wrapper {
         margin-top: 32px;
     }
-    .blog-title {
+     .spellon-homepage .spellon-blog-area .blog-title {
         font-size: 24px;
         line-height: 28px;
     }
-    .blog-body {
+     .spellon-homepage .spellon-blog-area .blog-body {
         margin-top: 0px;
     }
-    .blog-body p {
+      .spellon-homepage .spellon-blog-area .blog-body p {
         font-size: 16px;
         line-height: 24px;
     }
-    .blog-card {
+      .spellon-homepage .spellon-blog-area .blog-card {
         min-height: fit-content;
     }
-    .blog-card .pb-20 {
+      .spellon-homepage .spellon-blog-area .blog-card .pb-20 {
         padding-bottom: 0px;
     }
     /* contact */
 
-    .contact .mt-100 {
+    .spellon-homepage .spellon-contact-area .mt-100 {
         margin-top: 0px;
     }
-    .contact h2 {
+     .spellon-homepage .spellon-contact-area h2 {
         font-size: 28px;
         line-height: 32px;
     }
-    .contact-bg {
+    .spellon-homepage .spellon-contact-area  .contact-bg {
         padding: 40px 30px;
     }
-    .contact .mt-30 {
+    .spellon-homepage .spellon-contact-area   .mt-30 {
         margin-top: 20px;
     }
-    .contact p {
+      .spellon-homepage .spellon-contact-area p {
         font-size: 16px;
         line-height: 23px;
     }
-    .contact-form-wrapper {
+     .spellon-homepage .spellon-contact-area .contact-form-wrapper {
         margin-top: 20px;
         padding: 25px;
     }
-    .contact-payment-form {
+     .spellon-homepage .spellon-contact-area .contact-payment-form {
         width: 350px;
         top: 200px;
         left: 65px;
     }
     /* footer */
-    footer.mt-100 {
+     .spellon-homepage .spellon-footer-area.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
 
-    footer p {
+     .spellon-homepage .spellon-footer-area p {
         font-size: 16px;
         line-height: 23px;
     }
-    footer .pl-50 {
+     .spellon-homepage .spellon-footer-area .pl-50 {
         padding-left: 0px;
     }
-    .footer-title {
+   .spellon-homepage .spellon-footer-area  .footer-title {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .widget-form {
+    .spellon-homepage .spellon-footer-area .widget-form {
         margin-top: 10px;
     }
     /* testimonial slider */
-    .testimonial-wrapper {
+     .spellon-homepage .spellon-testimonial-wrapper {
         padding: 40px 15px;
     }
-    .slider-left .quote div {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote div {
         height: 60px;
         width: 60px;
     }
-    .slider-left .author {
+   .spellon-homepage .spellon-testimonial-wrapper  .slider-left .author {
         right: -40px;
         bottom: -40px;
     }
-    .slider-left .author img {
+   .spellon-homepage .spellon-testimonial-wrapper  .slider-left .author img {
         width: 240px;
         height: 270px;
     }
-    .slider-left .block {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
         display: none;
     }
 
-    .testimonial-main-content .tst-shape {
+   .spellon-homepage .spellon-testimonial-wrapper  .testimonial-main-content .tst-shape {
         display: none;
     }
 
-    .testimonial-main-content .mt-55 {
+    .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .mt-55 {
         margin-top: 30px;
     }
-    .tst-slider-content {
+   .spellon-homepage .spellon-testimonial-wrapper  .tst-slider-content {
         padding: 25px 20px;
     }
-    .tst-slider-content h3 {
+  .spellon-homepage .spellon-testimonial-wrapper   .tst-slider-content h3 {
         font-size: 26px;
         line-height: 32px;
     }
-    .tst-slider-content p {
+   .spellon-homepage .spellon-testimonial-wrapper  .tst-slider-content p {
         font-size: 16px;
         line-height: 23px;
     }
-    .tst-control-btn {
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
         top: 630px;
         right: 100px;
     }
-    .swiper-button-next,
-    .swiper-button-prev {
+  .spellon-homepage .spellon-testimonial-wrapper   .swiper-button-next,
+   .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-prev {
         height: 36px;
         width: 36px;
     }
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
+  .spellon-homepage .spellon-testimonial-wrapper   .swiper-button-next::after,
+   .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-prev::after {
         font-size: 14px;
     }
-    .control-btn-wrapper .prev {
+  .spellon-homepage .spellon-testimonial-wrapper   .control-btn-wrapper .prev {
         right: 40px;
     }
-    /* what we do */
-    .what-we-do {
+    /* services area */
+   .spellon-homepage .spellon-services-area {
         padding: 40px 0px;
     }
-    .what-we-do .top-area .title {
+ .spellon-homepage .spellon-services-area .top-area .title {
         font-size: 32px;
         line-height: 36px;
     }
-    .what-we-do .top-area .subtitle {
+   .spellon-homepage .spellon-services-area  .top-area .subtitle {
         font-size: 16px;
         line-height: 24px;
     }
-    .content-wrapper {
+  .spellon-homepage .spellon-services-area   .content-wrapper {
         margin-top: 40px;
         width: 576px;
         height: 640px;
     }
-    .content-inner-box {
+   .spellon-homepage .spellon-services-area  .content-inner-box {
         width: 500px;
         height: 590px;
         box-shadow: 0px 4px 4px 20px rgba(198, 225, 229, 0.148);
     }
-    .content-dashed-border {
+   .spellon-homepage .spellon-services-area  .content-dashed-border {
         height: 460px;
         width: 380px;
         box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.183);
     }
 
-    .icon-box .icon {
+   .spellon-homepage .spellon-services-area  .icon-box .icon {
         padding: 10px;
         width: 60px;
         height: 50px;
     }
-    .icon-box {
+   .spellon-homepage .spellon-services-area  .icon-box {
         max-width: 125px;
     }
-    .icon-text {
+   .spellon-homepage .spellon-services-area  .icon-text {
         margin-top: 15px;
         font-size: 16px;
         line-height: 20px;
     }
-    .crm-icon {
+   .spellon-homepage .spellon-services-area  .crm-icon {
         top: -40px;
         left: 150px;
     }
-    .reports-icon {
+  .spellon-homepage .spellon-services-area   .reports-icon {
         top: 50px;
         left: 0px;
     }
-    .maintainance-icon {
+  .spellon-homepage .spellon-services-area   .maintainance-icon {
         top: 190px;
         left: -53px;
     }
-    .payment-icon {
+  .spellon-homepage .spellon-services-area   .payment-icon {
         top: 370px;
         left: 15px;
     }
-    .communication-icon {
+ .spellon-homepage .spellon-services-area    .communication-icon {
         top: 415px;
         left: 130px;
     }
-    .community-icon {
+ .spellon-homepage .spellon-services-area    .community-icon {
         top: 320px;
         right: -25px;
     }
-    .portals-icon {
+   .spellon-homepage .spellon-services-area  .portals-icon {
         top: 80px;
         right: -40px;
     }
 
-    .content-inner-border {
+   .spellon-homepage .spellon-services-area  .content-inner-border {
         top: 90px;
         left: 80px;
         width: 210px;
         height: 300px;
         box-shadow: 0px 4px 4px 70px rgba(198, 225, 229, 0.152);
     }
-    .content-inner-text-box {
+ .spellon-homepage .spellon-services-area    .content-inner-text-box {
         height: 240px;
         width: 170px;
         filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
         margin-left: 10px;
         margin-top: 15px;
     }
-    .content-inner-text-box .content {
+   .spellon-homepage .spellon-services-area  .content-inner-text-box .content {
         width: 146px;
         height: 168px;
     }
-    .content-inner-text-box .content-text {
+  .spellon-homepage .spellon-services-area   .content-inner-text-box .content-text {
         width: 144px;
         height: 164px;
         padding: 5px 3px;
         margin-left: 5px;
     }
-    .content-inner-text-box .content .content-text p {
+  .spellon-homepage .spellon-services-area   .content-inner-text-box .content .content-text p {
         font-size: 14px;
         line-height: 18px;
     }
-    .content-box-logo img {
+  .spellon-homepage .spellon-services-area   .content-box-logo img {
         width: 100px;
         height: 34px;
     }
 
     /* nav tab */
-    .nav-pills li span {
+  .spellon-homepage .spellon-services-area   .nav-pills li span {
         padding: 17px 15px;
     }
-    .nav-pills li {
+  .spellon-homepage .spellon-services-area   .nav-pills li {
         width: 100%;
         margin-bottom: 10px;
     }
-    .nav-pills li .text {
+  .spellon-homepage .spellon-services-area   .nav-pills li .text {
         font-size: 22px;
         line-height: 26px;
         margin-left: 10px;
@@ -1348,50 +1348,50 @@
         padding-right: 50px;
         font-weight: 600;
     }
-    .nav-pills li:nth-child(2) {
+ .spellon-homepage .spellon-services-area    .nav-pills li:nth-child(2) {
         margin: 0px 0px;
     }
-    .nav-pills li:nth-child(2) .nav-link {
+ .spellon-homepage .spellon-services-area    .nav-pills li:nth-child(2) .nav-link {
         width: 100%;
         margin-bottom: 20px;
     }
-    .nav-pills li:nth-child(3) .nav-link {
+  .spellon-homepage .spellon-services-area   .nav-pills li:nth-child(3) .nav-link {
         width: 100%;
     }
-    .nav-pills li {
+   .spellon-homepage .spellon-services-area  .nav-pills li {
         margin-bottom: 20px;
     }
 
     /* nav tab */
-    .main-tab-nav .nav-item:nth-child(2) {
+     .spellon-homepage  .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;
     }
-    .main-tab-nav .nav-item .nav-link {
+   .spellon-homepage  .spellon-property-management  .main-tab-nav .nav-item .nav-link {
         width: 100%;
     }
-    .main-tab-nav .nav-item .nav-link .text {
+    .spellon-homepage  .spellon-property-management .main-tab-nav .nav-item .nav-link .text {
         font-size: 26px;
         line-height: 32px;
     }
-    .main-tab-nav .nav-item .nav-link.active {
+    .spellon-homepage  .spellon-property-management .main-tab-nav .nav-item .nav-link.active {
         padding: 0px 16px;
     }
-    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+   .spellon-homepage  .spellon-property-management  .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
         padding-right: 0px;
     }
-    .nav-pills li .text {
+   .spellon-homepage  .spellon-property-management  .nav-pills li .text {
         padding-right: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .text {
+   .spellon-homepage  .spellon-property-management  .main-tab-nav .nav-item .nav-link.active .text {
         font-size: 26px;
         line-height: 32px;
         padding: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon {
+   .spellon-homepage  .spellon-property-management  .main-tab-nav .nav-item .nav-link.active .icon {
         height: 60px;
         width: 60px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon img {
+  .spellon-homepage  .spellon-property-management   .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 28px;
         width: 28px;
     }
@@ -1399,43 +1399,43 @@
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
     /* header */
-    .logo img {
+    .spellon-header-area .logo img {
         width: 96px;
     }
-    .logo {
+    .spellon-header-area .logo {
         margin-top: 8px;
         display: block;
     }
     /* hero */
-    .hero {
+    .spellon-hero-area {
         min-height: fit-content;
     }
-    .main-hero {
+    .spellon-hero-area .main-hero {
         padding-top: 50px;
         padding-bottom: 0px;
     }
-    .hero-title h1 {
+    .spellon-hero-area .hero-title h1 {
         font-size: 40px;
         line-height: 48px;
     }
-    .hero-desc {
+    .spellon-hero-area  .hero-desc {
         margin-top: 12px;
     }
-    .hero-btn {
+     .spellon-hero-area  .hero-btn {
         margin-top: 12px;
     }
-    .hero-right {
+     .spellon-hero-area  .hero-right{
         margin-top: 30px;
     }
-    .mobile-img {
+     .spellon-hero-area  .mobile-img {
         margin-left: 0px;
         margin-top: -18px;
     }
-    .hero-right .graph {
+     .spellon-hero-area  .hero-right.graph {
         top: 50px;
         left: -20px;
     }
-    .hero-right .graph img {
+     .spellon-hero-area  .hero-right.graph img {
         height: 100px;
         width: 160px;
     }
@@ -1454,79 +1454,79 @@
         top: 320px;
         right: 10px;
     }
-    .hero .mt-60 {
+    .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
     /* counter */
-    .counter-wrapper {
+     .spellon-counter-area.counter-wrapper {
         padding-top: 0px;
         padding-bottom: 50px;
         margin-top: -250px;
     }
-    .counter-item {
+    .spellon-counter-area .counter-item{
         padding: 16px 0px;
     }
-    .counter-img img {
+     .spellon-counter-area .counter-img img {
         height: 32px;
         width: 32px;
     }
-    .counter-img {
+     .spellon-counter-area .counter-img {
         margin-bottom: 0px;
     }
-    .counter-number {
+     .spellon-counter-area .counter-number {
         margin-top: -20px;
     }
-    .counter-number span {
+     .spellon-counter-area .counter-number span {
         font-size: 24px;
         line-height: 28px;
     }
-    .counter-text span {
+   .spellon-counter-area .counter-text span {
         font-size: 15px;
         line-height: 28px;
     }
     /* brands */
-    .brand {
+  .spellon-homepage .spellon-brand-area  {
         padding: 32px 0px;
     }
-    .brand h2 {
+   .spellon-homepage .spellon-brand-area h2 {
         font-size: 24px;
         line-height: 32px;
         font-weight: 600;
     }
-    .brands-list li img {
+   .spellon-homepage .spellon-brand-area .brands-list li img {
         max-width: 90px;
     }
-    .brands-list {
+    .spellon-homepage .spellon-brand-area .brands-list {
         margin-top: -30px;
     }
-    .brands-list li {
+   .spellon-homepage .spellon-brand-area .brands-list li {
         margin: 20px 20px;
     }
     /* property management */
-    .property-management-wrapper {
+    .spellon-homepage .spellon-property-management {
         padding: 32px 0px;
     }
-    .section-title {
+     .spellon-homepage .spellon-property-management  .section-title {
         font-size: 28px;
         line-height: 32px;
     }
-    .section-subtitle {
+      .spellon-homepage .spellon-property-management .section-subtitle {
         font-size: 15px;
         line-height: 23px;
         padding: 0px 50px;
     }
-    .propertyManagement {
+      .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 35px 0px;
     }
     /* nav tab */
-    .nav-pills li span {
+     .spellon-homepage .spellon-property-management  .nav-pills li span {
         padding: 17px 15px;
     }
-    .nav-pills li {
+     .spellon-homepage .spellon-property-management  .nav-pills li {
         width: 100%;
         margin-bottom: 10px;
     }
-    .nav-pills li .text {
+     .spellon-homepage .spellon-property-management  .nav-pills li .text {
         font-size: 22px;
         line-height: 26px;
         margin-left: 10px;
@@ -1534,345 +1534,345 @@
         padding-right: 50px;
         font-weight: 600;
     }
-    .nav-pills li:nth-child(2) {
+     .spellon-homepage .spellon-property-management  .nav-pills li:nth-child(2) {
         margin: 0px 0px;
     }
-    .nav-pills li:nth-child(2) .nav-link {
+     .spellon-homepage .spellon-property-management  .nav-pills li:nth-child(2) .nav-link {
         width: 100%;
         margin-bottom: 20px;
     }
-    .nav-pills li:nth-child(3) .nav-link {
+       .spellon-homepage .spellon-property-management .nav-pills li:nth-child(3) .nav-link {
         width: 100%;
     }
-    .nav-pills li {
+      .spellon-homepage .spellon-property-management .nav-pills li {
         margin-bottom: 20px;
     }
     /* nav tab */
-    .propertyManagement .pt-50 {
+      .spellon-homepage .spellon-property-management .propertyManagement .pt-50 {
         padding-top: 0px;
     }
-    .propertyManagement .mt-50 {
+      .spellon-homepage .spellon-property-management .propertyManagement .mt-50 {
         margin-top: 0px;
     }
-    .tabcontent-area {
+     .spellon-homepage .spellon-property-management  .tabcontent-area {
         padding: 10px 30px;
     }
-    .main-tab-nav .nav-item:nth-child(2) {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;
     }
-    .main-tab-nav .nav-item .nav-link {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link {
         width: 100%;
     }
-    .main-tab-nav .nav-item .nav-link .text {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link .text {
         font-size: 24px;
         line-height: 26px;
     }
-    .main-tab-nav .nav-item .nav-link.active {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active {
         padding: 0px 8px;
     }
-    .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
+     .spellon-homepage .spellon-property-management  .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
         padding-right: 64px;
     }
-    .nav-pills li .text {
+    .spellon-homepage .spellon-property-management   .nav-pills li .text {
         padding-right: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .text {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .text {
         font-size: 22px;
         line-height: 26px;
         padding: 0px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon {
+     .spellon-homepage .spellon-property-management  .main-tab-nav .nav-item .nav-link.active .icon {
         height: 50px;
         width: 50px;
     }
-    .main-tab-nav .nav-item .nav-link.active .icon img {
+      .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 24px;
         width: 24px;
     }
     /* experience */
-    .experience {
+     .spellon-homepage .spellon-experience-area {
         padding: 32px 10px;
     }
-    .experience .section-title {
+ .spellon-homepage .spellon-experience-area .section-title {
         font-size: 28px;
         line-height: 34px;
     }
-    .experience .section-subtitle {
+   .spellon-homepage .spellon-experience-area .section-subtitle {
         font-size: 15px;
         line-height: 23px;
         padding: 0px;
     }
-    .experience .shape {
+   .spellon-homepage .spellon-experience-area .shape {
         left: -40px;
     }
-    .experience-main {
+   .spellon-homepage .spellon-experience-area .experience-main {
         margin-top: 0px;
     }
-    .ex-img .shape-1 {
+  .spellon-homepage .spellon-experience-area  .ex-img .shape-1 {
         display: none;
     }
-    .ex-card {
+   .spellon-homepage .spellon-experience-area .ex-card {
         padding: 16px;
     }
-    .ex-card-title {
+  .spellon-homepage .spellon-experience-area  .ex-card-title {
         font-size: 20px;
     }
-    .round-icon {
+   .spellon-homepage .spellon-experience-area .round-icon {
         width: 38px;
         height: 38px;
     }
-    .round-icon img {
+ .spellon-homepage .spellon-experience-area   .round-icon img {
         height: 20px;
         width: 20px;
     }
-    .ex-card-desc {
+  .spellon-homepage .spellon-experience-area  .ex-card-desc {
         margin-top: -22px;
     }
-    .card-box {
+ .spellon-homepage .spellon-experience-area   .card-box {
         bottom: -20px;
         right: 15px;
     }
     /* blog */
-    .blog {
+   .spellon-homepage .spellon-blog-area {
         padding: 32px 0px;
     }
-    .blog .section-title {
+   .spellon-homepage .spellon-blog-area .section-title {
         font-size: 28px;
         line-height: 32px;
         padding: 0px 25px;
     }
-    .blog .section-subtitle p {
+ .spellon-homepage .spellon-blog-area .section-subtitle p {
         font-size: 15px;
         line-height: 23px;
     }
-    .blog-wrapper {
+  .spellon-homepage .spellon-blog-area  .blog-wrapper {
         margin-top: 32px;
     }
-    .blog-title {
+   .spellon-homepage .spellon-blog-area .blog-title {
         font-size: 20px;
         line-height: 24px;
     }
-    .blog-body {
+  .spellon-homepage .spellon-blog-area  .blog-body {
         margin-top: 0px;
     }
-    .blog-body p {
+   .spellon-homepage .spellon-blog-area .blog-body p {
         font-size: 15px;
         line-height: 23px;
     }
-    .blog-card {
+  .spellon-homepage .spellon-blog-area  .blog-card {
         min-height: fit-content;
     }
-    .blog-card .pb-20 {
+  .spellon-homepage .spellon-blog-area  .blog-card .pb-20 {
         padding-bottom: 0px;
     }
     /* contact */
-    .contact {
+     .spellon-homepage .spellon-contact-area {
         margin-left: 0px;
         padding: 32px 0px;
         margin-top: -10px;
     }
-    .contact .mt-100 {
+   .spellon-homepage .spellon-contact-area .mt-100 {
         margin-top: 0px;
     }
-    .contact h2 {
+    .spellon-homepage .spellon-contact-area h2 {
         font-size: 28px;
         line-height: 32px;
     }
-    .contact-bg {
+   .spellon-homepage .spellon-contact-area .contact-bg {
         padding: 20px 30px;
     }
-    .contact .mt-30 {
+  .spellon-homepage .spellon-contact-area   .mt-30 {
         margin-top: 12px;
     }
-    .contact p {
+ .spellon-homepage .spellon-contact-area   p {
         font-size: 15px;
         line-height: 23px;
     }
-    .contact-form-wrapper {
+    .spellon-homepage .spellon-contact-area .contact-form-wrapper {
         margin-top: 20px;
         padding: 5px;
     }
-    .contact-payment-form {
+   .spellon-homepage .spellon-contact-area .contact-payment-form {
         width: 300px;
         top: 200px;
         left: 15px;
     }
     /* footer */
-    footer.mt-100 {
+   .spellon-homepage .spellon-footer-area.mt-100 {
         margin-top: 32px;
         padding: 32px 10px;
     }
 
-    footer p {
+     .spellon-homepage .spellon-footer-area p {
         font-size: 15px;
         line-height: 23px;
     }
-    footer .pl-50 {
+     .spellon-homepage .spellon-footer-area .pl-50 {
         padding-left: 0px;
     }
-    .footer-title {
+    .spellon-homepage .spellon-footer-area .footer-title {
         font-size: 20px;
         line-height: 24px;
         margin-top: 20px;
     }
-    .widget-form {
+  .spellon-homepage .spellon-footer-area   .widget-form {
         margin-top: 10px;
     }
     /* testimonial slider */
-    .testimonial-wrapper {
+      .spellon-homepage .spellon-testimonial-wrapper {
         padding: 32px 10px;
     }
-    .slider-left .quote div {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote div {
         height: 50px;
         width: 50px;
     }
-    .slider-left .author {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
         right: -52px;
         bottom: -40px;
     }
-    .slider-left .author img {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 178px;
         height: 201px;
     }
-    .slider-left .block {
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
         display: none;
     }
 
-    .testimonial-main-content .tst-shape {
+   .spellon-homepage .spellon-testimonial-wrapper  .testimonial-main-content .tst-shape {
         display: none;
     }
-    .testimonial-main-content {
+   .spellon-homepage .spellon-testimonial-wrapper  .testimonial-main-content {
         width: 100%;
     }
-    .testimonial-main-content .mt-55 {
+    .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .mt-55 {
         margin-top: 30px;
     }
-    .tst-slider-content {
+     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
         padding: 20px 15px;
     }
-    .tst-slider-content h3 {
+     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content h3 {
         font-size: 24px;
         line-height: 28px;
     }
-    .tst-slider-content p {
+   .spellon-homepage .spellon-testimonial-wrapper  .tst-slider-content p {
         font-size: 15px;
         line-height: 23px;
     }
-    .tst-control-btn {
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
         top: 500px;
         right: 80px;
     }
-    .swiper-button-next,
-    .swiper-button-prev {
+   .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-next,
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
         height: 28px;
         width: 28px;
     }
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
+   .spellon-homepage .spellon-testimonial-wrapper  .swiper-button-next::after,
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after {
         font-size: 12px;
     }
-    .control-btn-wrapper .prev {
+   .spellon-homepage .spellon-testimonial-wrapper  .control-btn-wrapper .prev {
         right: 30px;
     }
 
-    /* what we do */
-    .what-we-do {
+    /* services area */
+       .spellon-homepage .spellon-services-area {
         padding: 32px 0px;
     }
-    .what-we-do .top-area .title {
+      .spellon-homepage .spellon-services-area .top-area .title {
         font-size: 28px;
         line-height: 32px;
     }
-    .what-we-do .top-area .subtitle {
+     .spellon-homepage .spellon-services-area  .top-area .subtitle {
         font-size: 15px;
         line-height: 23px;
         padding: 0px 36px;
     }
-    .content-wrapper {
+     .spellon-homepage .spellon-services-area  .content-wrapper {
         margin-top: 32px;
         width: 367px;
         height: 609px;
     }
-    .content-inner-box {
+     .spellon-homepage .spellon-services-area  .content-inner-box {
         width: 325px;
         height: 540px;
         box-shadow: 0px 4px 4px 20px rgba(198, 225, 229, 0.176);
     }
-    .content-dashed-border {
+     .spellon-homepage .spellon-services-area  .content-dashed-border {
         height: 418px;
         width: 258px;
         box-shadow: 0px 4px 4px 50px rgba(198, 225, 229, 0.168);
     }
 
-    .icon-box .icon {
+    .spellon-homepage .spellon-services-area   .icon-box .icon {
         padding: 10px;
         width: 56px;
         height: 46px;
     }
-    .icon-box {
+     .spellon-homepage .spellon-services-area  .icon-box {
         max-width: 125px;
     }
-    .icon-text {
+      .spellon-homepage .spellon-services-area .icon-text {
         margin-top: 15px;
         font-size: 16px;
         line-height: 20px;
     }
-    .crm-icon {
+     .spellon-homepage .spellon-services-area  .crm-icon {
         top: -40px;
         left: 82px;
     }
-    .reports-icon {
+    .spellon-homepage .spellon-services-area   .reports-icon {
         top: 50px;
         left: -30px;
     }
-    .maintainance-icon {
+     .spellon-homepage .spellon-services-area  .maintainance-icon {
         top: 190px;
         left: -53px;
     }
-    .payment-icon {
+    .spellon-homepage .spellon-services-area   .payment-icon {
         top: 330px;
         left: -10px;
     }
-    .communication-icon {
+    .spellon-homepage .spellon-services-area   .communication-icon {
         top: 380px;
         left: 70px;
     }
-    .community-icon {
+     .spellon-homepage .spellon-services-area  .community-icon {
         top: 320px;
         right: -20px;
     }
-    .portals-icon {
+    .spellon-homepage .spellon-services-area   .portals-icon {
         top: 80px;
         right: -60px;
     }
 
-    .content-inner-border {
+    .spellon-homepage .spellon-services-area   .content-inner-border {
         top: 80px;
         left: 30px;
         width: 185px;
         height: 269px;
         box-shadow: 0px 4px 4px 70px rgba(198, 225, 229, 0.156);
     }
-    .content-inner-text-box {
+    .spellon-homepage .spellon-services-area   .content-inner-text-box {
         height: 240px;
         width: 170px;
         filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.184));
     }
-    .content-inner-text-box .content {
+   .spellon-homepage .spellon-services-area    .content-inner-text-box .content {
         width: 144px;
         height: 164px;
     }
-    .content-inner-text-box .content-text {
+   .spellon-homepage .spellon-services-area    .content-inner-text-box .content-text {
         width: 144px;
         height: 164px;
         padding: 5px 3px;
         margin-left: 5px;
     }
-    .content-inner-text-box .content .content-text p {
+    .spellon-homepage .spellon-services-area   .content-inner-text-box .content .content-text p {
         font-size: 14px;
         line-height: 18px;
     }
-    .content-box-logo img {
+    .spellon-homepage .spellon-services-area  .content-box-logo img {
         width: 94px;
         height: 28px;
     }
@@ -1881,80 +1881,80 @@
 /* all xl */
 @media (min-width: 1200px) {
     /* what we do */
-    .what-we-do {
+  .spellon-homepage   .spellon-services-area {
         padding-top: 100px;
         padding-bottom: 80px;
     }
-    .what-we-do .top-area .title {
+    .spellon-homepage   .spellon-services-area .top-area .title {
         font-size: 56px;
         line-height: 64px;
     }
-    .what-we-do .top-area .subtitle {
+   .spellon-homepage   .spellon-services-area .top-area .subtitle {
         font-size: 24px;
         line-height: 32px;
     }
-    .content-wrapper {
+  .spellon-homepage   .spellon-services-area   .content-wrapper {
         margin-top: 80px;
         width: 1200px;
         height: 800px;
     }
-    .content-inner-box {
+    .spellon-homepage   .spellon-services-area .content-inner-box {
         width: 1050px;
         height: 710px;
         box-shadow: 0px 4px 4px 60px rgba(198, 225, 229, 0.069);
     }
-    .content-dashed-border {
+   .spellon-homepage   .spellon-services-area .content-dashed-border {
         height: 488px;
         width: 810px;
         box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.092);
     }
 
-    .icon-box .icon {
+   .spellon-homepage   .spellon-services-area  .icon-box .icon {
         padding: 0px;
         width: 100px;
         height: 80px;
         border-radius: 10px;
     }
-    .icon-box {
+  .spellon-homepage   .spellon-services-area   .icon-box {
         max-width: 165px;
     }
-    .icon-box .icon img {
+  .spellon-homepage   .spellon-services-area   .icon-box .icon img {
         transform: scale(1.5);
     }
-    .icon-text {
+ .spellon-homepage   .spellon-services-area    .icon-text {
         margin-top: 5px;
         font-size: 22px;
         line-height: 26px;
     }
-    .crm-icon {
+   .spellon-homepage   .spellon-services-area  .crm-icon {
         top: -50px;
         left: 320px;
     }
-    .reports-icon {
+  .spellon-homepage   .spellon-services-area   .reports-icon {
         top: 50px;
         left: 5px;
     }
-    .maintainance-icon {
+  .spellon-homepage   .spellon-services-area   .maintainance-icon {
         top: 250px;
         left: -60px;
     }
-    .payment-icon {
+  .spellon-homepage   .spellon-services-area   .payment-icon {
         top: 410px;
         left: 90px;
     }
-    .communication-icon {
+  .spellon-homepage   .spellon-services-area   .communication-icon {
         top: 440px;
         left: 360px;
     }
-    .community-icon {
+  .spellon-homepage   .spellon-services-area   .community-icon {
         top: 350px;
         right: -5px;
     }
-    .portals-icon {
+  .spellon-homepage   .spellon-services-area   .portals-icon {
         top: 90px;
         right: -55px;
     }
-    .content-inner-border {
+   .spellon-homepage   .spellon-services-area  .content-inner-border {
         top: 90px;
         left: 80px;
         width: 584px;
@@ -1962,37 +1962,37 @@
         box-shadow: 0px 4px 4px 80px rgba(198, 225, 229, 0.16);
         position: relative;
     }
-    .content-inner-text-box {
+   .spellon-homepage   .spellon-services-area  .content-inner-text-box {
         height: 240px;
         width: 370px;
         filter: drop-shadow(0px, 4px rgba(198, 225, 229, 0.25));
     }
-    .content-inner-text-box .content {
+   .spellon-homepage   .spellon-services-area  .content-inner-text-box .content {
         width: 346px;
         height: 168px;
         margin-left: 190px;
         margin-top: 50px;
     }
-    .content-inner-text-box .content-text {
+   .spellon-homepage   .spellon-services-area  .content-inner-text-box .content-text {
         width: 315px;
         height: 162px;
         padding: 25px 20px;
         border-radius: 5px;
     }
-    .content-inner-text-box .content .content-text p {
+   .spellon-homepage   .spellon-services-area  .content-inner-text-box .content .content-text p {
         font-size: 18px;
         line-height: 22px;
     }
-    .content-box-logo img {
+   .spellon-homepage   .spellon-services-area  .content-box-logo img {
         width: 180px;
         height: auto;
     }
 }
 @media all and (min-width: 1400px) {
-    .content-wrapper {
+    .spellon-homepage   .spellon-services-area .content-wrapper {
         width: 1302px;
     }
-    .content-inner-box {
+   .spellon-homepage   .spellon-services-area  .content-inner-box {
         height: 710px;
         width: 1156px;
     }
