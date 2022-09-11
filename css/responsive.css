@@ -891,7 +891,10 @@
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
 	 margin: 0px ; 
 }
+.spellon-homepage .spellon-property-management .spellon-tab-image {
+	width: 779px;
 
+}
   
    
 }
