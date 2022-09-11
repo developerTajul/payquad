@@ -2000,3 +2000,8 @@
         width: 1156px;
     }
 }
+@media all and (min-width: 1400px) {
+   .blockTwo{
+    display: none;
+   }
+}
