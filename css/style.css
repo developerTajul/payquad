@@ -344,33 +344,33 @@
   width: 200px;
 }
 
-.spellon-hero-area .hero-right {
+.spellon-homepage .spellon-hero-area .hero-right {
   position: relative;
 }
-.spellon-hero-area .hero-right .graph {
+.spellon-homepage .spellon-hero-area .hero-right .graph {
   position: absolute;
   top: 110px;
   left: -170px;
 }
-.spellon-hero-area .hero-right .graph img {
+.spellon-homepage .spellon-hero-area .hero-right .graph img {
   width: 350px;
 }
-.spellon-hero-area {
+.spellon-homepage .spellon-hero-area {
   position: relative;
 }
-.blockOne,
-.blockTwo {
+.spellon-homepage .spellon-hero-area .blockOne,
+.spellon-homepage .spellon-hero-area .blockTwo {
   position: absolute;
 }
-.blockOne {
+.spellon-homepage .spellon-hero-area .blockOne {
   right: -80px;
   margin-top: -90px;
 }
-.blockTwo {
+.spellon-homepage .spellon-hero-area .blockTwo {
   right: 20px;
   top: 120px;
 }
-.counter-wrapper {
+.spellon-homepage .spellon-hero-area .counter-wrapper {
   padding-top: 60px;
 }
 /*  counter  area */

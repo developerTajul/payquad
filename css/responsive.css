@@ -890,7 +890,7 @@
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* header */
-    .spellon-header-area .logo img {
+    .spellon-homepage .spellon-header-area .logo img {
         width: 126px;
     }
     /* hero */
@@ -909,6 +909,9 @@
     .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 12px;
     }
+    .spellon-homepage .spellon-hero-area .hero-desc p {
+        font-size: 18px;
+    }
     .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
@@ -919,29 +922,26 @@
         margin-left: 0px;
         margin-top: -28px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph {
+    .spellon-homepage .spellon-hero-area .hero-right .graph {
         top: 100px;
         left: -20px;
     }
-    .spellon-homepage .spellon-hero-area .hero-right.graph img {
+    .spellon-homepage .spellon-hero-area .hero-right .graph img {
         height: 140px;
         width: 220px;
     }
-    .blockOne {
-        right: -20px;
-        margin-top: 10px;
+    .spellon-homepage .spellon-hero-area .blockOne {
+        right: -50px;
+        margin-top: -10px;
     }
-    .blockOne img {
-        height: 60px;
-        width: 100px;
+    .spellon-homepage .spellon-hero-area .blockOne img {
+        width: 160px;
     }
-    .blockTwo img {
-        width: 60px;
+    .spellon-homepage .spellon-hero-area .blockTwo {
+        right: 5px;
+        top: 220px;
     }
-    .blockTwo {
-        top: 320px;
-        right: 20px;
-    }
+ 
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
@@ -1421,7 +1421,14 @@
     .spellon-homepage .spellon-hero-area .hero-desc {
         margin-top: 12px;
     }
-    .spellon-hero-area .hero-btn {
+    .spellon-homepage .spellon-hero-area .hero-desc p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #2b343f;
+        margin-bottom: 0;
+    }
+    .spellon-homepage .spellon-hero-area .hero-btn {
         margin-top: 12px;
     }
     .spellon-homepage .spellon-hero-area .hero-right {
@@ -1439,20 +1446,20 @@
         height: 100px;
         width: 160px;
     }
-    .spellon-homepage .blockOne {
-        right: -30px;
-        margin-top: 20px;
-    }
-    .spellon-homepage .spellon-hero-area .blockOne img {
-        height: 60px;
-        width: 100px;
-    }
+
     .spellon-homepage .spellon-hero-area .blockTwo img {
         width: 60px;
     }
     .spellon-homepage .spellon-hero-area .blockTwo {
-        top: 420px;
+        top: 340px;
         right: 10px;
+    }
+    .spellon-homepage .spellon-hero-area .blockOne {
+        right: -30px;
+        top: 585px;
+    }
+    .spellon-homepage .spellon-hero-area .blockOne img {
+        width: 100px;
     }
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
@@ -1536,6 +1543,7 @@
         padding-right: 50px;
         font-weight: 600;
     }
+
     .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
         margin: 0px 0px;
     }
@@ -1751,7 +1759,7 @@
     .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content {
         width: 100%;
     }
- 
+
     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
         padding: 20px 15px;
     }
