@@ -427,6 +427,15 @@
     .spellon-homepage .spellon-property-management .section-title {
         padding: 0px 0px;
     }
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left img {
+       max-height: 500px;
+    }
+
+.spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+	position: absolute;
+	top: 630px;
+	right: 70px;
+}
 }
 
 /* MD Device :768px. */
