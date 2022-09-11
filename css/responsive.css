@@ -436,6 +436,14 @@
 	top: 630px;
 	right: 70px;
 }
+.spellon-homepage .spellon-property-management .spellon-tab-image {
+	width: 579px;
+	height: 395px;
+	display: flex;
+	justify-items: flex-start;
+	padding-right: 40px;
+	margin-top: 40px;
+}
 }
 
 /* MD Device :768px. */
@@ -880,41 +888,12 @@
         margin-left: 40px;
     }
     /* nav tab */
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item:nth-child(2) {
-        margin: 0px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link {
-        width: 100%;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link .text {
-        font-size: 28px;
-        line-height: 34px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active {
-        padding: 0px 16px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item:nth-child(1) .nav-link .text {
-        padding-right: 0px;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li .text {
-        padding-right: 0px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active .text {
-        font-size: 26px;
-        line-height: 32px;
-        padding: 0px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active .icon {
-        height: 60px;
-        width: 60px;
-    }
-    .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active .icon img {
-        height: 28px;
-        width: 28px;
-    }
-    .spellon-homepage .spellon-property-management .section-title {
-        padding: 0px 0px;
-    }
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
+	 margin: 0px ; 
+}
+
+  
+   
 }
 
 /* SM Small Device :550px. */
@@ -1040,7 +1019,7 @@
     .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 35px 0px;
     }
-    .spellon-homepage .spellon-property-management .property-management-wrapper {
+    .spellon-homepage .spellon-property-management  {
         padding-bottom: 10px;
     }
     .spellon-homepage .spellon-property-management .nav-pills li:first-child .nav-link {
@@ -1083,6 +1062,7 @@
     .spellon-homepage .spellon-property-management .tabcontent-area {
         padding: 10px 30px;
     }
+
     /* experience */
     .spellon-homepage .spellon-experience-area {
         padding: 50px 10px;
@@ -1366,36 +1346,8 @@
         height: 34px;
     }
 
-    /* nav tab */
-    .spellon-homepage .spellon-services-area .nav-pills li span {
-        padding: 17px 15px;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li .text {
-        font-size: 22px;
-        line-height: 26px;
-        margin-left: 10px;
-        display: inline-block;
-        padding-right: 50px;
-        font-weight: 600;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li:nth-child(2) {
-        margin: 0px 0px;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li:nth-child(2) .nav-link {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li:nth-child(3) .nav-link {
-        width: 100%;
-    }
-    .spellon-homepage .spellon-services-area .nav-pills li {
-        margin-bottom: 20px;
-    }
 
+    
     /* nav tab */
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;

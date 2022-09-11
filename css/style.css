@@ -474,6 +474,8 @@ start property management
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 88px;
+  display: flex;
+  align-items: center;
 }
 .spellon-homepage .spellon-property-management .main-tab-nav .nav-link .icon {
   height: 69px;
