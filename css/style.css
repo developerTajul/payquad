@@ -18,7 +18,110 @@
 10. footer
 11. what we do
 */
+/* common css */
+.spellon-homepage {
+  font-family: "Work Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
 
+
+
+
+.spellon-homepage a,
+.spellon-homepage .button,
+.spellon-homepage button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.spellon-homepage:focus,
+.spellon-homepage .button:focus {
+  text-decoration: none;
+  outline: none;
+}
+.spellon-homepage  {
+  text-decoration: none;
+}
+ .spellon-homepage button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.spellon-homepage button:focus {
+  outline: 0 none;
+}
+
+.spellon-homepage h1,
+.spellon-homepage h2,
+.spellon-homepage h3,
+.spellon-homepage h4,
+.spellon-homepage h5,
+.spellon-homepage h6 {
+  font-weight: 600;
+  color: #004750;
+}
+
+.spellon-homepage h1 a,
+.spellon-homepage h2 a,
+.spellon-homepage h3 a,
+.spellon-homepage h4 a,
+.spellon-homepage h5 a,
+.spellon-homepage h6 a {
+  color: inherit;
+}
+
+.spellon-homepage .spellon-homepageh1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height-step: 74px;
+  color: #001518;
+}
+
+.spellon-homepage h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.spellon-homepage h3 {
+  font-size: 28px;
+}
+
+.spellon-homepage h4 {
+  font-size: 22px;
+}
+
+.spellon-homepage h5 {
+  font-size: 18px;
+}
+
+.spellon-homepage h6 {
+  font-size: 16px;
+}
+
+.spellon-homepage ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.spellon-homepage li {
+  list-style: none;
+}
+
+.spellon-homepage p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #2b343f;
+  margin-bottom: 0;
+}
+
+*/
 /* 1. Header area */
 
 .spellon-homepage .spellon-header-area {
