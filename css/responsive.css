@@ -44,6 +44,9 @@
         height: 24px;
         width: 24px;
     }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
+    }
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
@@ -147,7 +150,9 @@
     .spellon-homepage .spellon-property-management .property-management-wrapper {
         padding: 60px 0px;
     }
-
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
+    }
     .spellon-homepage .spellon-property-management .nav-pills .nav-item .nav-link .text {
         font-size: 12px;
     }
@@ -418,6 +423,9 @@
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 22px;
         width: 22px;
+    }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
     }
 }
 
@@ -894,6 +902,9 @@
     .spellon-homepage .spellon-services-area .main-tab-nav .nav-item .nav-link.active .icon img {
         height: 28px;
         width: 28px;
+    }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
     }
 }
 
@@ -1409,6 +1420,9 @@
         height: 28px;
         width: 28px;
     }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 340px) and (max-width: 575px) {
@@ -1911,6 +1925,16 @@
         text-transform: capitalize;
         padding: 0px;
     }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 0px;
+    }
+    .spellon-homepage .spellon-property-management .section-subtitle,
+    .spellon-homepage .spellon-property-management .section-subtitle p,
+    .spellon-homepage .section-subtitle,
+    .spellon-homepage .section-subtitle p {
+        font-size: 16px;
+        line-height: 23px;
+    }
 }
 
 /* all xl */
@@ -2047,8 +2071,10 @@
         justify-content: center;
         align-items: center;
     }
-.spellon-homepage .spellon-experience-area .shape {
-	
-	display: none;
-}
+    .spellon-homepage .spellon-experience-area .shape {
+        display: none;
+    }
+    .spellon-homepage .spellon-property-management .section-title {
+        padding: 0px 250px;
+    }
 }

@@ -305,6 +305,7 @@
 .spellon-homepage .spellon-hero-area {
   min-height: 1135px;
   background: #008c9621;
+  padding-bottom: 40px;
 }
 .spellon-homepage .spellon-hero-area .main-hero {
   padding: 160px 0px 60px 0px;
@@ -447,7 +448,7 @@ start property management
 .spellon-homepage .spellon-property-management .section-title {
   font-size: 56px;
   text-transform: capitalize;
-  padding: 0px 250px;
+
 }
 .spellon-homepage  .section-title {
   font-size: 56px;
