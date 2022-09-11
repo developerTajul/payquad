@@ -2039,4 +2039,12 @@
     .blockOne {
         display: none;
     }
+    /* tab fix */
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(1) .nav-link.active,
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) .nav-link.active,
+    .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(3) .nav-link.active {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
