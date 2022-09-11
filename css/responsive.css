@@ -1487,7 +1487,8 @@
         margin-top: -250px;
     }
     .spellon-homepage .spellon-counter-area .counter-item {
-        padding: 16px 0px;
+        padding: 16px 20px;
+        min-height: 170px;
     }
     .spellon-homepage .spellon-counter-area .counter-img img {
         height: 32px;
