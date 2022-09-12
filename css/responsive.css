@@ -1927,6 +1927,10 @@
         font-size: 16px;
         line-height: 23px;
     }
+    .spellon-homepage .spellon-footer-area .subscribe-btn {
+
+	padding: 0px 16px;
+}
 }
 
 /* all xl */
