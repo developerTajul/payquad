@@ -107,6 +107,7 @@
   line-height: 32px;
   color: #2b343f;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .spellon-homepage input:focus {
