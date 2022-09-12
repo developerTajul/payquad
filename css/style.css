@@ -311,8 +311,8 @@
   padding: 160px 0px 60px 0px;
 }
 
-.spellon-homepage .spellon-hero-area .hero-title h1{
-line-height: 74px;
+.spellon-homepage .spellon-hero-area .hero-title h1 {
+  line-height: 74px;
 }
 .spellon-homepage .spellon-hero-area .hero-desc {
   font-size: 24px;
@@ -321,8 +321,8 @@ line-height: 74px;
   color: #42595c;
   margin-top: 35px;
 }
-.spellon-homepage .spellon-hero-area .hero-desc .hero-btn .spellon-button{
- font-size: 18px;
+.spellon-homepage .spellon-hero-area .hero-desc .hero-btn .spellon-button {
+  font-size: 18px;
 }
 .spellon-homepage .spellon-hero-area .mobile-img {
   margin-top: -50px;
@@ -354,7 +354,7 @@ line-height: 74px;
 .spellon-homepage .spellon-hero-area .hero-right {
   position: relative;
 }
-.spellon-homepage .spellon-hero-area .hero-right .block-img{
+.spellon-homepage .spellon-hero-area .hero-right .block-img {
   position: absolute;
   right: -120px;
   top: 50px;
@@ -367,7 +367,6 @@ line-height: 74px;
 .spellon-homepage .spellon-hero-area .hero-right .graph img {
   width: 350px;
 }
-
 
 .spellon-homepage .spellon-hero-area .counter-wrapper {
   padding-top: 60px;
@@ -446,12 +445,10 @@ start property management
 .spellon-homepage .spellon-property-management .section-title {
   font-size: 56px;
   text-transform: capitalize;
-
 }
-.spellon-homepage  .section-title {
+.spellon-homepage .section-title {
   font-size: 56px;
   text-transform: capitalize;
-
 }
 .spellon-homepage .spellon-property-management .section-subtitle,
 .spellon-homepage .spellon-property-management .section-subtitle p,
@@ -559,14 +556,18 @@ start property management
   background: #bee5e8;
   color: #004750;
 }
-.spellon-homepage .spellon-property-management .tabcontent-navlist.pills-statck-holder-nav-list li button.nav-link.active {
+.spellon-homepage
+  .spellon-property-management
+  .tabcontent-navlist.pills-statck-holder-nav-list
+  li
+  button.nav-link.active {
   border: none;
-  background:#ea4f1b17;
-  color: #EA501B;
+  background: #ea4f1b17;
+  color: #ea501b;
 }
 .spellon-homepage .spellon-property-management .tabcontent-navlist.pills-managers-nav-list li button.nav-link.active {
   border: none;
-  background:#0047502a;
+  background: #0047502a;
   color: #004750;
 }
 .spellon-homepage .spellon-property-management .tabcontent-area {
@@ -861,7 +862,7 @@ services area start
   bottom: -120px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
-display: none;
+  display: none;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote {
   position: absolute;
@@ -1089,12 +1090,17 @@ contact  Start
 
 /* verticle tab */
 .tabcontent-area .tab-pane {
- display: none;
- opacity: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: all ease-in-out 0.5s;
+  opacity: 0;
 }
 .tabcontent-area .tab-pane.show {
-display: block;
-opacity: 1;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+
 }
 .tabcontent-navlist li {
   width: 100%;
