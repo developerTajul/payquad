@@ -1089,6 +1089,9 @@ contact  Start
 }
 
 /* verticle tab */
+.tabcontent-area {
+  min-height: 495px;
+}
 .tabcontent-area .tab-pane {
   height: 0;
   overflow: hidden;
