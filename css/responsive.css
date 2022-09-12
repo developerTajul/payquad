@@ -81,6 +81,13 @@
     .spellon-homepage .spellon-hero-area .hero-right {
         margin-top: 30px;
     }
+   .spellon-homepage .spellon-hero-area .hero-right .block-img {
+	right: -50px;
+	top: 180px;
+}
+    .spellon-homepage .spellon-hero-area .hero-right .block-img img {
+        width: 150px;
+    }
     .spellon-homepage .spellon-hero-area .mobile-img {
         margin-left: 0px;
         margin-top: -50px;
@@ -89,16 +96,12 @@
         top: 150px;
         left: -20px;
     }
+
     .spellon-homepage .spellon-hero-area .hero-right .graph img {
         height: 250px;
         width: 360px;
     }
-    .spellon-homepage .blockOne {
-        display: none;
-    }
-    .spellon-homepage .blockTwo {
-        display: none;
-    }
+
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
@@ -286,7 +289,7 @@
     .spellon-homepage .spellon-footer-area .widget-form {
         margin-top: 10px;
     }
-    /* what we do */
+    /* services area */
     .spellon-homepage .spellon-services-area {
         padding: 70px 0px;
     }
@@ -428,22 +431,22 @@
         padding: 0px 0px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left img {
-       max-height: 500px;
+        max-height: 500px;
     }
 
-.spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	position: absolute;
-	top: 630px;
-	right: 70px;
-}
-.spellon-homepage .spellon-property-management .spellon-tab-image {
-	width: 579px;
-	height: 395px;
-	display: flex;
-	justify-items: flex-start;
-	padding-right: 40px;
-	margin-top: 40px;
-}
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+        position: absolute;
+        top: 630px;
+        right: 70px;
+    }
+    .spellon-homepage .spellon-property-management .spellon-tab-image {
+        width: 579px;
+        height: 395px;
+        display: flex;
+        justify-items: flex-start;
+        padding-right: 40px;
+        margin-top: 40px;
+    }
 }
 
 /* MD Device :768px. */
@@ -491,14 +494,12 @@
         height: 200px;
         width: 320px;
     }
-    .spellon-homepage .spellon-hero-area .blockOne {
-        display: none;
+    .spellon-homepage .spellon-hero-area .hero-right .block-img img {
+        width: 120px;
     }
-    .spellon-homepage .spellon-hero-area .blockTwo {
-        display: none;
-    }
-    .spellon-homepage .spellon-hero-area .mt-60 {
-        margin-top: 0px;
+    .spellon-homepage .spellon-hero-area .hero-right .block-img {
+        right: -60px;
+        top: 130px;
     }
     /* counter */
     .spellon-homepage .spellon-counter-area.counter-wrapper {
@@ -889,18 +890,15 @@
     }
     /* nav tab */
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
-	 margin: 0px ; 
-}
-.spellon-homepage .spellon-property-management .spellon-tab-image {
-	width: 779px;
-
-}
-.spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	top: 800px;
-	right: 100px;
-}
-  
-   
+        margin: 0px;
+    }
+    .spellon-homepage .spellon-property-management .spellon-tab-image {
+        width: 779px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+        top: 800px;
+        right: 100px;
+    }
 }
 
 /* SM Small Device :550px. */
@@ -946,20 +944,14 @@
         height: 140px;
         width: 220px;
     }
-    .spellon-homepage .spellon-hero-area .blockOne {
-        right: -50px;
-        margin-top: -10px;
-    }
-    .spellon-homepage .spellon-hero-area .blockOne img {
-        width: 160px;
-    }
-    .spellon-homepage .spellon-hero-area .blockTwo {
-        right: 20px;
-        top: 260px;
+
+    .spellon-homepage .spellon-hero-area .hero-right .block-img {
+        right: -20px;
+        top: 20px;
     }
 
-    .spellon-homepage .spellon-hero-area .blockTwo img {
-        width: 80px;
+    .spellon-homepage .spellon-hero-area .hero-right .block-img img {
+        width: 120px;
     }
 
     .spellon-homepage .spellon-hero-area .mt-60 {
@@ -1026,7 +1018,7 @@
     .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 35px 0px;
     }
-    .spellon-homepage .spellon-property-management  {
+    .spellon-homepage .spellon-property-management {
         padding-bottom: 10px;
     }
     .spellon-homepage .spellon-property-management .nav-pills li:first-child .nav-link {
@@ -1353,8 +1345,6 @@
         height: 34px;
     }
 
-
-    
     /* nav tab */
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;
@@ -1442,21 +1432,14 @@
         height: 100px;
         width: 160px;
     }
-
-    .spellon-homepage .spellon-hero-area .blockTwo img {
-        width: 60px;
+    .spellon-homepage .spellon-hero-area .hero-right .block-img {
+        right: -10px;
+        top: -20px;
     }
-    .spellon-homepage .spellon-hero-area .blockTwo {
-        top: 340px;
-        right: 10px;
-    }
-    .spellon-homepage .spellon-hero-area .blockOne {
-        right: -30px;
-        top: 585px;
-    }
-    .spellon-homepage .spellon-hero-area .blockOne img {
+    .spellon-homepage .spellon-hero-area .hero-right .block-img img {
         width: 100px;
     }
+
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
@@ -2025,11 +2008,8 @@
     }
 }
 @media all and (min-width: 1400px) {
-    .blockTwo {
-        display: none;
-    }
-    .blockOne {
-        display: none;
+    .container {
+        max-width: 1350px;
     }
     /* tab fix */
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(1) .nav-link.active,

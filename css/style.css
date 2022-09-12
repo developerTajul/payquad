@@ -311,12 +311,18 @@
   padding: 160px 0px 60px 0px;
 }
 
+.spellon-homepage .spellon-hero-area .hero-title h1{
+line-height: 74px;
+}
 .spellon-homepage .spellon-hero-area .hero-desc {
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
   color: #42595c;
   margin-top: 35px;
+}
+.spellon-homepage .spellon-hero-area .hero-desc .hero-btn .spellon-button{
+ font-size: 18px;
 }
 .spellon-homepage .spellon-hero-area .mobile-img {
   margin-top: -50px;
@@ -348,6 +354,11 @@
 .spellon-homepage .spellon-hero-area .hero-right {
   position: relative;
 }
+.spellon-homepage .spellon-hero-area .hero-right .block-img{
+  position: absolute;
+  right: -120px;
+  top: 50px;
+}
 .spellon-homepage .spellon-hero-area .hero-right .graph {
   position: absolute;
   top: 110px;
@@ -356,21 +367,8 @@
 .spellon-homepage .spellon-hero-area .hero-right .graph img {
   width: 350px;
 }
-.spellon-homepage .spellon-hero-area {
-  position: relative;
-}
-.spellon-homepage .spellon-hero-area .blockOne,
-.spellon-homepage .spellon-hero-area .blockTwo {
-  position: absolute;
-}
-.spellon-homepage .spellon-hero-area .blockOne {
-  right: -80px;
-  margin-top: -90px;
-}
-.spellon-homepage .spellon-hero-area .blockTwo {
-  right: 20px;
-  top: 120px;
-}
+
+
 .spellon-homepage .spellon-hero-area .counter-wrapper {
   padding-top: 60px;
 }
@@ -528,9 +526,7 @@ start property management
 .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) .nav-link.active {
   background: #ea501b;
 }
-.spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) .nav-link.active {
-  background: #004750;
-}
+
 .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .text {
   color: #fff;
 }
@@ -561,6 +557,16 @@ start property management
 .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link.active {
   border: none;
   background: #bee5e8;
+  color: #004750;
+}
+.spellon-homepage .spellon-property-management .tabcontent-navlist.pills-statck-holder-nav-list li button.nav-link.active {
+  border: none;
+  background:#ea4f1b17;
+  color: #EA501B;
+}
+.spellon-homepage .spellon-property-management .tabcontent-navlist.pills-managers-nav-list li button.nav-link.active {
+  border: none;
+  background:#0047502a;
   color: #004750;
 }
 .spellon-homepage .spellon-property-management .tabcontent-area {
