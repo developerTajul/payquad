@@ -901,9 +901,11 @@
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
         margin: 0px;
     }
+  
     .spellon-homepage .spellon-property-management .spellon-tab-image {
-        width: 779px;
-    }
+	width: 779px;
+	margin-top: 60px;
+}
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
         top: 800px;
         right: 100px;
@@ -1395,7 +1397,7 @@
     }
 }
 /* SM Small Device :550px. */
-@media only screen and (min-width: 340px) and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 575px) {
     /* header */
     .spellon-homepage .spellon-header-area .logo img {
         width: 96px;
