@@ -107,7 +107,6 @@
   line-height: 32px;
   color: #2b343f;
   margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 .spellon-homepage input:focus {
@@ -800,17 +799,18 @@ services area start
 }
 /* slider */
 .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
-  height: fit-content;
+  height: 600px;
   position: relative;
+
 }
 .spellon-homepage .spellon-testimonial-wrapper .swiper {
   height: 100%;
   width: 100%;
 }
 .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-  position: absolute;
-  top: 40px;
-  right: 60px;
+	position: absolute;
+	top: 60px;
+	right: 60px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
 .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
@@ -854,16 +854,25 @@ services area start
   right: 80px;
 }
 
+
 .spellon-homepage .spellon-testimonial-wrapper .slider-left {
   position: relative;
+}
+.spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image {
+  position: relative;
+  padding-left: 40px;
+
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
   position: absolute;
   right: -52px;
-  bottom: -120px;
+  bottom: -190px;
+ 
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
-  display: none;
+	position: absolute;
+	left: -10px;
+	bottom: -135px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote {
   position: absolute;
@@ -884,6 +893,7 @@ services area start
 .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
   padding: 40px 50px;
   border-radius: 10px;
+  margin-top: 93px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content h3 {
   font-weight: 500;
@@ -1081,7 +1091,7 @@ contact  Start
 .spellon-homepage .spellon-footer-area .footer-bottom {
   padding: 20px 0px;
 }
-.spellon-homepage .spellon-footer-area .copyright p{
+.spellon-homepage .spellon-footer-area .copyright {
   color: #bfbfbf;
 }
 .spellon-homepage .spellon-footer-area .footer-bottom a {
@@ -1104,7 +1114,6 @@ contact  Start
   height: 100%;
   visibility: visible;
   opacity: 1;
-
 }
 .tabcontent-navlist li {
   width: 100%;

@@ -196,6 +196,67 @@
     .spellon-homepage .spellon-property-management .tabcontent-area img {
         width: 100%;
     }
+     /* testimonial slider */
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+	top: 770px;
+	right: 100px;
+}
+     .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        height: fit-content;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
+        margin-top: 50px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper {
+        padding: 50px 20px;
+    }
+
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
+	right: -40px;
+	bottom: -80px;
+}
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
+        width: 240px;
+        height: 270px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
+        display: none;
+    }
+
+    .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .tst-shape {
+        display: none;
+    }
+
+    .spellon-homepage .spellon-testimonial-wrapper .testimonial-main-content .mt-55 {
+        margin-top: 30px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
+        padding: 25px 30px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+	top: 775px;
+	right: 100px;
+}
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
+        height: 36px;
+        width: 36px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next::after,
+    .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev::after {
+        font-size: 14px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .control-btn-wrapper .prev {
+        right: 40px;
+    }
     /* experience */
     .spellon-homepage .spellon-experience-area {
         padding: 60px 10px;
@@ -456,9 +517,11 @@
         padding-right: 40px;
         margin-top: 40px;
     }
+ 
 }
 
 /* MD Device :768px. */
+
 @media (min-width: 768px) and (max-width: 991px) {
     .spellon-mobile-menu {
         width: 370px;
@@ -744,14 +807,24 @@
         margin-top: 10px;
     }
     /* testimonial slider */
+    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
+	top: 770px;
+	right: 100px;
+}
+     .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        height: fit-content;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
+        margin-top: 50px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper {
         padding: 50px 20px;
     }
 
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
-        right: -40px;
-        bottom: -40px;
-    }
+	right: -40px;
+	bottom: -80px;
+}
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
@@ -779,9 +852,9 @@
         line-height: 24px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-        top: 820px;
-        right: 100px;
-    }
+	top: 775px;
+	right: 100px;
+}
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
         height: 36px;
@@ -794,7 +867,7 @@
     .spellon-homepage .spellon-testimonial-wrapper .control-btn-wrapper .prev {
         right: 40px;
     }
-    /* what we do */
+    /* services area */
     .spellon-homepage .spellon-services-area {
         padding: 50px 0px;
     }
@@ -905,10 +978,6 @@
     .spellon-homepage .spellon-property-management .spellon-tab-image {
         width: 779px;
         margin-top: 60px;
-    }
-    .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-        top: 800px;
-        right: 100px;
     }
 }
 
@@ -1200,6 +1269,12 @@
         margin-top: 10px;
     }
     /* testimonial slider */
+    .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        height: fit-content;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
+        margin-top: 50px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper {
         padding: 40px 15px;
     }
@@ -1207,10 +1282,10 @@
         height: 60px;
         width: 60px;
     }
-    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
-        right: -40px;
-        bottom: -40px;
-    }
+   .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
+	right: -40px;
+	bottom: -70px;
+}
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
@@ -1238,7 +1313,7 @@
         line-height: 23px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-        top: 600px;
+        top: 580px;
         right: 100px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
@@ -1591,13 +1666,10 @@
     .spellon-homepage .spellon-property-management .tabcontent-area h2 {
         font-size: 28px;
         line-height: 36px;
- 
     }
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-link {
-	
-	height: 70px;
-	
-}
+        height: 70px;
+    }
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item .nav-link.active .icon {
         height: 50px;
         width: 50px;
@@ -1755,7 +1827,16 @@
     }
     /* testimonial slider */
     .spellon-homepage .spellon-testimonial-wrapper {
-        padding: 32px 10px;
+        padding: 15px 0px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        height: fit-content;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image {
+        padding-left: 0px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
+        margin-top: 40px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote div {
         height: 50px;
@@ -1793,8 +1874,8 @@
         line-height: 23px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-        top: 480px;
-        right: 80px;
+        top: 390px;
+        right: 50px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
@@ -1928,9 +2009,8 @@
         line-height: 23px;
     }
     .spellon-homepage .spellon-footer-area .subscribe-btn {
-
-	padding: 0px 16px;
-}
+        padding: 0px 16px;
+    }
 }
 
 /* all xl */
@@ -2051,8 +2131,7 @@
         height: 710px;
         width: 1156px;
     }
-}
-@media all and (min-width: 1400px) {
+
     .container {
         max-width: 1350px;
     }
