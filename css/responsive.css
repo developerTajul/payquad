@@ -47,6 +47,9 @@
     .spellon-homepage .spellon-property-management .section-title {
         padding: 0px 0px;
     }
+    .spellon-homepage .spellon-blog-area h2.section-title{
+	padding: 0px 255px;
+}
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1159px) {
@@ -239,7 +242,14 @@
         bottom: 250px;
         right: 10px;
     }
-    /* blog */
+
+    /*
+
+     BLOG Area
+     
+     */
+
+
     .spellon-homepage .spellon-blog-area .blog {
         padding: 60px 0px;
     }
@@ -2025,4 +2035,7 @@
     .spellon-homepage .spellon-property-management .section-title {
         padding: 0px 250px;
     }
+        .spellon-homepage .spellon-blog-area h2.section-title{
+	padding: 0px 255px;
+}
 }
