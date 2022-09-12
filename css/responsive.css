@@ -196,12 +196,12 @@
     .spellon-homepage .spellon-property-management .tabcontent-area img {
         width: 100%;
     }
-     /* testimonial slider */
+    /* testimonial slider */
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	top: 770px;
-	right: 100px;
-}
-     .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        top: 770px;
+        right: 100px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
         height: fit-content;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
@@ -212,9 +212,9 @@
     }
 
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
-	right: -40px;
-	bottom: -80px;
-}
+        right: -40px;
+        bottom: -80px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
@@ -242,9 +242,9 @@
         line-height: 24px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	top: 775px;
-	right: 100px;
-}
+        top: 775px;
+        right: 100px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
         height: 36px;
@@ -517,7 +517,6 @@
         padding-right: 40px;
         margin-top: 40px;
     }
- 
 }
 
 /* MD Device :768px. */
@@ -808,10 +807,10 @@
     }
     /* testimonial slider */
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	top: 770px;
-	right: 100px;
-}
-     .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
+        top: 770px;
+        right: 100px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
         height: fit-content;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
@@ -822,9 +821,9 @@
     }
 
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
-	right: -40px;
-	bottom: -80px;
-}
+        right: -40px;
+        bottom: -80px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
@@ -852,9 +851,9 @@
         line-height: 24px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-	top: 775px;
-	right: 100px;
-}
+        top: 775px;
+        right: 100px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
         height: 36px;
@@ -1282,10 +1281,10 @@
         height: 60px;
         width: 60px;
     }
-   .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
-	right: -40px;
-	bottom: -70px;
-}
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
+        right: -40px;
+        bottom: -70px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .author img {
         width: 240px;
         height: 270px;
@@ -1832,11 +1831,18 @@
     .spellon-homepage .spellon-testimonial-wrapper .tst-swiper-container {
         height: fit-content;
     }
+    
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image {
         padding-left: 0px;
     }
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left  {
+        height: 400px;
+    }
+    .spellon-homepage .spellon-testimonial-wrapper .slider-left .main-img img {
+     height: 370px;
+    }
     .spellon-homepage .spellon-testimonial-wrapper .tst-slider-content {
-        margin-top: 40px;
+        margin-top: 25px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote div {
         height: 50px;
@@ -1874,8 +1880,9 @@
         line-height: 23px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .tst-control-btn {
-        top: 390px;
-        right: 50px;
+     
+        right: 70px;
+        top: 500px;
     }
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next,
     .spellon-homepage .spellon-testimonial-wrapper .swiper-button-prev {
