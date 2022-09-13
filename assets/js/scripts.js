@@ -64,5 +64,25 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         el.classList.add('show');
     }
-
+   // tabs
+    if(screen.width < 992){
+        const mainTabNav = document.querySelector('.main-tab-nav');
+        const tabContentArea = document.querySelector('.tab-content-area ');
+        const pillsTabContent = document.getElementById('pills-tabContent');
+        mainTabNav.children[0].addEventListener('click', function () {
+            tabContentArea.classList.toggle('d-none')
+            // pillsTabContent.style.top = '120px';
+            pillsTabContent.classList.toggle('first-tab');
+        })
+        mainTabNav.children[1].addEventListener('click', function () {
+            tabContentArea.classList.toggle('d-none')
+            // pillsTabContent.style.top = '210px'
+            pillsTabContent.classList.toggle('second-tab');
+        })
+        mainTabNav.children[2].addEventListener('click', function () {
+            tabContentArea.classList.toggle('d-none')
+            // pillsTabContent.style.top = '310px'
+            pillsTabContent.classList.toggle('third-tab');
+        })
+    }
 })

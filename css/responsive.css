@@ -981,6 +981,16 @@
         width: 779px;
         margin-top: 60px;
     }
+    /* tab js */
+    .first-tab {
+        top: 130px;
+    }
+    .second-tab {
+        top: 230px;
+    }
+    .third-tab {
+        top: 340px;
+    }
 }
 
 /* SM Small Device :550px. */
@@ -1478,6 +1488,16 @@
     .spellon-homepage .spellon-property-management .spellon-tab-image {
         margin-top: 40px;
     }
+    /* tab js */
+    .first-tab {
+        top: 130px;
+    }
+    .second-tab {
+        top: 230px;
+    }
+    .third-tab {
+        top: 340px;
+    }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -1612,6 +1632,11 @@
         width: 100%;
         margin-bottom: 10px;
     }
+    .spellon-homepage .spellon-property-management .tabcontent-navlist.nav-pills li {
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left: 15%;
+    }
     .spellon-homepage .spellon-property-management .nav-pills li .text {
         font-size: 22px;
         line-height: 26px;
@@ -1621,10 +1646,7 @@
         font-weight: 600;
     }
 
-    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) {
-        margin: 0px 0px;
-    }
-    .spellon-homepage .spellon-property-management .nav-pills li:nth-child(2) .nav-link {
+    .spellon-homepage .spellon-property-management .main-tab-nav.nav-pills li:nth-child(2) .nav-link {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -1634,7 +1656,7 @@
     .spellon-homepage .spellon-property-management .nav-pills li {
         margin-bottom: 20px;
     }
-    /* nav tab */
+
     .spellon-homepage .spellon-property-management .propertyManagement .pt-50 {
         padding-top: 0px;
     }
@@ -1668,8 +1690,9 @@
         line-height: 26px;
         padding: 0px;
     }
+
     .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link {
-        font-size: 18px;
+        font-size: 14px;
     }
     .spellon-homepage .spellon-property-management .tabcontent-area h2 {
         font-size: 28px;
@@ -2049,6 +2072,15 @@
     .spellon-homepage .spellon-footer-area .subscribe-btn {
         padding: 0px 16px;
     }
+    .first-tab {
+        top: 90px;
+    }
+    .second-tab {
+        top: 200px;
+    }
+    .third-tab {
+        top: 290px;
+    }
 }
 
 /* all xl */
@@ -2190,5 +2222,33 @@
     }
     .spellon-homepage .spellon-blog-area h2.section-title {
         padding: 0px 255px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .propertyManagement {
+        position: relative;
+    }
+    .tab-content-area {
+        background: #fff;
+        min-height: 800px;
+    }
+
+    #pills-tabContent {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        backdrop-filter: blur(100px);
+        backface-visibility: hidden;
+        background: #fff;
+        padding-top: 20px;
+    }
+    .hide-tab-content {
+        display: none;
+    }
+    .spellon-homepage .spellon-property-management .tabcontent-navlist.nav-pills li {
+        width: 80%;
+        margin-bottom: -5px;
+        margin-left: 15%;
     }
 }
