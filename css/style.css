@@ -996,19 +996,33 @@ contact  Start
   line-height: 32px;
   color: #646464;
 }
-.spellon-homepage .spellon-contact-form-img {
-  position: absolute;
-  top: 160px;
-  left: 136px;
+
+.spellon-homepage .spellon-contact-form-img .img-one  {
+	padding-left: 50px;
 }
-.spellon-homepage .spellon-contact-form-img img {
-  height: 362px;
-  height: 304px;
+.spellon-homepage .spellon-contact-form-img .img-one img {
+	width: 272px;
+	height: 372px;
 }
-.contact-form-wrapper {
-  margin-top: 40px;
+.spellon-homepage .spellon-contact-form-img .img-two img {
+	width: 362px;
+	height: 304px;
 }
 
+.spellon-homepage .spellon-contact-form-img .img-two {
+	position: absolute;
+	left: 50px;
+	top: 160px;
+  left: 100px;
+}
+.spellon-homepage .contact-form-wrapper {
+  margin-top: 40px;
+}
+.spellon-homepage .spellon-contact-form-shape{
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
 /* footer */
 .spellon-homepage .spellon-footer-area {
   background: #004750;
