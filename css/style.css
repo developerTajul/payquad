@@ -586,17 +586,12 @@ start property management
 }
 
 .spellon-homepage .spellon-property-management .spellon-tab-image {
-  width: 379px;
-  height: 395px;
-  display: flex;
-  justify-items: flex-start;
-  padding-right: 40px;
+  overflow: hidden;
 }
 .spellon-homepage .spellon-property-management .spellon-tab-image img {
   height: 100%;
   width: 100%;
-  margin-top: -40px;
-  margin-left: -30px;
+
 }
 .spellon-homepage .spellon-property-management .mt-24 {
   margin-top: 24px;
