@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // testimonial 
     var swiper = new Swiper(".tst-slider", {
+        slidesPerView: 1,
+        spaceBetween: 30,
         navigation: {
           
             prevEl: ".swiper-button-prev",
