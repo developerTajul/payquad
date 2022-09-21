@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         el.classList.add('fa-solid', 'fa-chevron-down', 'dropdownIcon');
         hasChildren[i].appendChild(el);
     }
+    const hasChildrenUl = document.querySelectorAll('.has-children ul');
+    for (let i = 0; i < hasChildrenUl.length; i++) {
+        hasChildrenUl[i].classList.add('submenu')
+    }
     // testimonial 
     var swiper = new Swiper(".tst-slider", {
         slidesPerView: 1,
