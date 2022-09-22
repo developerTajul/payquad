@@ -537,6 +537,7 @@
     /* hero */
     .spellon-homepage .spellon-hero-area {
         min-height: fit-content;
+        padding-top: 30px;
     }
     .spellon-homepage .spellon-hero-area .main-hero {
         padding-top: 70px;
@@ -1003,6 +1004,7 @@
     /* hero */
     .spellon-homepage .spellon-hero-area {
         min-height: fit-content;
+        padding-top: 30px;
     }
     .spellon-homepage .spellon-hero-area .main-hero {
         padding-top: 60px;
@@ -1514,7 +1516,7 @@
         min-height: fit-content;
     }
     .spellon-homepage .spellon-hero-area .main-hero {
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 0px;
     }
     .spellon-homepage .spellon-hero-area .hero-title h1 {

@@ -112,89 +112,247 @@
 .spellon-homepage input:focus {
   outline: none;
 }
+/*
+header-area 
 */
-/* 1. Header area */
-.spellon-homepage .spellon-header-area {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-.spellon-transparent-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-.spellon-homepage .spellon-header-area .logo img {
-  width: 235px;
+.body-nav-gray {
+  background: rgba(128, 128, 128, 0.386);
 }
 
-/* main menu */
-.spellon-homepage .spellon-header-area .spellon-main-menu.main-menu li {
-  list-style-type: none;
-}
-.spellon-homepage .spellon-header-area .spellon-main-menu.main-menu li a {
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #001518;
-  margin: 0px 17px;
-  text-transform: capitalize;
-  display: block;
+
+.header-area a {
   text-decoration: none;
 }
-.spellon-homepage .spellon-header-area .spellon-main-menu.main-menu li a:hover {
-  color: #008c96;
+.header-area {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-.spellon-homepage .has-children,
-.spellon-mobile-menu .has-children {
+.header-area .header-top .navbar {
   position: relative;
+  padding: 0px;
 }
-.spellon-homepage .submenu {
-  position: absolute;
-  top: 110%;
-  left: 0%;
-  width: 200px;
-  background: #fff;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  transform: scale(0);
-  transform-origin: top;
-  transition: all ease-in-out 0.3s;
+.header-area .header-top .navbar .logo {
+  width: 203px;
+  height: auto;
 }
-.spellon-homepage .spellon-header-area .has-children:hover > .submenu,
-.spellon-homepage .spellon-mobile-menu .has-children:hover > .submenu {
-  transform: scale(1);
+.header-area .header-top .navbar .logo img {
+  width: 100%;
+  height: 100%;
 }
-.spellon-homepage .spellon-header-area .submenu li:not(:last-child) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+.header-area .header-top .navbar .navbar-right .main-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
 }
-.spellon-homepage .spellon-header-area .submenu li a {
-  display: block;
-  padding: 12px 5px;
-  margin-left: 0px;
+.header-area .header-top .navbar .navbar-right .main-menu ul li {
+  padding: 0px 28px;
 }
-.spellon-homepage .spellon-header-area .dropdownIcon {
-  position: absolute;
-  top: 7px;
-  right: 0;
-  font-size: 12px;
+.header-area .header-top .navbar .navbar-right .main-menu ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #6d6e71;
+  white-space: nowrap;
+  text-decoration: none;
 }
-/* mobile menu */
-.mobile-menu-btn {
-  position: absolute;
-  top: 15px;
-  right: 30px;
-  z-index: 988;
+.header-area .header-top .navbar .navbar-right .main-menu ul li a:hover {
+  color: #ea1c2d;
 }
-.mobile-menu-btn button {
+.header-area .header-top .navbar .navbar-right .main-menu ul .dropdown-container {
+  margin: 0;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul .dropdown-container .dropdown {
   background: transparent;
-  border: 0;
+  padding: 10px;
+  border-radius: 3px;
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
+.header-area .header-top .navbar .navbar-right .main-menu ul .dropdown-container .dropdown-menu {
+  flex-direction: column;
+  border-radius: 4px;
+  margin-top: -1px;
+  width: 190px;
+  padding: 8px;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  transform-origin: top left;
+  overflow: hidden;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul .dropdown-container .dropdown-menu li {
+  padding: 8px 0px;
+  flex-grow: 1;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul .dropdown-container .dropdown-menu li a {
+  padding-left: 3px;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul li ul {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul li:hover > ul,
+.header-area .header-top .navbar .navbar-right .main-menu ul li ul:hover {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+.header-area .header-top .navbar .navbar-right .theme-btn a {
+  border: 1px solid #0b0036;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #434242;
+  white-space: nowrap;
+}
+.header-area .header-top .navbar .navbar-right .theme-btn a:hover {
+  color: #ea1c2d;
+}
+.header-area .header-top .navbar .hamburger-menu {
+  width: 70px;
+  font-size: 30px;
+  position: absolute;
+  right: 0%;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  z-index: 98888;
+  padding-top: 20px;
+  transition: all ease-in-out 0.5s;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper.show-mobile-menu {
+  right: 0%;
+  transition: all ease-in-out 0.5s;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper .close-btn {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 25px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul {
+  list-style: none;
+  margin-left: -10px;
+  padding: 0px 15px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li {
+  padding-left: 10px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #ebebeb;
+  padding: 5px 0px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li a {
+  display: block;
+  font-size: 14px;
+  color: #101a23;
+  padding: 5px 0px;
+  margin-bottom: 1px;
+  transition: all ease-in 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 26px;
+  width: 26px;
+  font-size: 20px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  color: #353535;
+  border-radius: 2px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon:active,
+.header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon:hover {
+  background: #ff4646;
+  border: 1px solid #ff4646;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li ul {
+  height: 0;
+  padding-left: 15px;
+  transform-origin: top;
+  transition: all ease-in 0.4s;
+  opacity: 0;
+  visibility: hidden;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper ul li .expand-dropdown-mobile-menu {
+  background: none;
+  visibility: visible;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 1;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper .theme-btn {
+  padding-left: 0;
+  margin-top: 15px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper .theme-btn a {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper .mobile-menu-logo a img {
+  width: 160px;
+}
+.header-area .header-top .navbar .mobile-nav-wrapper .navbar-links {
+  padding-top: 20px;
+}
+
+@media all and (min-width: 1200px) {
+  .mobile-nav-wrapper {
+    display: none;
+  }
+} 
+
+
+
+
+
+
+
+
 .spellon-homepage .mobile-menu {
   z-index: 40;
   min-height: 100vh;
@@ -208,15 +366,8 @@
   transform: translateX(-100%);
   transition: all ease-in-out 0.4s;
 }
-.spellon-homepage .spellon-mobile-menu li {
-  list-style: none;
-}
-.spellon-homepage .spellon-mobile-menu li a {
-  text-decoration: none;
-}
-.spellon-homepage .mobile-menu-login-btn {
-  margin-left: -20px;
-}
+
+
 
 /* button */
 
