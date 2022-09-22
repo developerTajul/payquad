@@ -896,6 +896,10 @@ services area start
   width: 70px;
   height: 70px;
   border-radius: 100%;
+  background: #008c96;
+}
+.spellon-homepage .spellon-experience-area:hover .round-icon {
+  background:#ea501b;
 }
 /* colors */
 .spellon-homepage .spellon-experience-area .warning {
