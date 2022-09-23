@@ -1078,6 +1078,9 @@ blog start
 .spellon-homepage .spellon-blog-area .section-subtitle p {
   color: #646464;
 }
+.spellon-homepage .spellon-blog-area .blog-wrapper{
+  margin-top: 10px;
+}
 .spellon-homepage .spellon-blog-area .blog-wrapper .blog-item:first-child .blog-card {
   background: #baeff3;
 }
@@ -1093,11 +1096,12 @@ blog start
   text-align: center;
   min-height: 390px;
 }
-.spellon-homepage .spellon-blog-area .blog-title {
+.spellon-homepage .spellon-blog-area .blog-title a{
   font-size: 31px;
   line-height: 36px;
   text-transform: capitalize;
   text-decoration: none;
+  color:#004750;
 }
 .spellon-homepage .spellon-blog-area .blog-body {
   margin-top: 20px;
