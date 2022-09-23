@@ -1246,6 +1246,9 @@ contact  Start
 .spellon-homepage .spellon-footer-area .copyright {
   color: #bfbfbf;
 }
+.spellon-homepage .spellon-footer-area .copyright p {
+	padding-bottom: 0px;
+}
 .spellon-homepage .spellon-footer-area .footer-bottom a {
   color: #bfbfbf;
   text-transform: capitalize;
