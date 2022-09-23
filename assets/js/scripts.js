@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //  Handle Navigation:
     let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
     let closeBtn = document.getElementsByClassName("close-btn")[0];
+
     let mobile_nav_wrapper = document.querySelector('.mobile-nav-wrapper');
     let navItem = document.querySelectorAll(".main-menu ul li");
     const body = document.querySelector('body');
@@ -11,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mobile_nav_wrapper.classList.add('show-mobile-menu')
         body.classList.add('body-nav-gray')
     });
-
+/*
     closeBtn.addEventListener("click", () => {
         mobile_nav_wrapper.classList.remove('show-mobile-menu');
         body.classList.remove('body-nav-gray')
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         })
     }
+    */
     // testimonial 
     var swiper = new Swiper(".tst-slider", {
         slidesPerView: 1,
