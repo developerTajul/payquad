@@ -901,6 +901,7 @@ services area start
   font-size: 31px;
   line-height: 36px;
   color: #004750;
+  text-decoration: none;
 }
 .spellon-homepage .spellon-experience-area .ex-card-desc {
   font-size: 20px;
