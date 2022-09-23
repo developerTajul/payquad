@@ -592,6 +592,9 @@ start property management
   color: #646464a1;
   margin-top: 20px;
 }
+.spellon-homepage .spellon-property-management .property-management-subtitle{
+  padding: 0px 250px;
+}
 /* tabs */
 
 .spellon-homepage .spellon-property-management .main-tab-nav .nav-link {
