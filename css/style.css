@@ -860,6 +860,7 @@ services area start
   font-size: 24px;
   color: #000;
   font-weight: 500;
+  padding-bottom: 0px;
 }
 .spellon-homepage .spellon-experience-area .card-box-footer p {
   color: rgba(0, 0, 0, 0.398);
@@ -1096,6 +1097,7 @@ blog start
   font-size: 31px;
   line-height: 36px;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .spellon-homepage .spellon-blog-area .blog-body {
   margin-top: 20px;
