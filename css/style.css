@@ -217,26 +217,7 @@ header-area
   visibility: visible;
   opacity: 1;
 }
-.header-area .header-top .navbar .navbar-right .theme-btn a {
-  border: 1px solid #0b0036;
-  padding: 16px 32px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  border-radius: 10px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  text-transform: capitalize;
-  color: #434242;
-  white-space: nowrap;
-}
-.header-area .header-top .navbar .navbar-right .theme-btn a:hover {
-  color: #ea1c2d;
-}
+
 .header-area .header-top .navbar .hamburger-menu {
   width: 70px;
   font-size: 30px;
