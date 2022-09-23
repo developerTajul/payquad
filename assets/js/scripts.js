@@ -1,54 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    //  Handle Navigation:
-    let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
-    let closeBtn = document.getElementsByClassName("close-btn")[0];
-
-    let mobile_nav_wrapper = document.querySelector('.mobile-nav-wrapper');
-    let navItem = document.querySelectorAll(".main-menu ul li");
-    const body = document.querySelector('body');
-
-    hamburger_menu.addEventListener("click", () => {
-        mobile_nav_wrapper.classList.add('show-mobile-menu')
-        body.classList.add('body-nav-gray')
-    });
-/*
-    closeBtn.addEventListener("click", () => {
-        mobile_nav_wrapper.classList.remove('show-mobile-menu');
-        body.classList.remove('body-nav-gray')
-      
-    })
-
-    const navbaDropDown = document.querySelectorAll(".mobile-nav-wrapper .navbar-links ul ul");
-    const navbaDropDownCount = navbaDropDown.length;
-
-    for (let i = 0; i < navbaDropDownCount; i++) {
-        let link = createNavIcon('fa-plus');
-        navbaDropDown[i].parentNode.appendChild(link)
-    }
-
-    function createNavIcon(icon) {
-        let link = document.createElement('a');
-        link.innerHTML = '+';
-        link.classList.add('submenu-icon');
-        return link;
-    }
-
-    // open submenu
-
-    const submenuIcon = document.querySelectorAll('.submenu-icon');
-    for (let i = 0; i < submenuIcon.length; i++) {
-        submenuIcon[i].addEventListener('click', function () {
-            submenuIcon[i].parentNode.children[1].classList.toggle('expand-dropdown-mobile-menu');
-            let submenuIconText = submenuIcon[i].innerText;
-            if (submenuIconText === '+') {
-                submenuIcon[i].innerText = '-';
-            } else {
-                submenuIcon[i].innerText = '+';
-            }
-        })
-    }
-    */
+  
+    
     // testimonial 
     var swiper = new Swiper(".tst-slider", {
         slidesPerView: 1,
@@ -117,6 +70,56 @@ document.addEventListener("DOMContentLoaded", function () {
             tabContentArea.classList.toggle('d-none')
             // pillsTabContent.style.top = '310px'
             pillsTabContent.classList.toggle('third-tab');
+        })
+    }
+
+    //  Handle Navigation:
+
+    let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
+    let closeBtn = document.getElementsByClassName("close-btn")[0];
+
+    let mobile_nav_wrapper = document.querySelector('.mobile-nav-wrapper');
+    let navItem = document.querySelectorAll(".main-menu ul li");
+    const body = document.querySelector('body');
+
+    hamburger_menu.addEventListener("click", () => {
+        mobile_nav_wrapper.classList.add('show-mobile-menu')
+        body.classList.add('body-nav-gray')
+    });
+
+    closeBtn.addEventListener("click", () => {
+        mobile_nav_wrapper.classList.remove('show-mobile-menu');
+        body.classList.remove('body-nav-gray')
+
+    })
+
+    const navbaDropDown = document.querySelectorAll(".mobile-nav-wrapper .navbar-links ul ul");
+    const navbaDropDownCount = navbaDropDown.length;
+
+    for (let i = 0; i < navbaDropDownCount; i++) {
+        let link = createNavIcon('fa-plus');
+        navbaDropDown[i].parentNode.appendChild(link)
+    }
+
+    function createNavIcon(icon) {
+        let link = document.createElement('a');
+        link.innerHTML = '+';
+        link.classList.add('submenu-icon');
+        return link;
+    }
+
+    // open submenu
+
+    const submenuIcon = document.querySelectorAll('.submenu-icon');
+    for (let i = 0; i < submenuIcon.length; i++) {
+        submenuIcon[i].addEventListener('click', function () {
+            submenuIcon[i].parentNode.children[1].classList.toggle('expand-dropdown-mobile-menu');
+            let submenuIconText = submenuIcon[i].innerText;
+            if (submenuIconText === '+') {
+                submenuIcon[i].innerText = '-';
+            } else {
+                submenuIcon[i].innerText = '+';
+            }
         })
     }
    
