@@ -155,6 +155,24 @@ header-area
 .header-area .header-top .navbar .navbar-right .main-menu ul li {
   padding: 0px 22px;
 }
+.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle { 
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle::before { 
+    width: 118%;
+    left: -95%;
+    z-index: -1;
+    content: "";
+    height: 18px;
+    position: absolute;
+    top: calc(50% - 9px);
+    background: transparent;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle::after {
+    vertical-align: 0.1em;
+}
 .header-area .header-top .navbar .navbar-right .main-menu ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;

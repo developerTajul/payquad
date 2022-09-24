@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-  
     
+    /*** Dropdown Toggle Added */
+    $(".main-menu ul li ul").parent().append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
+
     // testimonial 
     var swiper = new Swiper(".tst-slider", {
         slidesPerView: 1,
@@ -124,3 +125,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
    
 })
+
+
+// (function($) {
+//     "use strict";
+
+//     $(document).ready( function() {
+
+//     }); // end document ready function
+
+// })(jQuery); // End jQuery
