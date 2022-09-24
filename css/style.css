@@ -933,7 +933,7 @@ margin-top: 0px;
 .spellon-homepage .spellon-experience-area .-ml-40 {
   margin-left: -40px;
 }
-.spellon-homepage .spellon-experience-area .ex-card-title {
+.spellon-homepage .spellon-experience-area .ex-card-title a{
   font-weight: 500;
   font-size: 31px;
   line-height: 36px;
