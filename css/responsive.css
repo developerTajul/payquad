@@ -303,7 +303,7 @@
         margin-top: -22px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: 250px;
+        bottom: 340px;
         right: 10px;
     }
 
@@ -1519,9 +1519,9 @@
         padding-top: 80px;
         padding-bottom: 0px;
     }
-     .spellon-homepage .spellon-hero-area .hero-title{
+    .spellon-homepage .spellon-hero-area .hero-title {
         margin-top: 30px;
-     }
+    }
     .spellon-homepage .spellon-hero-area .hero-title h1 {
         font-size: 40px;
         line-height: 48px;
@@ -2255,5 +2255,14 @@
         width: 80%;
         margin-bottom: -5px;
         margin-left: 15%;
+    }
+}
+
+/* min width : 1400px */
+@media all and (min-width:1400px) {
+    .spellon-homepage .spellon-experience-area .card-box {
+
+        bottom: 50px;
+        
     }
 }
