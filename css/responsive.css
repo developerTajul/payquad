@@ -1624,7 +1624,7 @@
     .spellon-homepage .spellon-property-management .section-subtitle {
         font-size: 15px;
         line-height: 23px;
-        padding: 0px 50px;
+        padding: 0px ;
     }
     .spellon-homepage .spellon-property-management .propertyManagement {
         padding: 35px 0px;
@@ -1778,18 +1778,18 @@
     .spellon-homepage .spellon-blog-area .section-title {
         font-size: 28px;
         line-height: 32px;
-        padding: 0px 25px;
+        padding: 0px;
     }
     .spellon-homepage .spellon-blog-area .section-subtitle p {
         font-size: 15px;
         line-height: 23px;
     }
     .spellon-homepage .spellon-blog-area .blog-wrapper {
-        margin-top: 32px;
+        margin-top: 0px;
     }
     .spellon-homepage .spellon-blog-area .blog-title {
         font-size: 20px;
-        line-height: 24px;
+        line-height: 30px;
     }
     .spellon-homepage .spellon-blog-area .blog-body {
         margin-top: 0px;
@@ -1966,7 +1966,7 @@
     .spellon-homepage .spellon-services-area .top-area .subtitle {
         font-size: 15px;
         line-height: 23px;
-        padding: 0px 36px;
+        padding: 0px ;
     }
     .spellon-homepage .spellon-services-area .content-wrapper {
         margin-top: 32px;
