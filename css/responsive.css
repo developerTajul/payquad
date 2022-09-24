@@ -2078,7 +2078,7 @@
         padding: 0px 16px;
     }
     .first-tab {
-        top: 90px;
+        top: 112px;
     }
     .second-tab {
         top: 200px;
@@ -2247,6 +2247,7 @@
         backface-visibility: hidden;
         background: #fff;
         padding-top: 20px;
+
     }
     .hide-tab-content {
         display: none;
