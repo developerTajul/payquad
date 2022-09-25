@@ -1052,41 +1052,8 @@
     .spellon-homepage .spellon-hero-area .mt-60 {
         margin-top: 0px;
     }
-    /* verticle tab */
-    .property-management-height {
-        min-height: 1100px;
-    }
-    .propertyManagement {
-    
-        position: relative;
-    }
-    .tab-content-area {
-        padding-top: 20px;
-    }
-
-    .tab-content.first-tab {
-        position: absolute;
-        top: 130px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
-    }
-    .tab-content.second-tab {
-        position: absolute;
-        top: 240px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
-    }
-    .tab-content.third-tab {
-        position: absolute;
-        top: 350px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
+    .property-management-accordion {
+        padding: 52px 0px;
     }
 
     /* counter */
@@ -2115,41 +2082,7 @@
     .spellon-homepage .spellon-footer-area .subscribe-btn {
         padding: 0px 16px;
     }
-    /* verticle tab */
-    .property-management-height {
-        min-height: 1100px;
-    }
-    .propertyManagement {
-        position: relative;
-    }
-    .tab-content-area {
-        padding-top: 20px;
-    }
-
-    .tab-content.first-tab {
-        position: absolute;
-        top: 120px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
-    }
-    .tab-content.second-tab {
-        position: absolute;
-        top: 210px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
-    }
-    .tab-content.third-tab {
-        position: absolute;
-        top: 300px;
-        backface-visibility: hidden;
-        backdrop-filter: blur(10px);
-        background: #fff;
-        padding-top: 20px;
-    }
+   
 }
 
 /* all xl */

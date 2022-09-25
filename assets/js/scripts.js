@@ -53,35 +53,35 @@ document.addEventListener("DOMContentLoaded", function () {
         el.classList.add('show');
     }
    // tabs
-    if(screen.width < 992){
-        const mainTabNav = document.querySelector('.main-tab-nav');
-        const tabContentArea = document.querySelector('.tab-content-area');
-        const pillsTabContent = document.getElementById('pills-tabContent');
-        const propertyManagement = document.querySelector('.propertyManagement');
+    // if(screen.width < 992){
+    //     const mainTabNav = document.querySelector('.main-tab-nav');
+    //     const tabContentArea = document.querySelector('.tab-content-area');
+    //     const pillsTabContent = document.getElementById('pills-tabContent');
+    //     const propertyManagement = document.querySelector('.propertyManagement');
 
-        mainTabNav.children[0].addEventListener('click', function () {
-            tabContentArea.classList.toggle('d-none')
-            pillsTabContent.classList.remove('second-tab','third-tab');
-            pillsTabContent.classList.toggle('first-tab');
-            propertyManagement.classList.toggle('property-management-height')
+    //     mainTabNav.children[0].addEventListener('click', function () {
+    //         tabContentArea.classList.toggle('d-none')
+    //         pillsTabContent.classList.remove('second-tab','third-tab');
+    //         pillsTabContent.classList.toggle('first-tab');
+    //         propertyManagement.classList.toggle('property-management-height')
            
-        })
-        mainTabNav.children[1].addEventListener('click', function () {
-            tabContentArea.classList.toggle('d-none')
-            pillsTabContent.classList.remove('first-tab', 'third-tab');
-            pillsTabContent.classList.toggle('second-tab');
-            propertyManagement.classList.toggle('property-management-height')
-        })
-        mainTabNav.children[2].addEventListener('click', function () {
-            tabContentArea.classList.toggle('d-none')
-            pillsTabContent.classList.remove('first-tab', 'second-tab');
-            pillsTabContent.classList.toggle('third-tab');
-            propertyManagement.classList.toggle('property-management-height')
-        })
-        if (tabContentArea.contains('d-none')) {
-            document.querySelector('.propertyManagement').style.minHeight = 'fit-content';
-        }
-    }
+    //     })
+    //     mainTabNav.children[1].addEventListener('click', function () {
+    //         tabContentArea.classList.toggle('d-none')
+    //         pillsTabContent.classList.remove('first-tab', 'third-tab');
+    //         pillsTabContent.classList.toggle('second-tab');
+    //         propertyManagement.classList.toggle('property-management-height')
+    //     })
+    //     mainTabNav.children[2].addEventListener('click', function () {
+    //         tabContentArea.classList.toggle('d-none')
+    //         pillsTabContent.classList.remove('first-tab', 'second-tab');
+    //         pillsTabContent.classList.toggle('third-tab');
+    //         propertyManagement.classList.toggle('property-management-height')
+    //     })
+    //     if (tabContentArea.contains('d-none')) {
+    //         document.querySelector('.propertyManagement').style.minHeight = 'fit-content';
+    //     }
+    // }
 
     //  Handle Navigation:
 

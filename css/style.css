@@ -119,7 +119,6 @@ header-area
   background: rgba(128, 128, 128, 0.386);
 }
 
-
 .header-area a {
   text-decoration: none;
 }
@@ -156,25 +155,25 @@ header-area
   padding: 0px 22px;
 }
 .spellon-homepage .spellon-button-secondary {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle { 
-    z-index: 1;
-    cursor: pointer;
-    position: relative;
+.header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown-toggle {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
 }
-.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle::before { 
-    width: 118%;
-    left: -95%;
-    z-index: -1;
-    content: "";
-    height: 18px;
-    position: absolute;
-    top: calc(50% - 9px);
-    background: transparent;
+.header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown-toggle::before {
+  width: 118%;
+  left: -95%;
+  z-index: -1;
+  content: "";
+  height: 18px;
+  position: absolute;
+  top: calc(50% - 9px);
+  background: transparent;
 }
-.header-area .header-top .navbar .navbar-right .main-menu ul li  .dropdown-toggle::after {
-    vertical-align: 0.1em;
+.header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown-toggle::after {
+  vertical-align: 0.1em;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li a {
   font-family: "Work Sans", sans-serif;
@@ -204,24 +203,24 @@ header-area
   cursor: pointer;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul {
-    flex-direction: column;
-    border-radius: 4px;
-    margin-top: 0px; 
-    padding: 8px;
-    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
-    background: #fff;
-    transform-origin: top left;
-    overflow: hidden;
+  flex-direction: column;
+  border-radius: 4px;
+  margin-top: 0px;
+  padding: 8px;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  transform-origin: top left;
+  overflow: hidden;
 
-    z-index: 1000;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    font-size: 1rem;
-    min-width: 10rem;
-    position: absolute;
-    border: 1px solid rgba(0,0,0,.15);
-  }
+  z-index: 1000;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  font-size: 1rem;
+  min-width: 10rem;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul li {
   padding: 8px 0px;
   flex-grow: 1;
@@ -356,14 +355,7 @@ header-area
   .mobile-nav-wrapper {
     display: none;
   }
-} 
-
-
-
-
-
-
-
+}
 
 .spellon-homepage .mobile-menu {
   z-index: 40;
@@ -378,8 +370,6 @@ header-area
   transform: translateX(-100%);
   transition: all ease-in-out 0.4s;
 }
-
-
 
 /* button */
 
@@ -622,7 +612,7 @@ start property management
   color: #646464a1;
   margin-top: 20px;
 }
-.spellon-homepage .spellon-property-management .property-management-subtitle{
+.spellon-homepage .spellon-property-management .property-management-subtitle {
   padding: 0px 250px;
 }
 /* tabs */
@@ -757,7 +747,6 @@ start property management
 .spellon-homepage .spellon-property-management .spellon-tab-image img {
   height: 100%;
   width: 100%;
-
 }
 .spellon-homepage .spellon-property-management .mt-24 {
   margin-top: 24px;
@@ -896,7 +885,7 @@ services area start
   padding-bottom: 0px;
 }
 .spellon-homepage .spellon-experience-area .experience-main.mt-100 {
-margin-top: 0px;
+  margin-top: 0px;
 }
 .spellon-homepage .spellon-experience-area .card-box-footer p {
   color: rgba(0, 0, 0, 0.398);
@@ -918,7 +907,7 @@ margin-top: 0px;
   background: #008c96;
 }
 .spellon-homepage .spellon-experience-area .ex-card:hover .round-icon {
-  background:#ea501b;
+  background: #ea501b;
 }
 /* colors */
 .spellon-homepage .spellon-experience-area .warning {
@@ -933,7 +922,7 @@ margin-top: 0px;
 .spellon-homepage .spellon-experience-area .-ml-40 {
   margin-left: -40px;
 }
-.spellon-homepage .spellon-experience-area .ex-card-title a{
+.spellon-homepage .spellon-experience-area .ex-card-title a {
   font-weight: 500;
   font-size: 31px;
   line-height: 36px;
@@ -1114,7 +1103,7 @@ blog start
 .spellon-homepage .spellon-blog-area .section-subtitle p {
   color: #646464;
 }
-.spellon-homepage .spellon-blog-area .blog-wrapper{
+.spellon-homepage .spellon-blog-area .blog-wrapper {
   margin-top: 10px;
 }
 .spellon-homepage .spellon-blog-area .blog-wrapper .blog-item:first-child .blog-card {
@@ -1132,12 +1121,12 @@ blog start
   text-align: center;
   min-height: 390px;
 }
-.spellon-homepage .spellon-blog-area .blog-title a{
+.spellon-homepage .spellon-blog-area .blog-title a {
   font-size: 31px;
   line-height: 36px;
   text-transform: capitalize;
   text-decoration: none;
-  color:#004750;
+  color: #004750;
 }
 .spellon-homepage .spellon-blog-area .blog-body {
   margin-top: 20px;
@@ -1172,28 +1161,28 @@ contact  Start
   color: #646464;
 }
 
-.spellon-homepage .spellon-contact-form-img .img-one  {
-    padding-left: 50px;
+.spellon-homepage .spellon-contact-form-img .img-one {
+  padding-left: 50px;
 }
 .spellon-homepage .spellon-contact-form-img .img-one img {
-    width: 272px;
-    height: 372px;
+  width: 272px;
+  height: 372px;
 }
 .spellon-homepage .spellon-contact-form-img .img-two img {
-    width: 362px;
-    height: 304px;
+  width: 362px;
+  height: 304px;
 }
 
 .spellon-homepage .spellon-contact-form-img .img-two {
-    position: absolute;
-    left: 50px;
-    top: 160px;
+  position: absolute;
+  left: 50px;
+  top: 160px;
   left: 100px;
 }
 .spellon-homepage .contact-form-wrapper {
   margin-top: 40px;
 }
-.spellon-homepage .spellon-contact-form-shape{
+.spellon-homepage .spellon-contact-form-shape {
   position: absolute;
   top: 40%;
   left: 0;
@@ -1287,7 +1276,7 @@ contact  Start
   color: #bfbfbf;
 }
 .spellon-homepage .spellon-footer-area .copyright p {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 .spellon-homepage .spellon-footer-area .footer-bottom a {
   color: #bfbfbf;
@@ -1313,3 +1302,187 @@ contact  Start
 .tabcontent-navlist li {
   width: 100%;
 }
+
+/* property management accordion start */
+.property-management-accordion {
+  padding: 32px 0px;
+}
+.property-management-accordion .property-management-header {
+  text-align: center;
+}
+.property-management-accordion .property-management-header .section-header h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #004750;
+}
+.spellon-property-accordion {
+  margin-top: 35px;
+}
+.spellon-property-accordion .accordion-item .accordion-header {
+  border-radius: 40px;
+  outline: none;
+}
+.spellon-property-accordion .accordion-item .accordion-header .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.spellon-property-accordion .accordion-item {
+  background: transparent;
+  border: none;
+}
+.spellon-property-accordion .accordion-item span {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.spellon-property-accordion .accordion-item .icon {
+  height: 49px;
+  width: 49px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  display: none;
+}
+.spellon-property-accordion .accordion-item .accordion-button {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 63px;
+}
+
+.spellon-property-accordion .accordion-item .icon img {
+  height: 26px;
+  width: 26px;
+}
+.spellon-property-accordion .accordion-item .accordion-button:hover {
+  border-radius: 40px;
+}
+.spellon-property-accordion .accordion-item .accordion-button:hover .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spellon-property-accordion .accordion-button:not(.collapsed)::after {
+  background-image: "";
+}
+.spellon-property-accordion .accordion-button::after {
+  display: none;
+  height: 63px;
+}
+
+/* first tab */
+
+.spellon-property-accordion .accordion-item:first-child .accordion-button {
+  background: #008c9648;
+  height: 63px;
+  width: 100%;
+  color: #008c96;
+}
+.spellon-property-accordion .accordion-item:first-child .accordion-button:hover {
+  background: #008c96 !important;
+  color: #fff;
+}
+.spellon-property-accordion .accordion-item:nth-child(2) .accordion-button {
+  height: 63px;
+  width: 100%;
+  background: #ea4f1b43;
+  color: #ea501b;
+}
+.spellon-property-accordion .accordion-item:nth-child(2) .accordion-button:hover {
+  background: #ea501b !important;
+  color: #fff;
+}
+.spellon-property-accordion .accordion-item:nth-child(3) .accordion-button {
+  height: 63px;
+  width: 100%;
+  background: #0047501b;
+  color: #004750;
+}
+.spellon-property-accordion .accordion-item:nth-child(3) .accordion-button:hover {
+  background: #004750 !important;
+  color: #fff;
+}
+
+/* sub tabs */
+.spellon-property-accordion .nav-pills .nav-link.active,
+.spellon-property-accordion .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0d6efd;
+  width: 100%;
+  border-radius: 88px;
+}
+
+.spellon-homepage .spellon-property-accordion .accordion-item .nav-pills .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 88px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.spellon-homepage .spellon-property-accordion .accordion-item:nth-child(1) .nav-pills .nav-link {
+  color: #004750;
+  border: 1px solid #00475070;
+}
+.spellon-homepage .spellon-property-accordion .accordion-item:nth-child(2) .nav-pills .nav-link {
+  color: #004750;
+  border: 1px solid #ea4f1b38;
+}
+.spellon-homepage .spellon-property-accordion .accordion-item:nth-child(3) .nav-pills .nav-link {
+  color: #004750;
+  border: 1px solid #00475048;
+}
+
+.spellon-property-accordion .accordion-item:nth-child(1) .nav-pills .nav-link.active {
+  border: transparent;
+}
+.spellon-property-accordion .accordion-item:nth-child(2) .nav-pills .nav-link.active {
+  background: #ea4f1b1d;
+  border: transparent;
+}
+.spellon-property-accordion .accordion-item:nth-child(3) .nav-pills .nav-link.active {
+  background: #0047502c;
+  border: transparent;
+}
+
+.spellon-homepage .spellon-property-accordion .tabcontent-navlist {
+  display: flex;
+  justify-content: end;
+}
+.spellon-homepage .spellon-property-accordion .tabcontent-navlist li {
+  width: 90%;
+}
+.spellon-property-accordion .accordion-button {
+  margin-bottom: 10px;
+}
+
+.spellon-homepage .spellon-property-accordion .nav-pills .nav-link.active {
+  background: #bee5e8;
+}
+.spellon-homepage .spellon-property-accordion .tabcontent-area h2 {
+  font-size: 28px;
+  line-height: 60px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 20px 5px;
+}
+.spellon-homepage .spellon-property-accordion .tabcontent-area p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #646464;
+}
+.spellon-homepage .spellon-property-accordion .tabcontent-area img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+/* property management accordion end */
