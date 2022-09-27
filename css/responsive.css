@@ -983,7 +983,6 @@
         width: 779px;
         margin-top: 60px;
     }
-  
 }
 
 /* SM Small Device :550px. */
@@ -1610,9 +1609,7 @@
         margin: 20px 20px;
     }
     /* property management */
-    .spellon-homepage .spellon-property-accordion {
-        margin-top: -30px;
-    }
+
     .spellon-homepage .spellon-property-management {
         padding: 32px 0px;
     }
@@ -1856,9 +1853,8 @@
     /* footer */
     .spellon-homepage .spellon-footer-area.mt-100 {
         margin-top: 32px;
-        padding: 32px 10px;
+        padding: 32px 10px 5px;
     }
-
     .spellon-homepage .spellon-footer-area p {
         font-size: 15px;
         line-height: 23px;
