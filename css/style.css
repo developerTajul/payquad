@@ -320,8 +320,8 @@ header-area
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon:active,
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon:hover {
-  background: #ff4646;
-  border: 1px solid #ff4646;
+  background: #008c96;
+  border: 1px solid #008c96;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul li ul {
   height: 0;

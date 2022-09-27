@@ -2233,3 +2233,9 @@
         bottom: 50px;
     }
 }
+/* admin bar */
+@media all and (min-width: 320px) and (max-width: 783px) {
+    .spellon-homepage.logged-in .header-area {
+        margin-top: 35px;
+    }
+}
