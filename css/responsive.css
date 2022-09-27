@@ -2051,6 +2051,9 @@
         width: 94px;
         height: 28px;
     }
+    .spellon-homepage .spellon-property-accordion {
+        margin-top: 0px;
+    }
     .spellon-homepage .spellon-property-management .section-title,
     .spellon-homepage .section-title {
         font-size: 28px;
