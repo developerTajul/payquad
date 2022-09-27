@@ -2238,4 +2238,9 @@
     .spellon-homepage.logged-in .header-area {
         margin-top: 35px;
     }
+    .spellon-homepage.logged-in .header-area .header-top .navbar .mobile-nav-wrapper.show-mobile-menu {
+        right: 0%;
+        transition: all ease-in-out 0.5s;
+        padding-top: 70px;
+    }
 }

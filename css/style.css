@@ -251,7 +251,7 @@ header-area
 }
 
 .header-area .header-top .navbar .hamburger-menu {
-  width: 70px;
+  width: fit-content;
   font-size: 30px;
   position: absolute;
   right: 0%;
