@@ -1189,6 +1189,7 @@ contact  Start
   position: absolute;
   top: 40%;
   left: 0;
+  z-index: -4;
 }
 /* footer */
 .spellon-homepage .spellon-footer-area {
