@@ -745,6 +745,7 @@ start property management
 
 .spellon-homepage .spellon-property-management .spellon-tab-image {
   overflow: hidden;
+  padding-right: 25px;
 }
 .spellon-homepage .spellon-property-management .spellon-tab-image img {
   height: 100%;
