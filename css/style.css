@@ -381,7 +381,7 @@ header-area
   font-size: 16px;
   line-height: 24px;
   border-radius: 55px;
-  padding: 12px 20px;
+  padding: 14px 28px;
   border: none;
   background: transparent;
   text-transform: capitalize;
@@ -391,13 +391,13 @@ header-area
 .spellon-homepage .spellon-button-secondary {
   color: #008c96;
   background: #008c961e;
-  padding: 12px 26px;
+  padding: 14px 28px;
   border: 1px solid #008c961e;
 }
 .spellon-homepage .spellon-button-secondary:hover {
   color: #fff;
   background: #008c96;
-  padding: 12px 26px;
+
 }
 .spellon-homepage .spellon-button-primary {
   color: #fff;
@@ -407,11 +407,10 @@ header-area
 .spellon-homepage .spellon-button-primary:hover {
   color: #008c96;
   background: transparent;
-  border: 1px solid #008c96;
 }
 
 .spellon-homepage .spellon-button-sm {
-  padding: 14px 34px;
+  padding: 14px 38px;
   font-size: 18px;
 }
 .spellon-homepage .spellon-button-rect {
