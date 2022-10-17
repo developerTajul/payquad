@@ -96,13 +96,13 @@
         margin-top: -50px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph {
-        top: 150px;
-        left: -20px;
+        top: 185px;
+        left: 53px;
     }
 
     .spellon-homepage .spellon-hero-area .hero-right .graph img {
-        height: 250px;
-        width: 360px;
+        height: 160px;
+        width: 299px;
     }
 
     .spellon-homepage .spellon-hero-area .mt-60 {
@@ -562,11 +562,11 @@
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph {
         top: 100px;
-        left: -50px;
+        left: 10px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph img {
-        height: 200px;
-        width: 320px;
+        height: 141px;
+        width: 255px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .block-img img {
         width: 120px;
@@ -1026,8 +1026,8 @@
         left: -20px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph img {
-        height: 140px;
-        width: 220px;
+        height: 109px;
+        width: 201px;
     }
 
     .spellon-homepage .spellon-hero-area .hero-right .block-img {
@@ -1542,12 +1542,12 @@
         margin-top: -18px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph {
-        top: 50px;
-        left: -20px;
+        top: 74px;
+        left: 10px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .graph img {
-        height: 100px;
-        width: 160px;
+        height: 55px;
+        width: 117px;
     }
     .spellon-homepage .spellon-hero-area .hero-right .block-img {
         right: -10px;
@@ -2143,10 +2143,10 @@
         left: 90px;
     }
     .spellon-homepage .spellon-services-area .communication-icon {
-	top: 440px;
-	left: 320px;
-}
-   
+        top: 440px;
+        left: 320px;
+    }
+
     .spellon-homepage .spellon-services-area .community-icon {
         top: 350px;
         right: -5px;
