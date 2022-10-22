@@ -477,6 +477,9 @@ header-area
   color: #42595c;
   margin-top: 35px;
 }
+.spellon-homepage .spellon-hero-area .hero-desc p{
+	padding-bottom: 0px;
+}
 .spellon-homepage .spellon-hero-area .hero-desc .hero-btn .spellon-button {
   font-size: 18px;
 }
