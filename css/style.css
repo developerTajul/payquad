@@ -1026,8 +1026,8 @@ services area start
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
   position: absolute;
-  right: -52px;
-  bottom: -190px;
+  right: 0px;
+  bottom: -134px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .block {
   position: absolute;
