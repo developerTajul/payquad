@@ -45,9 +45,7 @@
 .spellon-homepage {
   text-decoration: none;
 }
-.spellon-homepage p {
-  padding-bottom: 0px !important;
-}
+
 .spellon-homepage button {
   cursor: pointer;
   background: transparent;
@@ -111,6 +109,7 @@
   line-height: 32px;
   color: #2b343f;
   margin-bottom: 0;
+  padding-bottom: 0px;
 }
 
 .spellon-homepage input:focus {
