@@ -8,8 +8,8 @@
         margin-left: -30px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: 100px;
-        right: 10px;
+        bottom: -60px;
+        right: -26px;
     }
     /* nav tab */
     .spellon-homepage .spellon-property-management .main-tab-nav .nav-item:nth-child(2) {
@@ -303,8 +303,8 @@
         margin-top: -22px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: 340px;
-        right: 10px;
+        bottom: -59px;
+        right: -39px;
     }
 
     /*
@@ -725,8 +725,8 @@
         margin-top: -22px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: -20px;
-        right: 10px;
+        bottom: -57px;
+        right: -9px;
     }
 
     /* blog */
@@ -1191,8 +1191,11 @@
         margin-top: -22px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: -20px;
-        right: 10px;
+        bottom: -55px;
+        right: -3px;
+    }
+    .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
+        display: none;
     }
     /* blog */
     .spellon-homepage .spellon-blog-area {
@@ -1747,6 +1750,7 @@
     }
     .spellon-homepage .spellon-experience-area .ex-card {
         padding: 16px;
+        margin-top: 40px;
     }
     .spellon-homepage .spellon-experience-area .ex-card-title {
         font-size: 20px;
@@ -1763,8 +1767,11 @@
         margin-top: -22px;
     }
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: -20px;
-        right: 15px;
+        bottom: -64px;
+        right: -5px;
+    }
+    .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
+        display: none;
     }
     /* blog */
 
@@ -2234,7 +2241,7 @@
 /* min width : 1400px */
 @media all and (min-width: 1400px) {
     .spellon-homepage .spellon-experience-area .card-box {
-        bottom: 50px;
+        bottom: -52px;
     }
 }
 /* admin bar */
