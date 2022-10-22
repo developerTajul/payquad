@@ -108,8 +108,8 @@
   font-weight: 400;
   line-height: 32px;
   color: #2b343f;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .spellon-homepage input:focus {
