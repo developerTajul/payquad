@@ -711,6 +711,9 @@ start property management
   text-align: left;
   margin-bottom: 16px;
 }
+.spellon-homepage .spellon-hero-area .hero-desc p {
+	padding-bottom: 0px;
+}
 .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link.active {
   border: none;
   background: #bee5e8;
