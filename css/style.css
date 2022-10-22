@@ -19,6 +19,7 @@
 11. what we do
 */
 /* common css */
+
 .spellon-homepage {
   font-family: "Work Sans", sans-serif;
   font-weight: normal;
@@ -43,6 +44,9 @@
 }
 .spellon-homepage {
   text-decoration: none;
+}
+.spellon-homepage p {
+  padding-bottom: 0px !important;
 }
 .spellon-homepage button {
   cursor: pointer;
@@ -477,8 +481,8 @@ header-area
   color: #42595c;
   margin-top: 35px;
 }
-.spellon-homepage .spellon-hero-area .hero-desc p{
-	padding-bottom: 0px;
+.spellon-homepage .spellon-hero-area .hero-desc p {
+  padding-bottom: 0px;
 }
 .spellon-homepage .spellon-hero-area .hero-desc .hero-btn .spellon-button {
   font-size: 18px;
@@ -715,7 +719,7 @@ start property management
   margin-bottom: 16px;
 }
 .spellon-homepage .spellon-hero-area .hero-desc p {
-	padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 .spellon-homepage .spellon-property-management .tabcontent-navlist li button.nav-link.active {
   border: none;
@@ -1162,8 +1166,6 @@ contact  Start
 }
 .contact-background {
   background: #fdf1ed;
-
-
 }
 .spellon-homepage .spellon-contact-area h2 {
   font-size: 56px;
