@@ -109,7 +109,7 @@
   line-height: 32px;
   color: #2b343f;
   margin-bottom: 0;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .spellon-homepage input:focus {
@@ -959,8 +959,8 @@ services area start
 }
 .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
   position: absolute;
-  bottom: 0px;
-  left: -30px;
+  bottom: 95px;
+  left: 211px;
 }
 .spellon-homepage .spellon-experience-area {
   position: relative;
