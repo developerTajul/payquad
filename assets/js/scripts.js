@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         el.classList.add('show');
     }
-   // tabs
+
     // if(screen.width < 992){
     //     const mainTabNav = document.querySelector('.main-tab-nav');
     //     const tabContentArea = document.querySelector('.tab-content-area');
@@ -134,13 +134,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
    
 })
-
-
-// (function($) {
-//     "use strict";
-
-//     $(document).ready( function() {
-
-//     }); // end document ready function
-
-// })(jQuery); // End jQuery
