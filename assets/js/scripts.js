@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
     
     /*** Dropdown Toggle Added */
     jQuery(".main-menu ul li ul").parent().append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
@@ -133,4 +133,3 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
    
-})
