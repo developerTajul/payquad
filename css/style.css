@@ -1035,6 +1035,9 @@ services area start
   position: relative;
   padding-left: 40px;
 }
+.spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .block img{
+  opacity: 0.7;
+}
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .main-img img {
   border-radius: 4px;
 }
