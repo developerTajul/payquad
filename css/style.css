@@ -885,12 +885,28 @@ services area start
   background: #fff;
   text-align: center;
 }
-.spellon-homepage .spellon-experience-area .card-box .stars i:not(:last-child) {
+/* .spellon-homepage .spellon-experience-area .card-box .stars i:not(:last-child) {
   color: #ff8447;
   font-size: 18px;
 }
 .spellon-homepage .spellon-experience-area .card-box .stars {
   margin-bottom: 10px;
+} */
+
+.spellon-homepage .spellon-experience-area .rating-wrapper {
+  position: relative;
+}
+.spellon-homepage .spellon-experience-area .rating-wrapper .default-stars i {
+  color: #000;
+}
+
+.spellon-homepage .spellon-experience-area .rating-wrapper .dynamic-stars {
+	position: absolute;
+	top: 0;
+	left: 45px;
+}
+.spellon-homepage .spellon-experience-area .rating-wrapper .dynamic-stars i {
+  color: #ff8447;
 }
 
 .spellon-homepage .spellon-experience-area .card-box-title p {
@@ -1035,7 +1051,7 @@ services area start
   position: relative;
   padding-left: 40px;
 }
-.spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .block img{
+.spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .block img {
   opacity: 0.7;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .main-img img {
@@ -1053,8 +1069,7 @@ services area start
   bottom: -135px;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .block img {
-
-	opacity: 0.7;
+  opacity: 0.7;
 }
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote {
   position: absolute;
