@@ -741,7 +741,7 @@ start property management
 }
 .spellon-homepage .spellon-property-management .tabcontent-area {
   padding: 47px 0px 47px 68px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .spellon-homepage .spellon-property-management .tabcontent-area h2 {
   font-size: 40px;
@@ -955,9 +955,9 @@ services area start
 }
 
 .spellon-homepage .spellon-experience-area .ex-img .shape-1 {
-	position: absolute;
-	top: 30px;
-	left: 35%;
+  position: absolute;
+  top: 30px;
+  left: 35%;
 }
 .spellon-homepage .spellon-experience-area .ex-img .shape-2 {
   position: absolute;
@@ -1035,6 +1035,10 @@ services area start
   position: relative;
   padding-left: 40px;
 }
+.spellon-homepage .spellon-testimonial-wrapper .slider-left .slider-image .main-img img {
+  border-radius: 4px;
+}
+
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .author {
   position: absolute;
   right: -1px;
