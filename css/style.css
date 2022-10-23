@@ -991,7 +991,7 @@ services area start
   height: 58px;
   width: 58px;
   border-radius: 100%;
-  box-shadow: 2px 3px 2px 2px rgba(128, 128, 128, 0.149);
+  box-shadow: 2px 3px 2px 0px rgba(128, 128, 128, 0.149);
 }
 
 .spellon-homepage .spellon-testimonial-wrapper .swiper-button-next:hover::after {
