@@ -1052,6 +1052,10 @@ services area start
   left: -10px;
   bottom: -135px;
 }
+.spellon-homepage .spellon-testimonial-wrapper .slider-left .block img {
+
+	opacity: 0.7;
+}
 .spellon-homepage .spellon-testimonial-wrapper .slider-left .quote {
   position: absolute;
   top: -30px;
