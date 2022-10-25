@@ -901,9 +901,9 @@ services area start
 }
 
 .spellon-homepage .spellon-experience-area .rating-wrapper .dynamic-stars {
-	position: absolute;
-	top: 0;
-	left: 45px;
+  position: absolute;
+  top: 0;
+  left: 45px;
 }
 .spellon-homepage .spellon-experience-area .rating-wrapper .dynamic-stars i {
   color: #ff8447;
@@ -1233,8 +1233,6 @@ contact  Start
   z-index: -4;
 }
 
-
-
 /* verticle tab */
 .tabcontent-area {
   min-height: 495px;
@@ -1439,7 +1437,6 @@ contact  Start
 }
 /* property management accordion end */
 
-
 /* footer */
 
 .spellon-homepage .spellon-footer-area {
@@ -1535,4 +1532,15 @@ contact  Start
 .spellon-homepage .spellon-footer-area .footer-bottom a {
   color: #bfbfbf;
   text-transform: capitalize;
+}
+
+/* footer re design */
+#footer-outer .widget.widget_pages li a,
+#footer-outer .widget.widget_nav_menu li a {
+  padding: 8px 0;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
