@@ -1232,101 +1232,8 @@ contact  Start
   left: 0;
   z-index: -4;
 }
-/* footer */
-.spellon-homepage .spellon-footer-area {
-  background: #004750;
-}
-.spellon-homepage .spellon-footer-area li {
-  list-style-type: none;
-}
-.spellon-homepage .spellon-footer-area a {
-  text-decoration: none;
-}
-.spellon-homepage .spellon-footer-area .footer-nav li a {
-  color: #fff;
-  display: block;
-  margin-bottom: 10px;
-}
-.spellon-homepage .spellon-footer-area .footer-nav li a:hover {
-  opacity: 0.7;
-}
-.spellon-homepage .spellon-footer-area p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
 
-.spellon-homepage .spellon-footer-area .social-links li a {
-  height: 32px;
-  width: 32px;
-  border-radius: 100%;
-  background: #fff;
-  display: flex;
-  color: #000;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  text-decoration: none;
-}
-.spellon-homepage .spellon-footer-area .social-links li {
-  list-style: none;
-}
-.spellon-homepage .spellon-footer-area .social-links li a:hover {
-  background: #008c96;
-  color: #fff;
-}
-.spellon-homepage .spellon-footer-area .footer-title {
-  font-size: 20px;
-  color: #ffffff;
-  text-transform: capitalize;
-}
-.spellon-homepage .spellon-footer-area .widget-form input {
-  width: 100%;
-  font-size: 16px;
-  line-height: 26px;
-  color: #fff;
-  padding: 0px 17px;
-  border-radius: 55px;
-  border: none;
-  background: #baeff30b;
-  height: 52px;
-}
-.spellon-homepage .spellon-footer-area .widget-form input::placeholder {
-  color: rgba(255, 255, 255, 0.572);
-  font-size: 16px;
-}
-.spellon-homepage .spellon-footer-area .subscribe-btn {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 52px;
-  background: #ea501b;
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 16px;
-  border-top-right-radius: 55px;
-  border-bottom-right-radius: 55px;
-  padding: 0px 32px;
-}
-.spellon-homepage .spellon-footer-area .footer-border {
-  width: 100%;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.089);
-}
-.spellon-homepage .spellon-footer-area .footer-bottom {
-  padding: 20px 0px;
-}
-.spellon-homepage .spellon-footer-area .copyright {
-  color: #bfbfbf;
-}
-.spellon-homepage .spellon-footer-area .copyright p {
-  padding-bottom: 0px;
-}
-.spellon-homepage .spellon-footer-area .footer-bottom a {
-  color: #bfbfbf;
-  text-transform: capitalize;
-}
+
 
 /* verticle tab */
 .tabcontent-area {
@@ -1531,3 +1438,102 @@ contact  Start
   height: auto;
 }
 /* property management accordion end */
+
+
+/* footer */
+/*  
+.spellon-homepage .spellon-footer-area {
+  background: #004750;
+}
+.spellon-homepage .spellon-footer-area li {
+  list-style-type: none;
+}
+.spellon-homepage .spellon-footer-area a {
+  text-decoration: none;
+}
+.spellon-homepage .spellon-footer-area .footer-nav li a {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.spellon-homepage .spellon-footer-area .footer-nav li a:hover {
+  opacity: 0.7;
+}
+.spellon-homepage .spellon-footer-area p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.spellon-homepage .spellon-footer-area .social-links li a {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background: #fff;
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.spellon-homepage .spellon-footer-area .social-links li {
+  list-style: none;
+}
+.spellon-homepage .spellon-footer-area .social-links li a:hover {
+  background: #008c96;
+  color: #fff;
+}
+.spellon-homepage .spellon-footer-area .footer-title {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.spellon-homepage .spellon-footer-area .widget-form input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding: 0px 17px;
+  border-radius: 55px;
+  border: none;
+  background: #baeff30b;
+  height: 52px;
+}
+.spellon-homepage .spellon-footer-area .widget-form input::placeholder {
+  color: rgba(255, 255, 255, 0.572);
+  font-size: 16px;
+}
+.spellon-homepage .spellon-footer-area .subscribe-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 52px;
+  background: #ea501b;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  padding: 0px 32px;
+}
+.spellon-homepage .spellon-footer-area .footer-border {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.089);
+}
+.spellon-homepage .spellon-footer-area .footer-bottom {
+  padding: 20px 0px;
+}
+.spellon-homepage .spellon-footer-area .copyright {
+  color: #bfbfbf;
+}
+.spellon-homepage .spellon-footer-area .copyright p {
+  padding-bottom: 0px;
+}
+.spellon-homepage .spellon-footer-area .footer-bottom a {
+  color: #bfbfbf;
+  text-transform: capitalize;
+}
+*/
