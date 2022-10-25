@@ -1544,3 +1544,7 @@ contact  Start
   font-size: 16px;
   font-weight: 500;
 }
+
+.spellon-homepage #copyright p {
+  font-size: 12px;
+}
