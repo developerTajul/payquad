@@ -116,7 +116,6 @@ const headerArea = document.querySelector(".header-area");
 
 const sticky = headerArea.offsetTop;
 
-
 function stickyMenu() {
 
     if (window.pageYOffset >= sticky) {
