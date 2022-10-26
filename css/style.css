@@ -136,6 +136,16 @@ header-area
   width: 100%;
   z-index: 9999;
 }
+.header-area.sticky{
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.1);
+  z-index: 1;
+  filter: drop-shadow(1px 3px 4px rgba(128, 128, 128, 0.042));
+}
 .header-area .header-top .navbar {
   position: relative;
   padding: 0px;
@@ -166,7 +176,9 @@ header-area
 .header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown-toggle {
   z-index: 1;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  top: 34px;
+  right: 6px;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown-toggle::before {
   width: 118%;
@@ -188,57 +200,37 @@ header-area
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #001518;
+  color: #054953;
   white-space: nowrap;
   text-decoration: none;
+  display: block;
+  min-height: 90px;
+  line-height: 90px;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li a:hover {
-  color: #ea1c2d;
+  color: #008c95;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li {
-  margin: 0;
-}
-.header-area .header-top .navbar .navbar-right .main-menu ul li .dropdown {
-  background: transparent;
-  padding: 10px;
-  border-radius: 3px;
-  width: 140px;
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.1rem;
-  cursor: pointer;
+  position: relative;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul {
-  flex-direction: column;
-  border-radius: 4px;
-  margin-top: 0px;
-  padding: 8px;
-  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
-  background: #fff;
-  transform-origin: top left;
-  overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 240px;
+	background: #045560c7;
+	padding: 15px 0px;
+}
 
-  z-index: 1000;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  font-size: 1rem;
-  min-width: 10rem;
-  position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-}
-.header-area .header-top .navbar .navbar-right .main-menu ul li ul li {
-  padding: 8px 0px;
-  flex-grow: 1;
-  width: 100%;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: block;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.229);
-}
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul li a {
-  padding-left: 3px;
+  color: #fff;
+  min-height: fit-content;
+  line-height: 40px;
+  padding: 0px 5px;
+}
+.header-area .header-top .navbar .navbar-right .main-menu ul li ul li a:hover {
+  background: #008c95;
+  color: #fff;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul {
   display: none;
@@ -1548,6 +1540,7 @@ contact  Start
 .spellon-homepage #copyright p {
   font-size: 12px;
 }
-#footer-outer, #footer-outer a:not(.nectar-button) {
-	text-decoration: none;
+#footer-outer,
+#footer-outer a:not(.nectar-button) {
+  text-decoration: none;
 }
