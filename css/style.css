@@ -1548,6 +1548,6 @@ contact  Start
 .spellon-homepage #copyright p {
   font-size: 12px;
 }
-.footer-widgets .textwidget p a{
-  text-decoration: none;
+#footer-outer, #footer-outer a:not(.nectar-button) {
+	text-decoration: none;
 }
