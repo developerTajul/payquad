@@ -130,6 +130,7 @@ header-area
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -137,11 +138,17 @@ header-area
   z-index: 9999;
 }
 .header-area.sticky{
-  background: #fff !important;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+}
+.header-area.sticky .header-wrapper{
+  margin-top: -10px;
+  width: 100%;
+  background: #fff !important;
+  position: relative;
+  z-index:988899;
   box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.1);
   z-index: 1;
   filter: drop-shadow(1px 3px 4px rgba(128, 128, 128, 0.042));
