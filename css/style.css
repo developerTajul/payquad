@@ -1565,7 +1565,11 @@ contact  Start
 #footer-outer a:not(.nectar-button) {
   text-decoration: none;
 }
-
+ .spellon-homepage .ascend #footer-outer #copyright {
+	border: none;
+	background-color: #054953;
+	border-top: 1px solid rgba(255,255,255,0.2);
+}
 @keyframes fadeInDown {
   0% {
     opacity: 0;
