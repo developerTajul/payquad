@@ -1,14 +1,16 @@
 
-$(document).ready(function () {
-    $(window).on('scroll', function () {
-        var scroll = $(window).scrollTop();
+
+jQuery(document).ready(function () {
+    jQuery(window).on('scroll', function () {
+        var scroll = jQuery(window).scrollTop();
         if (scroll < 245) {
-            $(".header-area").removeClass("sticky");
+            jQuery(".header-area").removeClass("sticky");
         } else {
-            $(".header-area").addClass("sticky");
+            jQuery(".header-area").addClass("sticky");
         }
     });
 })
+
 /*** Dropdown Toggle Added */
 jQuery(".main-menu ul li ul").parent().append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
 
