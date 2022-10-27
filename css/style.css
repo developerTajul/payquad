@@ -156,7 +156,9 @@ header-area
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 }
-
+.spellon-homepage.logged-in .sticky{
+  top:30px;
+} 
 /* .header-area.sticky .header-wrapper{
   margin-top: -10px;
   width: 100%;
