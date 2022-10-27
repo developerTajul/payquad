@@ -1,5 +1,14 @@
 
-
+$(document).ready(function () {
+    $(window).on('scroll', function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 245) {
+            $(".header-area").removeClass("sticky");
+        } else {
+            $(".header-area").addClass("sticky");
+        }
+    });
+})
 /*** Dropdown Toggle Added */
 jQuery(".main-menu ul li ul").parent().append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
 
@@ -110,17 +119,3 @@ for (let i = 0; i < submenuIcon.length; i++) {
 
 
 
-window.onscroll = function () { stickyMenu() };
-
-const headerArea = document.querySelector(".header-area");
-
-const sticky = headerArea.offsetTop;
-
-function stickyMenu() {
-
-    if (window.pageYOffset >= sticky) {
-        headerArea.classList.add("sticky")
-    } else {
-        headerArea.classList.remove("sticky");
-    }
-} 
