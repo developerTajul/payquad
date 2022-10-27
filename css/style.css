@@ -137,13 +137,27 @@ header-area
   width: 100%;
   z-index: 9999;
 }
-.header-area.sticky{
+/* .header-area.sticky{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+} */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 1030;
+  right: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 }
-.header-area.sticky .header-wrapper{
+
+/* .header-area.sticky .header-wrapper{
   margin-top: -10px;
   width: 100%;
   background: #fff !important;
@@ -152,7 +166,7 @@ header-area
   box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.1);
   z-index: 1;
   filter: drop-shadow(1px 3px 4px rgba(128, 128, 128, 0.042));
-}
+} */
 .header-area .header-top .navbar {
   position: relative;
   padding: 0px;
@@ -221,12 +235,12 @@ header-area
   position: relative;
 }
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	min-width: 240px;
-	background: #045560c7;
-	padding: 15px 0px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  background: #045560c7;
+  padding: 15px 0px;
 }
 
 .header-area .header-top .navbar .navbar-right .main-menu ul li ul li a {
@@ -1550,4 +1564,15 @@ contact  Start
 #footer-outer,
 #footer-outer a:not(.nectar-button) {
   text-decoration: none;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
