@@ -291,11 +291,12 @@ header-area
   transition: all ease-in-out 0.5s;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper .close-btn {
-  font-size: 24px;
-  margin-left: 20px;
-  font-weight: 300;
-  color: #fff;
-  margin-bottom: 25px;
+	font-size: 24px;
+	margin-left: 20px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 40px;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul {
   list-style: none;
@@ -322,6 +323,9 @@ header-area
   transition: all ease-in 0.3s;
   text-transform: uppercase;
   font-weight: 600;
+}
+.mobile-nav-wrapper .mobile-menu-logo {
+ display: none;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon {
   cursor: pointer;
