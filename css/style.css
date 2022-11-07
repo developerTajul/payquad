@@ -280,7 +280,7 @@ header-area
   position: fixed;
   top: 0;
   right: -100%;
-  background-color: #fff;
+  background-color: #054953;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   z-index: 98888;
   padding-top: 20px;
@@ -294,7 +294,7 @@ header-area
   font-size: 24px;
   margin-left: 20px;
   font-weight: 300;
-  color: gray;
+  color: #fff;
   margin-bottom: 25px;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul {
@@ -304,7 +304,7 @@ header-area
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul li {
   padding-left: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   position: relative;
   margin-bottom: 2px;
   border-bottom: 1px solid #ebebeb;
@@ -313,7 +313,7 @@ header-area
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a {
   display: block;
   font-size: 14px;
-  color: #101a23;
+	color: #eefbfa;
   padding: 5px 0px;
   margin-bottom: 1px;
   transition: all ease-in 0.3s;
@@ -333,7 +333,7 @@ header-area
   justify-content: center;
   align-items: center;
   margin-top: 8px;
-  color: #353535;
+  color: #fff;
   border-radius: 2px;
 }
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a.submenu-icon:active,
