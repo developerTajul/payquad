@@ -310,6 +310,9 @@ header-area
   border-bottom: 1px solid #ebebeb;
   padding: 5px 0px;
 }
+.header-area .header-top .navbar .mobile-nav-wrapper ul li:last-child {
+ border: none;
+}
 .header-area .header-top .navbar .mobile-nav-wrapper ul li a {
   display: block;
   font-size: 14px;
